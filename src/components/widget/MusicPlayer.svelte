@@ -42,7 +42,7 @@ let isMuted = false;
 // 是否正在加载，默认为 false
 let isLoading = false;
 // 是否随机播放，默认为 false
-let isShuffled = false;
+let isShuffled = true;
 // 循环模式，0: 不循环, 1: 单曲循环, 2: 列表循环，默认为 0
 let isRepeating = 2;
 // 错误信息，默认为空字符串
