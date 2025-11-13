@@ -26,7 +26,7 @@ export const siteConfig: SiteConfig = {
 	lang: SITE_LANG,
 
 	themeColor: {
-		hue: 35, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
+		hue: 200, // 主题色的默认色相，范围从 0 到 360。例如：红色：0，青色：200，蓝绿色：250，粉色：345
 		fixed: false, // 对访问者隐藏主题色选择器
 	},
 
@@ -44,9 +44,9 @@ export const siteConfig: SiteConfig = {
 	// 顶栏标题配置
 	navbarTitle: {
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "MikuFans",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.png
-		icon: "assets/home/home.png",
+		icon: "assets/home/Miku.png",
 	},
 
 	bangumi: {
@@ -77,24 +77,25 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/d1.webp",
-				"/assets/desktop-banner/d2.webp",
-				"/assets/desktop-banner/d3.webp",
-				"/assets/desktop-banner/d4.webp",
-				"/assets/desktop-banner/d5.webp",
-				"/assets/desktop-banner/d6.webp",
-				"/assets/desktop-banner/d7.webp",
-				"/assets/desktop-banner/d8.webp",
+				"/assets/desktop-banner/Miku.webp",
+				// "/assets/desktop-banner/d1.webp",
+				// "/assets/desktop-banner/d2.webp",
+				// "/assets/desktop-banner/d3.webp",
+				// "/assets/desktop-banner/d4.webp",
+				// "/assets/desktop-banner/d5.webp",
+				// "/assets/desktop-banner/d6.webp",
+				// "/assets/desktop-banner/d7.webp",
+				// "/assets/desktop-banner/d8.webp",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/m1.webp",
-				"/assets/mobile-banner/m2.webp",
-				"/assets/mobile-banner/m3.webp",
-				"/assets/mobile-banner/m4.webp",
-				"/assets/mobile-banner/m5.webp",
-				"/assets/mobile-banner/m6.webp",
-				"/assets/mobile-banner/m7.webp",
-				"/assets/mobile-banner/m8.webp",
+				// "/assets/mobile-banner/m1.webp",
+				// "/assets/mobile-banner/m2.webp",
+				// "/assets/mobile-banner/m3.webp",
+				// "/assets/mobile-banner/m4.webp",
+				// "/assets/mobile-banner/m5.webp",
+				// "/assets/mobile-banner/m6.webp",
+				// "/assets/mobile-banner/m7.webp",
+				// "/assets/mobile-banner/m8.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
