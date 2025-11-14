@@ -158,7 +158,7 @@ export const siteConfig: SiteConfig = {
 		// "mobile" = 仅在移动端显示
 		// "desktop" = 仅在桌面端显示
 		// "both" = 在所有设备上显示
-		showModeSwitchOnMobile: "desktop",
+		showModeSwitchOnMobile: "both",
 	},
 	toc: {
 		enable: true, // 启用目录功能
@@ -189,24 +189,26 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	enable: true, // 启用全屏壁纸功能,非Banner模式下生效
 	src: {
 		desktop: [
-			"/assets/desktop-banner/d1.webp",
-			"/assets/desktop-banner/d2.webp",
-			"/assets/desktop-banner/d3.webp",
-			"/assets/desktop-banner/d4.webp",
-			"/assets/desktop-banner/d5.webp",
-			"/assets/desktop-banner/d6.webp",
-			"/assets/desktop-banner/d7.webp",
-			"/assets/desktop-banner/d8.webp",
+			"/assets/desktop-banner/Miku.webp",
+			// "/assets/desktop-banner/d1.webp",
+			// "/assets/desktop-banner/d2.webp",
+			// "/assets/desktop-banner/d3.webp",
+			// "/assets/desktop-banner/d4.webp",
+			// "/assets/desktop-banner/d5.webp",
+			// "/assets/desktop-banner/d6.webp",
+			// "/assets/desktop-banner/d7.webp",
+			// "/assets/desktop-banner/d8.webp",
 		], // 桌面横幅图片
 		mobile: [
-			"/assets/mobile-banner/m1.webp",
-			"/assets/mobile-banner/m2.webp",
-			"/assets/mobile-banner/m3.webp",
-			"/assets/mobile-banner/m4.webp",
-			"/assets/mobile-banner/m5.webp",
-			"/assets/mobile-banner/m6.webp",
-			"/assets/mobile-banner/m7.webp",
-			"/assets/mobile-banner/m8.webp",
+			"/assets/mobile-banner/Miku.webp",
+			// "/assets/mobile-banner/m1.webp",
+			// "/assets/mobile-banner/m2.webp",
+			// "/assets/mobile-banner/m3.webp",
+			// "/assets/mobile-banner/m4.webp",
+			// "/assets/mobile-banner/m5.webp",
+			// "/assets/mobile-banner/m6.webp",
+			// "/assets/mobile-banner/m7.webp",
+			// "/assets/mobile-banner/m8.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -468,7 +470,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 };
 
 export const sakuraConfig: SakuraConfig = {
-	enable: true, // 默认关闭樱花特效
+	enable: false, // 默认关闭樱花特效
 	sakuraNum: 21, // 樱花数量
 	limitTimes: -1, // 樱花越界限制次数，-1为无限循环
 	size: {
