@@ -120,7 +120,7 @@ const localPlaylist = [
         artist: "平野綾",
 		cover: "assets/music/cover/840137268.jpg",
         url: "assets/music/url/平野綾 - God knows.mp3",
-        duration: 270,
+        duration: 279,
     },
 	{
 		id: 8,
