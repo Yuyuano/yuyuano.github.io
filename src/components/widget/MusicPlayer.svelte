@@ -127,7 +127,7 @@ const localPlaylist = [
 		title: "初音ミク - 音偽バナシ",
 		artist: "DECO27",
 		cover: "assets/music/cover/1411818592.jpg",
-		url: "assets/music/url/DECO27,DECO27,初音ミク - 音偽バナシ.mp3",
+		url: "assets/music/url/DECO27,初音ミク - 音偽バナシ.mp3",
 		duration: 228,
 	},
 	{
@@ -135,7 +135,7 @@ const localPlaylist = [
 		title: "鳥の詩",
 		artist: "Lia",
 		cover: "assets/music/cover/196654687.jpg",
-		url: "assets/music/url/DECO27,Lia - 鳥の詩.mp3",
+		url: "assets/music/url/Lia - 鳥の詩.mp3",
 		duration: 369,
 	},
 	{
@@ -143,7 +143,7 @@ const localPlaylist = [
 		title: "おしんこ",
 		artist: "田中ユウスケ,agehasprings",
 		cover: "assets/music/cover/1976744069.jpg",
-		url: "assets/music/url/DECO27,田中ユウスケ,agehasprings - おしんこ.mp3",
+		url: "assets/music/url/田中ユウスケ,agehasprings - おしんこ.mp3",
 		duration: 101,
 	},
 	{
@@ -151,7 +151,7 @@ const localPlaylist = [
 		title: "だから僕は音楽を辞めた",
 		artist: "ヨルシカ",
 		cover: "assets/music/cover/834224291.jpg",
-		url: "assets/music/url/DECO27,ヨルシカ - だから僕は音楽を辞めた.mp3",
+		url: "assets/music/url/ヨルシカ - だから僕は音楽を辞めた.mp3",
 		duration: 242,
 	},
 	{
@@ -159,7 +159,7 @@ const localPlaylist = [
 		title: "青春コンプレックス",
 		artist: "結束バンド",
 		cover: "assets/music/cover/1562030728.jpg",
-		url: "assets/music/url/DECO27,結束バンド - 青春コンプレックス.mp3",
+		url: "assets/music/url/結束バンド - 青春コンプレックス.mp3",
 		duration: 205,
 	},
 ];
