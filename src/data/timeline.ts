@@ -206,6 +206,7 @@ export const timelineData: TimelineItem[] = [
 		icon: "material-symbols:code",
 		color: "#7C3AED",
 	},
+
 ];
 
 // Get timeline statistics

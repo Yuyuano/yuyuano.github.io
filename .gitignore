@@ -17,6 +17,14 @@ pnpm-debug.log*
 .env
 .env.production
 
+# content repository (if using independent mode)
+# Note: When using Git Submodule mode, remove or comment out the line below
+# content/
+*.backup
+
+# Large zip files
+*.zip
+
 # macOS-specific files
 .DS_Store
 

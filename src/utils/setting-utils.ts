@@ -4,7 +4,7 @@ import {
 	LIGHT_MODE,
 	WALLPAPER_BANNER,
 } from "@constants/constants";
-import { expressiveCodeConfig } from "@/config";
+import { expressiveCodeConfig, siteConfig } from "@/config";
 import type { LIGHT_DARK_MODE, WALLPAPER_MODE } from "@/types/config";
 
 export function getDefaultHue(): number {
@@ -33,7 +33,7 @@ export function applyThemeToDocument(theme: LIGHT_DARK_MODE) {
 	const currentTheme = document.documentElement.getAttribute("data-theme");
 
 	// 计算目标主题状态
-	let targetIsDark = false; // 初始化默认值
+	let targetIsDark: boolean = false; // 初始化默认值
 	switch (theme) {
 		case LIGHT_MODE:
 			targetIsDark = false;
@@ -77,13 +77,16 @@ export function applyThemeToDocument(theme: LIGHT_DARK_MODE) {
 
 		// Set the theme for Expressive Code based on current mode
 		const expressiveTheme = targetIsDark ? "github-dark" : "github-light";
-		document.documentElement.setAttribute("data-theme", expressiveTheme);
+		document.documentElement.setAttribute(
+			"data-theme",
+			expressiveTheme,
+		);
 
 		// 强制重新渲染代码块 - 解决从首页进入文章页面时的渲染问题
 		if (needsCodeThemeUpdate) {
 			// 触发 expressice code 重新渲染
 			setTimeout(() => {
-				window.dispatchEvent(new CustomEvent("theme-change"));
+				window.dispatchEvent(new CustomEvent('theme-change'));
 			}, 0);
 		}
 
@@ -107,16 +110,11 @@ export function getStoredTheme(): LIGHT_DARK_MODE {
 }
 
 export function getStoredWallpaperMode(): WALLPAPER_MODE {
-	return (
-		(localStorage.getItem("wallpaperMode") as WALLPAPER_MODE) ||
-		WALLPAPER_BANNER
-	);
+	return (localStorage.getItem("wallpaperMode") as WALLPAPER_MODE) || siteConfig.wallpaperMode.defaultMode;
 }
 
 export function setWallpaperMode(mode: WALLPAPER_MODE): void {
 	localStorage.setItem("wallpaperMode", mode);
 	// 触发自定义事件通知其他组件壁纸模式已改变
-	window.dispatchEvent(
-		new CustomEvent("wallpaper-mode-change", { detail: { mode } }),
-	);
+	window.dispatchEvent(new CustomEvent('wallpaper-mode-change', { detail: { mode } }));
 }
