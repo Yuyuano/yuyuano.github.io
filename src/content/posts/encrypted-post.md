@@ -3,7 +3,7 @@ title: Encrypted Post
 published: 2024-01-15
 description: This is an article for testing the page encryption feature
 encrypted: true
-pinned: true
+pinned: false
 password: "123456"
 tags: ["Test", "Encryption"]
 category: "Technology"
@@ -57,15 +57,3 @@ src/content/posts/
     └── index.md
 ```
 
-
-## How It Works
-
-```mermaid
-graph LR
-    A[User Password] --> B[bcrypt Hash]
-    B --> C[Password Hash]
-    C --> D[Extract First 32 Characters]
-    D --> E[Encryption Key]
-    E --> F[AES Encryption]
-    F --> G[Encrypted Content]
-```
