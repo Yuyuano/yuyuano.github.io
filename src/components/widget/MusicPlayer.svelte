@@ -12,7 +12,7 @@ import Key from "../../i18n/i18nKey";
 import { i18n } from "../../i18n/translation";
 
 // 音乐播放器模式，可选 "local" 或 "meting"，从本地配置中获取或使用默认值 "meting"
-let mode = musicPlayerConfig.mode ?? "local";
+let mode = musicPlayerConfig.mode ?? "meting";
 // Meting API 地址，从配置中获取或使用默认地址(bilibili.uno(由哔哩哔哩松坂有希公益管理)),服务器在海外,部分音乐平台可能不支持并且速度可能慢,也可以自建Meting API
 let meting_api =
 	musicPlayerConfig.meting_api ??
@@ -26,7 +26,7 @@ let meting_type = musicPlayerConfig.type ?? "playlist";
 // 播放状态，默认为 false (未播放)
 let isPlaying = false;
 // 播放器是否展开，默认为 false
-let isExpanded = true;
+let isExpanded = false;
 // 播放器是否隐藏，默认为 false
 let isHidden = false;
 // 是否显示播放列表，默认为 false
@@ -42,9 +42,9 @@ let isMuted = false;
 // 是否正在加载，默认为 false
 let isLoading = false;
 // 是否随机播放，默认为 false
-let isShuffled = true;
+let isShuffled = false;
 // 循环模式，0: 不循环, 1: 单曲循环, 2: 列表循环，默认为 0
-let isRepeating = 2;
+let isRepeating = 0;
 // 错误信息，默认为空字符串
 let errorMessage = "";
 // 是否显示错误信息，默认为 false
@@ -68,99 +68,27 @@ let volumeBar: HTMLElement;
 const localPlaylist = [
 	{
 		id: 1,
-		title: "勾指起誓",
-		artist: "洛天依",
-		cover: "assets/music/cover/1964744269.jpg",
-		url: "assets/music/url/洛天依Official,ilem - 勾指起誓.mp3",
-		duration: 183,
+		title: "ひとり上手",
+		artist: "Kaya",
+		cover: "assets/music/cover/hitori.jpg",
+		url: "assets/music/url/hitori.mp3",
+		duration: 240,
 	},
 	{
 		id: 2,
-		title: "死別",
-		artist: "シャノン,GUMI",
-		cover: "assets/music/cover/1230032353.jpg",
-		url: "assets/music/url/シャノン,GUMI - 死別.mp3",
-		duration: 214,
+		title: "眩耀夜行",
+		artist: "スリーズブーケ",
+		cover: "assets/music/cover/xryx.jpg",
+		url: "assets/music/url/xryx.mp3",
+		duration: 180,
 	},
 	{
 		id: 3,
-		title: "弥留之际",
-		artist: "的确如此如确的,洛天依",
-		cover: "assets/music/cover/1716856565.jpg",
-		url: "assets/music/url/的确如此如确的,洛天依 - 弥留之际.mp3",
-		duration: 274,
-	},
-	{
-		id: 4,
-		title: "Sincerely",
-		artist: "TRUE",
-		cover: "assets/music/cover/661587011.jpg",
-		url: "assets/music/url/TRUE - Sincerely.mp3",
-		duration: 274,
-	},
-	{
-		id: 5,
-		title: "モニタリング (Best Friend Remix)",
-		artist: "DECO27",
-		cover: "assets/music/cover/929719620.jpg",
-		url: "assets/music/url/DECO27,初音ミク - モニタリング (Best Friend Remix).mp3",
-		duration: 178,
-	},
-    {
-        id: 6,
-        title: "妄想感傷代償連盟",
-        artist: "DECO27",
-		cover: "assets/music/cover/703708244.jpg",
-        url: "assets/music/url/DECO27,初音ミク - 妄想感傷代償連盟.mp3",
-        duration: 270,
-    },
-    {
-        id: 7,
-        title: "God Knows",
-        artist: "平野綾",
-		cover: "assets/music/cover/840137268.jpg",
-        url: "assets/music/url/平野綾 - God knows.mp3",
-        duration: 279,
-    },
-	{
-		id: 8,
-		title: "初音ミク - 音偽バナシ",
-		artist: "DECO27",
-		cover: "assets/music/cover/1411818592.jpg",
-		url: "assets/music/url/DECO27,初音ミク - 音偽バナシ.mp3",
-		duration: 228,
-	},
-	{
-		id: 9,
-		title: "鳥の詩",
-		artist: "Lia",
-		cover: "assets/music/cover/196654687.jpg",
-		url: "assets/music/url/Lia - 鳥の詩.mp3",
-		duration: 369,
-	},
-	{
-		id: 10,
-		title: "おしんこ",
-		artist: "田中ユウスケ,agehasprings",
-		cover: "assets/music/cover/1976744069.jpg",
-		url: "assets/music/url/田中ユウスケ,agehasprings - おしんこ.mp3",
-		duration: 101,
-	},
-	{
-		id: 11,
-		title: "だから僕は音楽を辞めた",
-		artist: "ヨルシカ",
-		cover: "assets/music/cover/834224291.jpg",
-		url: "assets/music/url/ヨルシカ - だから僕は音楽を辞めた.mp3",
-		duration: 242,
-	},
-	{
-		id: 12,
-		title: "青春コンプレックス",
-		artist: "結束バンド",
-		cover: "assets/music/cover/1562030728.jpg",
-		url: "assets/music/url/結束バンド - 青春コンプレックス.mp3",
-		duration: 205,
+		title: "春雷の頃",
+		artist: "22/7",
+		cover: "assets/music/cover/cl.jpg",
+		url: "assets/music/url/cl.mp3",
+		duration: 200,
 	},
 ];
 
