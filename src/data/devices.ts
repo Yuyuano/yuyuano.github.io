@@ -16,23 +16,33 @@ export type DeviceCategory = {
 };
 
 export const devicesData: DeviceCategory = {
-	OnePlus: [
+	手机: [
 		{
-			name: "OnePlus 13T",
+			name: "IQOO NEO 9",
 			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+			specs: "红白魂 / 16G + 256GB",
+			description: "iQOO于2023年12月发布的智能手机",
+			link: "https://www.vivo.com/vivo/iqooneo9/",
 		},
 	],
-	Router: [
+	路由器: [
 		{
-			name: "GL-MT3000",
+			name: "Xiaomi-AX3000T",
 			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
+			specs: "1000Mbps / 5G",
 			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+				"后期产品有减配，小米我去你的",
+			link: "https://www.mi.com/xiaomi-ax3000t/",
+		},
+	],
+	电脑: [
+		{
+			name: "机械革命旷世X",
+			image: "/images/device/mt3000.png",
+			specs: "i7  14650hx / RTX5060",
+			description:
+				"机革毛病挺多的，谨慎选择",
+			link: "https://www.mechrevo.com/",
 		},
 	],
 };
