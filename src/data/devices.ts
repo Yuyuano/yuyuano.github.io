@@ -19,7 +19,7 @@ export const devicesData: DeviceCategory = {
 	手机: [
 		{
 			name: "IQOO NEO 9",
-			image: "/images/device/oneplus13t.png",
+			image: "/images/device/IQOO NEO9.jpg",
 			specs: "红白魂 / 16G + 256GB",
 			description: "iQOO于2023年12月发布的智能手机",
 			link: "https://www.vivo.com/vivo/iqooneo9/",
@@ -28,7 +28,7 @@ export const devicesData: DeviceCategory = {
 	路由器: [
 		{
 			name: "Xiaomi-AX3000T",
-			image: "/images/device/mt3000.png",
+			image: "/images/device/Xiaomi X3000T.jpg",
 			specs: "1000Mbps / 5G",
 			description:
 				"后期产品有减配，小米我去你的",
@@ -38,7 +38,7 @@ export const devicesData: DeviceCategory = {
 	电脑: [
 		{
 			name: "机械革命旷世X",
-			image: "/images/device/mt3000.png",
+			image: "/images/device/机械革命.jpg",
 			specs: "i7  14650hx / RTX5060",
 			description:
 				"机革毛病挺多的，谨慎选择",
