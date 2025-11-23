@@ -94,8 +94,8 @@ export const siteConfig: SiteConfig = {
 		src: {
 			desktop: [
 				"/assets/desktop-banner/Miku.webp",
-				// "/assets/desktop-banner/1.webp",
-				// "/assets/desktop-banner/2.webp",
+				"/assets/desktop-banner/bestfriend (1).webp",
+				"/assets/desktop-banner/bestfriend (2).webp",
 				// "/assets/desktop-banner/3.webp",
 				// "/assets/desktop-banner/4.webp",
 				// "/assets/desktop-banner/5.webp",
@@ -103,8 +103,8 @@ export const siteConfig: SiteConfig = {
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/Miku.webp",
-				// "/assets/mobile-banner/1.webp",
-				// "/assets/mobile-banner/2.webp",
+				"/assets/mobile-banner/bestfriend (1).webp",
+				"/assets/mobile-banner/bestfriend (2).webp",
 				// "/assets/mobile-banner/3.webp",
 				// "/assets/mobile-banner/4.webp",
 				// "/assets/mobile-banner/5.webp",
@@ -210,8 +210,8 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
 			"/assets/desktop-banner/Miku.webp",
-			// "/assets/desktop-banner/1.webp",
-			// "/assets/desktop-banner/2.webp",
+			"/assets/desktop-banner/bestfriend (1).webp",
+			"/assets/desktop-banner/bestfriend (2).webp",
 			// "/assets/desktop-banner/3.webp",
 			// "/assets/desktop-banner/4.webp",
 			// "/assets/desktop-banner/5.webp",
@@ -219,8 +219,8 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/Miku.webp",
-			// "/assets/mobile-banner/1.webp",
-			// "/assets/mobile-banner/2.webp",
+			"/assets/mobile-banner/bestfriend (1).webp",
+			"/assets/mobile-banner/bestfriend (2).webp",
 			// "/assets/mobile-banner/3.webp",
 			// "/assets/mobile-banner/4.webp",
 			// "/assets/mobile-banner/5.webp",
