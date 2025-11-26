@@ -259,6 +259,12 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "fa6-brands:bilibili",
 				},
+				{
+					name: "网易云音乐",
+					url: "https://music.163.com/playlist?id=7031893623&uct2=U2FsdGVkX194uGzR6Bln90DET2z66TRDNCmg5xFFmT8=",
+					external: true,
+					icon: "fa6-brands:netease-cloud-music",
+				},
 			],
 		},
 		{
