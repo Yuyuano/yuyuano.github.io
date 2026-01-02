@@ -8,6 +8,7 @@ category: Python
 licenseName: 转载时转载请注明出处
 author: 遇缘
 draft: false
+image: 'guide/cover.png'
 date: 2025-11-11
 pubDate: 2025-11-11
 ---
