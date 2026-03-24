@@ -8,7 +8,7 @@ category: Linux
 licenseName: CC BY-NC-SA 4.0
 author: 遇缘
 draft: false
-image: 'guide/banner.png'
+image: 'guide/banner.webp'
 date: 2026-03-24
 ---
 # Samba 文件共享配置
