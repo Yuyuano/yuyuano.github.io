@@ -1,0 +1,7116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>遇缘</title>
+  <subtitle>遇缘的博客</subtitle>
+  <link href="https://mikufans.yuzhiyuan.top/" rel="alternate" type="text/html"/>
+  <link href="https://mikufans.yuzhiyuan.top/atom.xml" rel="self" type="application/atom+xml"/>
+  <id>https://mikufans.yuzhiyuan.top/</id>
+  <updated>2026-07-24T14:41:49.908Z</updated>
+  <language>zh_CN</language>
+  <entry>
+    <title>帖子开头frontmatter</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E5%B8%96%E5%AD%90%E5%BC%80%E5%A4%B4%E8%87%AA%E7%94%A8/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E5%B8%96%E5%AD%90%E5%BC%80%E5%A4%B4%E8%87%AA%E7%94%A8/</id>
+    <published>2025-11-07T00:00:00.000Z</published>
+    <updated>2025-11-07T00:00:00.000Z</updated>
+    <summary>帖子自用</summary>
+    <content type="html"><![CDATA[<h1>给自己自用的帖子开头备注</h1>
+<pre><code>---
+title: 帖子开头frontmatter
+published: 2025-11-07
+pinned: false
+description: while循环版
+tags: [作业]
+category: Python
+licenseName: 转载请注明出处
+author: 遇缘
+draft: false
+date: 2025-11-07
+pubDate: 2025-11-07
+---
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>字段</th>
+<th>值</th>
+<th>含义</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td><strong>Markdown Tutorial</strong></td>
+<td>文章标题，会出现在浏览器标签、列表页、SEO 等位置。</td>
+</tr>
+<tr>
+<td><code>published</code></td>
+<td><strong>2025-01-20</strong></td>
+<td>正式“发表”日期，可用于排序、归档、RSS。</td>
+</tr>
+<tr>
+<td><code>pinned</code></td>
+<td><strong>true</strong></td>
+<td>置顶标志，主题或列表页可把这篇文章固定到最前面。</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td><strong>A simple example of a Markdown blog post.</strong></td>
+<td>摘要/副标题，用于 SEO、社交媒体卡片、列表页缩略。</td>
+</tr>
+<tr>
+<td><code>tags</code></td>
+<td><strong>[Markdown, Blogging]</strong></td>
+<td>标签，方便按关键词聚合、搜索、做标签云。</td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td><strong>Examples</strong></td>
+<td>大分类，可做顶部导航或侧边栏分类菜单。</td>
+</tr>
+<tr>
+<td><code>licenseName</code></td>
+<td><strong>Unlicensed</strong></td>
+<td>版权协议名称，显示在文章底部或“关于”小字。</td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td><strong>emn178</strong></td>
+<td>作者署名。</td>
+</tr>
+<tr>
+<td><code>sourceLink</code></td>
+<td><strong><a href="https://github.com/emn178/markdown">https://github.com/emn178/markdown</a></strong></td>
+<td>原文/源码链接，方便读者跳转到仓库查看源文件。</td>
+</tr>
+<tr>
+<td><code>draft</code></td>
+<td><strong>false</strong></td>
+<td>不是草稿，允许被编译和发布；设为 <code>true</code> 时整篇会被忽略。</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td><strong>2025-01-20</strong></td>
+<td>部分主题用 <code>date</code> 做排序或显示，优先级可能高于 <code>published</code>。</td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td><strong>{ url, alt }</strong></td>
+<td>封面图：给出完整 URL 和替代文本，用于社交媒体卡片、列表页缩略图。</td>
+</tr>
+<tr>
+<td><code>pubDate</code></td>
+<td><strong>2025-01-20</strong></td>
+<td>RSS、JSON Feed 里常用的“发布日期”字段，与 <code>published</code> 重复时以主题模板为准。</td>
+</tr>
+</tbody>
+</table>
+<h3>这个是完整版，自己需要自己改</h3>
+<pre><code>---
+title: Markdown Tutorial
+published: 2025-01-20
+pinned: true
+description: A simple example of a Markdown blog post.
+tags: [Markdown, Blogging]
+category: Examples
+licenseName: "Unlicensed"
+author: emn178
+sourceLink: "https://github.com/emn178/markdown"
+draft: false
+date: 2025-01-20
+image:
+  url: 'https://example.com/image.jpg'
+  alt: '图片描述'
+pubDate: 2025-01-20
+---
+</code></pre>
+<p>这下面的是视频插入的格式</p>
+<pre><code>&lt;iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1GM4m1m7ZD&amp;p=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &amp;autoplay=0&gt; &lt;/iframe&gt;
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+只需要修改<code>bvid</code>的bv号就行了</p>
+</blockquote>
+<p>还有图片插入格式</p>
+<pre><code>![替代文本](图片URL "可选标题")
+</code></pre>
+<p>与剧透插入格式</p>
+<pre><code>:spoiler[文本]
+</code></pre>
+<p>以下是其他文本备份：</p>
+<h2>GitHub Repository Cards</h2>
+<p>You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.</p>
+<p>::github{repo="matsuzaka-yuki/Mizuki"}</p>
+<p>Create a GitHub repository card with the code <code>::github{repo="matsuzaka-yuki/Mizuki"}</code>.</p>
+<pre><code>::github{repo="matsuzaka-yuki/Mizuki"}
+</code></pre>
+<h2>Admonitions</h2>
+<p>Following types of admonitions are supported: <code>note</code> <code>tip</code> <code>important</code> <code>warning</code> <code>caution</code></p>
+<p>:::note
+Highlights information that users should take into account, even when skimming.
+:::</p>
+<p>:::tip
+Optional information to help a user be more successful.
+:::</p>
+<p>:::important
+Crucial information necessary for users to succeed.
+:::</p>
+<p>:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::</p>
+<p>:::caution
+Negative potential consequences of an action.
+:::</p>
+<h3>Basic Syntax</h3>
+<pre><code>:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+</code></pre>
+<h3>Custom Titles</h3>
+<p>The title of the admonition can be customized.</p>
+<p>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::</p>
+<pre><code>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+</code></pre>
+<h3>GitHub Syntax</h3>
+<blockquote>
+<p>[!TIP]
+<a href="https://github.com/orgs/community/discussions/16925">The GitHub syntax</a> is also supported.</p>
+</blockquote>
+<pre><code>&gt; [!NOTE]
+&gt; The GitHub syntax is also supported.
+
+&gt; [!TIP]
+&gt; The GitHub syntax is also supported.
+</code></pre>
+<h3>Spoiler</h3>
+<p>You can add spoilers to your text. The text also supports <strong>Markdown</strong> syntax.</p>
+<p>The content :spoiler[is hidden <strong>ayyy</strong>]!</p>
+<pre><code>The content :spoiler[is hidden **ayyy**]!</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Markdown"></category>
+  </entry>
+  <entry>
+    <title>Markdown Tutorial</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/markdown-tutorial/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/markdown-tutorial/</id>
+    <published>2025-01-20T00:00:00.000Z</published>
+    <updated>2025-01-20T00:00:00.000Z</updated>
+    <summary>A simple example of a Markdown blog post.</summary>
+    <content type="html"><![CDATA[<h1>Markdown Tutorial</h1>
+<p>A markdown example shows how to write a markdown file. This document integrates core syntax and extensions (GMF).</p>
+<ul>
+<li><a href="#block-elements">Block Elements</a>
+<ul>
+<li><a href="#paragraphs-and-line-breaks">Paragraphs and Line Breaks</a></li>
+<li><a href="#headers">Headers</a></li>
+<li><a href="#blockquotes">Blockquotes</a></li>
+<li><a href="#lists">Lists</a></li>
+<li><a href="#code-blocks">Code Blocks</a></li>
+<li><a href="#horizontal-rules">Horizontal Rules</a></li>
+<li><a href="#table">Table</a></li>
+</ul>
+</li>
+<li><a href="#span-elements">Span Elements</a>
+<ul>
+<li><a href="#links">Links</a></li>
+<li><a href="#emphasis">Emphasis</a></li>
+<li><a href="#code">Code</a></li>
+<li><a href="#images">Images</a></li>
+<li><a href="#strikethrough">Strikethrough</a></li>
+</ul>
+</li>
+<li><a href="#miscellaneous">Miscellaneous</a>
+<ul>
+<li><a href="#automatic-links">Automatic Links</a></li>
+<li><a href="#backslash-escapes">Backslash Escapes</a></li>
+</ul>
+</li>
+<li><a href="#inline-html">Inline HTML</a></li>
+</ul>
+<h2>Block Elements</h2>
+<h3>Paragraphs and Line Breaks</h3>
+<h4>Paragraphs</h4>
+<p>HTML Tag: <code>&lt;p&gt;</code></p>
+<p>One or more blank lines. (A blank line is a line containing nothing but <strong>spaces</strong> or <strong>tabs</strong> is considered blank.)</p>
+<p>Code:</p>
+<pre><code>This will be
+inline.
+
+This is second paragraph.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This will be
+inline.</p>
+<p>This is second paragraph.</p>
+<hr />
+<h4>Line Breaks</h4>
+<p>HTML Tag: <code>&lt;br /&gt;</code></p>
+<p>End a line with <strong>two or more spaces</strong>.</p>
+<p>Code:</p>
+<pre><code>This will be not
+inline.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This will be not<br />
+inline.</p>
+<hr />
+<h3>Headers</h3>
+<p>Markdown supports two styles of headers, Setext and atx.</p>
+<h4>Setext</h4>
+<p>HTML Tags: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code></p>
+<p>"Underlined" using <strong>equal signs (=)</strong> as <code>&lt;h1&gt;</code> and <strong>dashes (-)</strong> as <code>&lt;h2&gt;</code> in any number.</p>
+<p>Code:</p>
+<pre><code>This is an H1
+=============
+This is an H2
+-------------
+</code></pre>
+<p>Preview:</p>
+<hr />
+<h1>This is an H1</h1>
+<h2>This is an H2</h2>
+<hr />
+<h4>atx</h4>
+<p>HTML Tags: <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>, <code>&lt;h4&gt;</code>, <code>&lt;h5&gt;</code>, <code>&lt;h6&gt;</code></p>
+<p>Uses 1-6 <strong>hash characters (#)</strong> at the start of the line, corresponding to <code>&lt;h1&gt;</code> - <code>&lt;h6&gt;</code>.</p>
+<p>Code:</p>
+<pre><code># This is an H1
+## This is an H2
+###### This is an H6
+</code></pre>
+<p>Preview:</p>
+<hr />
+<h1>This is an H1</h1>
+<h2>This is an H2</h2>
+<h6>This is an H6</h6>
+<hr />
+<p>Optionally, you may "close" atx-style headers. The closing hashes <strong>don't need to match</strong> the number of hashes used to open the header.</p>
+<p>Code:</p>
+<pre><code># This is an H1 #
+## This is an H2 ##
+### This is an H3 ######
+</code></pre>
+<p>Preview:</p>
+<hr />
+<h1>This is an H1</h1>
+<h2>This is an H2</h2>
+<h3>This is an H3</h3>
+<hr />
+<h3>Blockquotes</h3>
+<p>HTML Tag: <code>&lt;blockquote&gt;</code></p>
+<p>Markdown uses email-style <strong>&gt;</strong> characters for blockquoting. It looks best if you hard wrap the text and put a &gt; before every line.</p>
+<p>Code:</p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt;
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<hr />
+<p>Markdown allows you to be lazy and only put the &gt; before the first line of a hard-wrapped paragraph.</p>
+<p>Code:</p>
+<pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+</blockquote>
+<blockquote>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<hr />
+<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by adding additional levels of &gt;.</p>
+<p>Code:</p>
+<pre><code>&gt; This is the first level of quoting.
+&gt;
+&gt; &gt; This is nested blockquote.
+&gt;
+&gt; Back to the first level.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<blockquote>
+<p>This is the first level of quoting.</p>
+<blockquote>
+<p>This is nested blockquote.</p>
+</blockquote>
+<p>Back to the first level.</p>
+</blockquote>
+<hr />
+<p>Blockquotes can contain other Markdown elements, including headers, lists, and code blocks.</p>
+<p>Code:</p>
+<pre><code>&gt; ## This is a header.
+&gt;
+&gt; 1.   This is the first list item.
+&gt; 2.   This is the second list item.
+&gt;
+&gt; Here's some example code:
+&gt;
+&gt;     return shell_exec("echo $input | $markdown_script");
+</code></pre>
+<p>Preview:</p>
+<hr />
+<blockquote>
+<h2>This is a header.</h2>
+<ol>
+<li>This is the first list item.</li>
+<li>This is the second list item.</li>
+</ol>
+<p>Here's some example code:</p>
+<pre><code>return shell_exec("echo $input | $markdown_script");
+</code></pre>
+</blockquote>
+<hr />
+<h3>Lists</h3>
+<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
+<h4>Unordered</h4>
+<p>HTML Tag: <code>&lt;ul&gt;</code></p>
+<p>Unordered lists use <strong>asterisks (*)</strong>, <strong>pluses (+)</strong>, and <strong>hyphens (-)</strong>.</p>
+<p>Code:</p>
+<pre><code>*   Red
+*   Green
+*   Blue
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<hr />
+<p>is equivalent to:</p>
+<p>Code:</p>
+<pre><code>+   Red
++   Green
++   Blue
+</code></pre>
+<p>and:</p>
+<p>Code:</p>
+<pre><code>-   Red
+-   Green
+-   Blue
+</code></pre>
+<h4>Ordered</h4>
+<p>HTML Tag: <code>&lt;ol&gt;</code></p>
+<p>Ordered lists use numbers followed by periods:</p>
+<p>Code:</p>
+<pre><code>1.  Bird
+2.  McHale
+3.  Parish
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<hr />
+<p>It's possible to trigger an ordered list by accident, by writing something like this:</p>
+<p>Code:</p>
+<pre><code>1986. What a great season.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ol>
+<li>What a great season.</li>
+</ol>
+<hr />
+<p>You can <strong>backslash-escape (\)</strong> the period:</p>
+<p>Code:</p>
+<pre><code>1986\. What a great season.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>1986. What a great season.</p>
+<hr />
+<h4>Indented</h4>
+<h5>Blockquote</h5>
+<p>To put a blockquote within a list item, the blockquote's &gt; delimiters need to be indented:</p>
+<p>Code:</p>
+<pre><code>*   A list item with a blockquote:
+
+    &gt; This is a blockquote
+    &gt; inside a list item.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ul>
+<li>
+<p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote
+inside a list item.</p>
+</blockquote>
+</li>
+</ul>
+<hr />
+<h5>Code Block</h5>
+<p>To put a code block within a list item, the code block needs to be indented twice — <strong>8 spaces</strong> or <strong>two tabs</strong>:</p>
+<p>Code:</p>
+<pre><code>*   A list item with a code block:
+
+        &lt;code goes here&gt;
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ul>
+<li>
+<p>A list item with a code block:</p>
+<pre><code>&lt;code goes here&gt;
+</code></pre>
+</li>
+</ul>
+<hr />
+<h5>Nested List</h5>
+<p>Code:</p>
+<pre><code>* A
+  * A1
+  * A2
+* B
+* C
+</code></pre>
+<p>Preview:</p>
+<hr />
+<ul>
+<li>A
+<ul>
+<li>A1</li>
+<li>A2</li>
+</ul>
+</li>
+<li>B</li>
+<li>C</li>
+</ul>
+<hr />
+<h3>Code Blocks</h3>
+<p>HTML Tag: <code>&lt;pre&gt;</code></p>
+<p>Indent every line of the block by at least <strong>4 spaces</strong> or <strong>1 tab</strong>.</p>
+<p>Code:</p>
+<pre><code>This is a normal paragraph:
+
+    This is a code block.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This is a normal paragraph:</p>
+<pre><code>This is a code block.
+</code></pre>
+<hr />
+<p>A code block continues until it reaches a line that is not indented (or the end of the article).</p>
+<p>Within a code block, <strong><em>ampersands (&amp;)</em></strong> and angle <strong>brackets (&lt; and &gt;)</strong> are automatically converted into HTML entities.</p>
+<p>Code:</p>
+<pre><code>    &lt;div class="footer"&gt;
+        &amp;copy; 2004 Foo Corporation
+    &lt;/div&gt;
+</code></pre>
+<p>Preview:</p>
+<hr />
+<pre><code>&lt;div class="footer"&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+<hr />
+<p>Following sections Fenced Code Blocks and Syntax Highlighting are extensions, you can use the other way to write the code block.</p>
+<h4>Fenced Code Blocks</h4>
+<p>Just wrap your code in <code>```</code> (as shown below) and you won't need to indent it by four spaces.</p>
+<p>Code:</p>
+<pre><code>Here's an example:
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>Here's an example:</p>
+<pre><code>function test() {
+  console.log("notice the blank line before this function?");
+}
+</code></pre>
+<hr />
+<h4>Syntax Highlighting</h4>
+<p>In your fenced block, add an optional language identifier and we'll run it through syntax highlighting (<a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml">Support Languages</a>).</p>
+<p>Code:</p>
+<pre><code>```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+</code></pre>
+<p>Preview:</p>
+<hr />
+<pre><code>require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+</code></pre>
+<hr />
+<h3>Horizontal Rules</h3>
+<p>HTML Tag: <code>&lt;hr /&gt;</code>
+Places <strong>three or more hyphens (-), asterisks (*), or underscores (_)</strong> on a line by themselves. You may use spaces between the hyphens or asterisks.</p>
+<p>Code:</p>
+<pre><code>* * *
+***
+*****
+- - -
+---------------------------------------
+___
+</code></pre>
+<p>Preview:</p>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<h3>Table</h3>
+<p>HTML Tag: <code>&lt;table&gt;</code></p>
+<p>It's an extension.</p>
+<p>Separates column by <strong>pipe (|)</strong> and header by <strong>dashes (-)</strong>, and uses <strong>colon (:)</strong> for alignment.</p>
+<p>The outer <strong>pipes (|)</strong> and alignment are optional. There are <strong>3 delimiters</strong> each cell at least for separating header.</p>
+<p>Code:</p>
+<pre><code>| Left | Center | Right |
+|:-----|:------:|------:|
+|aaa   |bbb     |ccc    |
+|ddd   |eee     |fff    |
+
+ A | B
+---|---
+123|456
+
+
+A |B
+--|--
+12|45
+</code></pre>
+<p>Preview:</p>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Left</th>
+<th>Center</th>
+<th>Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>aaa</td>
+<td>bbb</td>
+<td>ccc</td>
+</tr>
+<tr>
+<td>ddd</td>
+<td>eee</td>
+<td>fff</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>123</td>
+<td>456</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>A</th>
+<th>B</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>12</td>
+<td>45</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Span Elements</h2>
+<h3>Links</h3>
+<p>HTML Tag: <code>&lt;a&gt;</code></p>
+<p>Markdown supports two style of links: inline and reference.</p>
+<h4>Inline</h4>
+<p>Inline link format like this: <code>[Link Text](URL "Title")</code></p>
+<p>Title is optional.</p>
+<p>Code:</p>
+<pre><code>This is [an example](http://example.com/ "Title") inline link.
+
+[This link](http://example.net/) has no title attribute.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This is <a href="http://example.com/">an example</a> inline link.</p>
+<p><a href="http://example.net/">This link</a> has no title attribute.</p>
+<hr />
+<p>If you're referring to a local resource on the same server, you can use relative paths:</p>
+<p>Code:</p>
+<pre><code>See my [About](/about/) page for details.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>See my <a href="/about/">About</a> page for details.</p>
+<hr />
+<h4>Reference</h4>
+<p>You could predefine link references. Format like this: <code>[id]: URL "Title"</code></p>
+<p>Title is also optional. And the you refer the link, format like this: <code>[Link Text][id]</code></p>
+<p>Code:</p>
+<pre><code>[id]: http://example.com/  "Optional Title Here"
+This is [an example][id] reference-style link.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This is <a href="http://example.com/">an example</a> reference-style link.</p>
+<hr />
+<p>That is:</p>
+<ul>
+<li>Square brackets containing the link identifier (<strong>not case sensitive</strong>, optionally indented from the left margin using up to three spaces);</li>
+<li>followed by a colon;</li>
+<li>followed by one or more spaces (or tabs);</li>
+<li>followed by the URL for the link;</li>
+<li>The link URL may, optionally, be surrounded by angle brackets.</li>
+<li>optionally followed by a title attribute for the link, enclosed in double or single quotes, or enclosed in parentheses.</li>
+</ul>
+<p>The following three link definitions are equivalent:</p>
+<p>Code:</p>
+<pre><code>[foo]: http://example.com/  "Optional Title Here"
+[foo]: http://example.com/  'Optional Title Here'
+[foo]: http://example.com/  (Optional Title Here)
+[foo]: &lt;http://example.com/&gt;  "Optional Title Here"
+</code></pre>
+<p>Uses an empty set of square brackets, the link text itself is used as the name.</p>
+<p>Code:</p>
+<pre><code>[Google]: http://google.com/
+[Google][]
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><a href="http://google.com/">Google</a></p>
+<hr />
+<h3>Emphasis</h3>
+<p>HTML Tags: <code>&lt;em&gt;</code>, <code>&lt;strong&gt;</code></p>
+<p>Markdown treats <strong>asterisks (*)</strong> and <strong>underscores (_)</strong> as indicators of emphasis. <strong>One delimiter</strong> will be <code>&lt;em&gt;</code>; *<em>double delimiters</em> will be <code>&lt;strong&gt;</code>.</p>
+<p>Code:</p>
+<pre><code>*single asterisks*
+
+_single underscores_
+
+**double asterisks**
+
+__double underscores__
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<hr />
+<p>But if you surround an * or _ with spaces, it'll be treated as a literal asterisk or underscore.</p>
+<p>You can backslash escape it:</p>
+<p>Code:</p>
+<pre><code>\*this text is surrounded by literal asterisks\*
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>*this text is surrounded by literal asterisks*</p>
+<hr />
+<h3>Code</h3>
+<p>HTML Tag: <code>&lt;code&gt;</code></p>
+<p>Wraps it with <strong>backtick quotes (`)</strong>.</p>
+<p>Code:</p>
+<pre><code>Use the `printf()` function.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>Use the <code>printf()</code> function.</p>
+<hr />
+<p>To include a literal backtick character within a code span, you can use <strong>multiple backticks</strong> as the opening and closing delimiters:</p>
+<p>Code:</p>
+<pre><code>``There is a literal backtick (`) here.``
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><code>There is a literal backtick (`) here.</code></p>
+<hr />
+<p>The backtick delimiters surrounding a code span may include spaces — one after the opening, one before the closing. This allows you to place literal backtick characters at the beginning or end of a code span:</p>
+<p>Code:</p>
+<pre><code>A single backtick in a code span: `` ` ``
+
+A backtick-delimited string in a code span: `` `foo` ``
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>A single backtick in a code span: <code>`</code></p>
+<p>A backtick-delimited string in a code span: <code>`foo`</code></p>
+<hr />
+<h3>Images</h3>
+<p>HTML Tag: <code>&lt;img /&gt;</code></p>
+<p>Markdown uses an image syntax that is intended to resemble the syntax for links, allowing for two styles: inline and reference.</p>
+<h4>Inline</h4>
+<p>Inline image syntax looks like this: <code>![Alt text](URL "Title")</code></p>
+<p>Title is optional.</p>
+<p>Code:</p>
+<pre><code>![Alt text](/path/to/img.jpg)
+
+![Alt text](/path/to/img.jpg "Optional title")
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><img src="https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp" alt="Alt text" /></p>
+<p><img src="https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp" alt="Alt text" title="Optional title" /></p>
+<hr />
+<p>That is:</p>
+<ul>
+<li>An exclamation mark: !;</li>
+<li>followed by a set of square brackets, containing the alt attribute text for the image;</li>
+<li>followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.</li>
+</ul>
+<h4>Reference</h4>
+<p>Reference-style image syntax looks like this: <code>![Alt text][id]</code></p>
+<p>Code:</p>
+<pre><code>[img id]: https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp  "Optional title attribute"
+![Alt text][img id]
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><img src="https://s2.loli.net/2024/08/20/5fszgXeOxmL3Wdv.webp" alt="Alt text" title="Optional title attribute" /></p>
+<hr />
+<h3>Strikethrough</h3>
+<p>HTML Tag: <code>&lt;del&gt;</code></p>
+<p>It's an extension.</p>
+<p>GFM adds syntax to strikethrough text.</p>
+<p>Code:</p>
+<pre><code>~~Mistaken text.~~
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><s>Mistaken text.</s></p>
+<hr />
+<h2>Miscellaneous</h2>
+<h3>Automatic Links</h3>
+<p>Markdown supports a shortcut style for creating "automatic" links for URLs and email addresses: simply surround the URL or email address with angle brackets.</p>
+<p>Code:</p>
+<pre><code>&lt;http://example.com/&gt;
+
+&lt;address@example.com&gt;
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p><a href="http://example.com/">http://example.com/</a></p>
+<p><a href="mailto:address@example.com">address@example.com</a></p>
+<hr />
+<p>GFM will autolink standard URLs.</p>
+<p>Code:</p>
+<pre><code>https://github.com/emn178/markdown
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>https://github.com/emn178/markdown</p>
+<hr />
+<h3>Backslash Escapes</h3>
+<p>Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown's formatting syntax.</p>
+<p>Code:</p>
+<pre><code>\*literal asterisks\*
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>*literal asterisks*</p>
+<hr />
+<p>Markdown provides backslash escapes for the following characters:</p>
+<p>Code:</p>
+<pre><code>\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+</code></pre>
+<h2>Inline HTML</h2>
+<p>For any markup that is not covered by Markdown's syntax, you simply use HTML itself. There's no need to preface it or delimit it to indicate that you're switching from Markdown to HTML; you just use the tags.</p>
+<p>Code:</p>
+<pre><code>This is a regular paragraph.
+
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Foo&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+
+This is another regular paragraph.
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>This is a regular paragraph.</p>
+<p>&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Foo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</p>
+<p>This is another regular paragraph.</p>
+<hr />
+<p>Note that Markdown formatting syntax is <strong>not processed within block-level HTML tags</strong>.</p>
+<p>Unlike block-level HTML tags, Markdown syntax is <strong>processed within span-level tags</strong>.</p>
+<p>Code:</p>
+<pre><code>&lt;span&gt;**Work**&lt;/span&gt;
+
+&lt;div&gt;
+    **No Work**
+&lt;/div&gt;
+</code></pre>
+<p>Preview:</p>
+<hr />
+<p>&lt;span&gt;<strong>Work</strong>&lt;/span&gt;</p>
+<p>&lt;div&gt;
+<strong>No Work</strong>
+&lt;/div&gt;</p>
+<hr />
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Examples"></category>
+  </entry>
+  <entry>
+    <title>Python 递归</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/python%E9%80%92%E5%BD%92/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/python%E9%80%92%E5%BD%92/</id>
+    <published>2026-05-18T00:00:00.000Z</published>
+    <updated>2026-05-18T00:00:00.000Z</updated>
+    <summary>深入理解递归的核心思想，通过阶乘求和与斐波那契两道经典例题，掌握递归三要素与调用栈的运行机制</summary>
+    <content type="html"><![CDATA[<h1>Python 递归入门</h1>
+<h2>学习目标</h2>
+<ul>
+<li>理解递归的核心思想：<strong>自己调用自己</strong></li>
+<li>掌握递归三要素：<strong>终止条件</strong>、<strong>递归关系</strong>、<strong>递归调用</strong></li>
+<li>能通过递归解决<strong>阶乘</strong>和<strong>斐波那契数列</strong>等经典问题</li>
+<li>了解递归的优缺点，知道什么时候该用、什么时候不该用</li>
+</ul>
+<hr />
+<h2>一、什么是递归？</h2>
+<p>想象你站在两面相对的镜子之间，会看到<strong>无穷无尽的镜像</strong>。这就是递归的直观感受：<strong>一个函数在内部调用它自己</strong>。</p>
+<pre><code>flowchart TD
+    A["n = 5&lt;br/&gt;调用 fac(5)"] --&gt; B["n = 4&lt;br/&gt;调用 fac(4)"]
+    B --&gt; C["n = 3&lt;br/&gt;调用 fac(3)"]
+    C --&gt; D["n = 2&lt;br/&gt;调用 fac(2)"]
+    D --&gt; E["n = 1&lt;br/&gt;碰到终止条件！"]
+    E --&gt; F["返回 1"]
+    F --&gt; G["返回 2"]
+    G --&gt; H["返回 6"]
+    H --&gt; I["返回 24"]
+    I --&gt; J["返回 120"]
+
+    style A fill:#ffe599,stroke:#333
+    style E fill:#d9ead3,stroke:#333
+    style J fill:#9ccff9,stroke:#333
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+递归的精髓就一句话：<strong>把大问题拆成同类型的小问题，拆到不能再拆为止。</strong></p>
+</blockquote>
+<hr />
+<h2>二、递归的三要素</h2>
+<p>写对递归，必须把下面三件事想清楚：</p>
+<table>
+<thead>
+<tr>
+<th>要素</th>
+<th>含义</th>
+<th>以阶乘为例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>① 终止条件（base case）</strong></td>
+<td>什么时候停下来？</td>
+<td><code>n == 1</code> 时返回 <code>1</code></td>
+</tr>
+<tr>
+<td><strong>② 递归关系（recurrence）</strong></td>
+<td>大问题和小问题是什么关系？</td>
+<td><code>fac(n) = n × fac(n-1)</code></td>
+</tr>
+<tr>
+<td><strong>③ 递归调用（recursive call）</strong></td>
+<td>怎么用更小的参数调用自己？</td>
+<td><code>return n * fac(n-1)</code></td>
+</tr>
+</tbody>
+</table>
+<p>:::warning
+<strong>忘记终止条件 = 无限递归 → 栈溢出 → 程序崩溃！</strong>
+:::</p>
+<hr />
+<h2>递归，到底"递"了什么，"归"了什么？</h2>
+<p>把"递归"两个字拆开看：</p>
+<ul>
+<li><strong>递</strong>：把问题<strong>传递</strong>下去—— "我算不出来，但我可以把问题缩小一号，交给下一个我"</li>
+<li><strong>归</strong>：把答案<strong>归还</strong>上来—— "最底层的我算出来了，一层一层把结果传回去"</li>
+</ul>
+<p>打个比方：你排在一列长队的最后面，想知道自己是第几个人。你不会从头数，而是——</p>
+<blockquote>
+<p>拍前面人的肩膀："嘿，你是第几个？"
+前面的人也不知道，他又拍更前面的人……
+一直传到第一个人："我是第 1 个！"
+然后答案一路往回传："我是第 2 个" → "我是第 3 个" → …… → "你是第 10 个！"</p>
+</blockquote>
+<pre><code>flowchart LR
+    A["第10人&lt;br/&gt;'我是第几个？'"] --&gt;|"递：往前问"| B["第9人&lt;br/&gt;'我是第几个？'"]
+    B --&gt;|"递：往前问"| C["..."]
+    C --&gt;|"递：往前问"| D["第1人&lt;br/&gt;'我是第1个！'"]
+    D --&gt;|"归：往回传"| C
+    C --&gt;|"归：往回传"| B
+    B --&gt;|"归：往回传"| A
+
+    style A fill:#ffe599,stroke:#333
+    style D fill:#d9ead3,stroke:#333
+</code></pre>
+<p>这个排队问人的过程，就是递归——</p>
+<table>
+<thead>
+<tr>
+<th>排队场景</th>
+<th>对应递归</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"你是第几个？"</td>
+<td><strong>函数调用自己</strong></td>
+</tr>
+<tr>
+<td>第一个人说"我是第1个"</td>
+<td><strong>终止条件（base case）</strong></td>
+</tr>
+<tr>
+<td>"我是前面那个的编号 +1"</td>
+<td><strong>递归关系</strong></td>
+</tr>
+<tr>
+<td>一路往回传答案</td>
+<td><strong>返回值逐层弹栈</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+所以递归就两件事：<strong>把还没解决的问题继续算下去</strong>，再<strong>把条件符合的结果返回出来</strong>。</p>
+</blockquote>
+<hr />
+<p>&lt;details&gt;
+&lt;summary&gt;💡 选看：递归的底层原理——调用栈&lt;/summary&gt;</p>
+<p>每次函数调用，Python 都会在<strong>调用栈</strong>上压入一个"栈帧"，记录函数的局部变量和返回地址。递归本质上就是把栈帧一层一层叠上去，触底（终止条件）后再一层一层弹回来。</p>
+<pre><code># 用一个简单例子观察调用栈
+def countdown(n):
+    print(f"进入 countdown({n})")   # ← 压栈时打印
+    if n &lt;= 0:
+        return
+    countdown(n - 1)
+    print(f"退出 countdown({n})")   # ← 弹栈时打印
+
+countdown(3)
+</code></pre>
+<pre><code>进入 countdown(3)
+进入 countdown(2)
+进入 countdown(1)
+进入 countdown(0)
+退出 countdown(1)
+退出 countdown(2)
+退出 countdown(3)
+</code></pre>
+<blockquote>
+<p>[!TIP]
+从输出可以看到：<strong>先进入的后退出</strong>（后进先出），这就是调用栈的工作方式。</p>
+</blockquote>
+<p>&lt;/details&gt;</p>
+<hr />
+<h2>三、实战题目</h2>
+<h3>题目 1：计算阶乘和（1! + 2! + … + n!）</h3>
+<h4>题目：</h4>
+<p>用户输入一个正整数 <code>n</code>，计算 <code>1! + 2! + 3! + … + n!</code> 的值并输出。</p>
+<h4>讲解：</h4>
+<p>这道题可以分为两步：</p>
+<ol>
+<li><strong>写一个递归函数计算阶乘</strong>：<code>jiecheng(n)</code></li>
+<li><strong>累加 1 到 n 的阶乘</strong>：<code>jiecheng(1) + jiecheng(2) + ... + jiecheng(n)</code></li>
+</ol>
+<p><strong>阶乘的递归关系：</strong></p>
+<p>$$
+n! = \begin{cases}
+1 &amp; (n = 1) \
+n \times (n-1)! &amp; (n &gt; 1)
+\end{cases}
+$$</p>
+<h4>解题思路：</h4>
+<pre><code>flowchart LR
+    A["输入 n"] --&gt; B["定义递归函数&lt;br/&gt;jiecheng(k)"]
+    B --&gt; C{"k == 1 ?"}
+    C -- 是 --&gt; D["返回 1"]
+    C -- 否 --&gt; E["返回 k × jiecheng(k-1)"]
+    D --&gt; F["累加 jiecheng(1) 到 jiecheng(n)"]
+    E --&gt; F
+    F --&gt; G["输出结果"]
+
+    style B fill:#9ccff9,stroke:#333
+    style D fill:#d9ead3,stroke:#333
+    style G fill:#ffe599,stroke:#333
+</code></pre>
+<h4>代码实现：</h4>
+<pre><code># ── 递归版：求 n 的阶乘 ──
+def jiecheng(n):
+    if n == 1:              # 终止条件：1! = 1
+        return 1
+    return n * jiecheng(n - 1)  # 递归关系：n! = n × (n-1)!
+
+# ── 累加 1! 到 n! ──
+n = int(input(""))
+k = 0
+
+for j in range(1, n + 1):
+    k += jiecheng(j)
+print(k)
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>变量</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>jiecheng(n)</code></td>
+<td>递归计算 <code>n!</code></td>
+</tr>
+<tr>
+<td><code>k</code></td>
+<td>累加器，存放最终的和</td>
+</tr>
+<tr>
+<td><code>range(1, n+1)</code></td>
+<td>从 1 遍历到 n，逐个累加阶乘</td>
+</tr>
+</tbody>
+</table>
+<h4>运行测试：</h4>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>计算过程</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>3</code></td>
+<td>1! + 2! + 3! = 1 + 2 + 6</td>
+<td><code>9</code></td>
+</tr>
+<tr>
+<td><code>5</code></td>
+<td>1! + 2! + 3! + 4! + 5! = 1 + 2 + 6 + 24 + 120</td>
+<td><code>153</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>题目 2：递归计算斐波那契数列第 n 项</h3>
+<h4>题目：</h4>
+<p>使用递归计算斐波那契数列的<strong>第 20 个数字</strong>。</p>
+<h4>讲解：</h4>
+<p>斐波那契数列的定义：</p>
+<p>$$
+F(n) = \begin{cases}
+1 &amp; (n = 1 \text{ 或 } n = 2) \
+F(n-1) + F(n-2) &amp; (n &gt; 2)
+\end{cases}
+$$</p>
+<p>数列的前几项：<code>1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...</code></p>
+<p>斐波那契数列是递归的<strong>天然例题</strong>——因为它的定义本身就是递归的：每一项等于前两项之和。</p>
+<pre><code>flowchart TD
+    A["F(5)"] --&gt; B["F(4)"]
+    A --&gt; C["F(3)"]
+    B --&gt; D["F(3)"]
+    B --&gt; E["F(2)"]
+    C --&gt; F["F(2)"]
+    C --&gt; G["F(1)"]
+    D --&gt; H["F(2)"]
+    D --&gt; I["F(1)"]
+    E --&gt; J["= 1"]
+    F --&gt; K["= 1"]
+    G --&gt; L["= 1"]
+    H --&gt; M["= 1"]
+    I --&gt; N["= 1"]
+
+    style A fill:#ffe599,stroke:#333
+    style J fill:#d9ead3,stroke:#333
+    style K fill:#d9ead3,stroke:#333
+    style L fill:#d9ead3,stroke:#333
+    style M fill:#d9ead3,stroke:#333
+    style N fill:#d9ead3,stroke:#333
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+从图中可以看到，<code>F(3)</code> 被重复计算了两次，<code>F(2)</code> 被计算了三次。这也是递归求斐波那契的<strong>效率缺陷</strong>：<strong>大量重复计算</strong>。</p>
+</blockquote>
+<h4>解题思路：</h4>
+<ul>
+<li>三要素分析：
+<ul>
+<li><strong>终止条件</strong>：<code>n == 1</code> 或 <code>n == 2</code> → 返回 <code>1</code></li>
+<li><strong>递归关系</strong>：<code>F(n) = F(n-1) + F(n-2)</code></li>
+<li><strong>递归调用</strong>：<code>return feibo(n-1) + feibo(n-2)</code></li>
+</ul>
+</li>
+</ul>
+<h4>代码实现：</h4>
+<pre><code># ── 递归版：求斐波那契数列第 n 项 ──
+def feibo(n):
+    if n == 1 or n == 2:         # 终止条件
+        return 1
+    return feibo(n - 1) + feibo(n - 2)  # 递归关系
+
+print(feibo(20))
+</code></pre>
+<h4>运行结果：</h4>
+<pre><code>6765
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>含义</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>feibo(1)</code></td>
+<td>第 1 项</td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>feibo(2)</code></td>
+<td>第 2 项</td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>feibo(10)</code></td>
+<td>第 10 项</td>
+<td><code>55</code></td>
+</tr>
+<tr>
+<td><code>feibo(20)</code></td>
+<td>第 20 项</td>
+<td><code>6765</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>四、递归 vs 循环：什么时候用递归？</h2>
+<table>
+<thead>
+<tr>
+<th>对比维度</th>
+<th>递归</th>
+<th>循环</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>代码简洁度</strong></td>
+<td>简洁、接近数学定义</td>
+<td>通常代码更长</td>
+</tr>
+<tr>
+<td><strong>内存占用</strong></td>
+<td>每次调用占一个栈帧，可能栈溢出</td>
+<td>只用一个循环体，内存开销小</td>
+</tr>
+<tr>
+<td><strong>执行速度</strong></td>
+<td>函数调用有开销，略慢</td>
+<td>直接循环，更快</td>
+</tr>
+<tr>
+<td><strong>适合场景</strong></td>
+<td>树遍历、分治、回溯、数学归纳</td>
+<td>简单重复操作、线性迭代</td>
+</tr>
+</tbody>
+</table>
+<p>:::tip
+<strong>判断标准</strong>：如果问题天然是"自相似"的（一棵树由子树构成、一个图由子图构成），用递归更自然。如果只是简单的"做 N 次"循环，用 <code>for</code>/<code>while</code> 更高效。
+:::</p>
+<p>~斐波那契用递归来计算第 20 项已经要调用 13529 次函数了，求第 50 项怕不是要等到天荒地老……~</p>
+<p>&lt;details&gt;
+&lt;summary&gt;💡 进阶：用记忆化优化斐波那契&lt;/summary&gt;</p>
+<p>递归求斐波那契最大的问题是<strong>重复计算</strong>。用一个字典把算过的结果存起来，下次遇到直接取，效率就能从指数级降到线性级：</p>
+<pre><code># ── 记忆化递归：用字典缓存已计算结果 ──
+cache = {}
+
+def feibo(n):
+    if n in cache:           # 算过了，直接返回
+        return cache[n]
+    if n == 1 or n == 2:
+        result = 1
+    else:
+        result = feibo(n - 1) + feibo(n - 2)
+    cache[n] = result        # 存入缓存
+    return result
+
+print(feibo(20))  # 6765，但这次快得多
+print(feibo(50))  # 12586269025，瞬间出结果
+</code></pre>
+<p>这就是<strong>记忆化搜索</strong>，也叫<strong>自顶向下的动态规划</strong>——是递归进阶的重要技巧！</p>
+<p>&lt;/details&gt;</p>
+<hr />
+<h2>五、总结</h2>
+<table>
+<thead>
+<tr>
+<th>核心要点</th>
+<th>一句话</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>什么是递归</td>
+<td>函数自己调用自己，把大问题拆成小问题</td>
+</tr>
+<tr>
+<td>递归三要素</td>
+<td>终止条件 + 递归关系 + 递归调用，缺一不可</td>
+</tr>
+<tr>
+<td>调用栈</td>
+<td>先进后出，终止条件触底后逐层返回</td>
+</tr>
+<tr>
+<td>阶乘递归</td>
+<td><code>n! = n × (n-1)!</code>，终止于 <code>1</code></td>
+</tr>
+<tr>
+<td>斐波那契递归</td>
+<td><code>F(n) = F(n-1) + F(n-2)</code>，终止于 <code>F(1)=F(2)=1</code></td>
+</tr>
+<tr>
+<td>什么时候用</td>
+<td>问题天然是"自相似"结构时用递归，简单重复用循环</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+递归是计算机科学中最优美的思想之一。从树的遍历到图的搜索，从分治算法到回溯算法，无处不在,赞美递归</p>
+</blockquote>
+<p>::spoiler[爆栈的时候除外]</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>Python字典入门</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/python%E5%AD%97%E5%85%B8/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/python%E5%AD%97%E5%85%B8/</id>
+    <published>2026-05-16T00:00:00.000Z</published>
+    <updated>2026-05-16T00:00:00.000Z</updated>
+    <summary>生动对比列表与字典的异同，详解key、get等核心操作，并通过学生信息封装与年度歌曲投票两道实战题目</summary>
+    <content type="html"><![CDATA[<h1>Python 字典入门</h1>
+<h2>学习目标</h2>
+<ul>
+<li>理解列表与字典的<strong>相似之处</strong>与<strong>本质区别</strong>。</li>
+<li>掌握字典的 <code>key</code> 访问、<code>get()</code> 方法及增删改查。</li>
+<li>能运用字典解决<strong>键值映射</strong>类的实际问题。</li>
+<li>通过两道实战题目，把字典用起来、用顺手。</li>
+</ul>
+<hr />
+<h2>一、先来看看老朋友：列表</h2>
+<p>在 Python 里，列表（<code>list</code>）就像<strong>一排带编号的储物柜</strong>：</p>
+<pre><code>lockers = ["篮球", "书包", "水杯", "雨伞"]
+# 编号(索引):   0       1       2       3
+</code></pre>
+<p>你想拿"书包"，就得喊：<strong>"打开第 1 号柜子！"</strong>（索引 <code>1</code>）</p>
+<pre><code>print(lockers[1])  # 书包
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>你需要知道</th>
+<th>操作</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>取东西</td>
+<td>柜子编号（索引）</td>
+<td><code>lockers[索引]</code></td>
+</tr>
+<tr>
+<td>放东西</td>
+<td>柜子编号</td>
+<td><code>lockers[索引] = 新物品</code></td>
+</tr>
+<tr>
+<td>找东西</td>
+<td>挨个翻编号</td>
+<td><code>for item in lockers:</code></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>列表很好用——前提是你<strong>记得住编号</strong>。但如果柜子多了呢？100 个柜子，你还记得"张三的快递"在几号柜吗？</p>
+</blockquote>
+<hr />
+<h2>二、字典</h2>
+<p>字典（<code>dict</code>）就像是<strong>贴了名字标签的储物柜</strong>——不用记编号，<strong>直接喊名字就行</strong>！</p>
+<pre><code>locker = {
+    "张三": "快递包裹",
+    "李四": "外卖",
+    "王五": "信件"
+}
+</code></pre>
+<p>你想拿李四的东西？直接喊名字：</p>
+<pre><code>print(locker["李四"])  # 外卖
+</code></pre>
+<p>这里 <code>"李四"</code> 就是 <strong>键（key）</strong>，<code>"外卖"</code> 就是 <strong>值（value）</strong>。合在一起叫 <strong>键值对</strong>。</p>
+<hr />
+<h2>三、列表 vs 字典：一张图看懂</h2>
+<pre><code>graph LR
+    subgraph 列表-编号柜
+        A["[0] 篮球"] 
+        B["[1] 书包"]
+        C["[2] 水杯"]
+        D["[3] 雨伞"]
+    end
+    
+    subgraph 字典-标签柜
+        E["'张三' → 快递"]
+        F["'李四' → 外卖"]
+        G["'王五' → 信件"]
+    end
+    
+    A --- B --- C --- D
+    E -.- F -.- G -.- E
+    
+    style A fill:#ffe599,stroke:#333
+    style B fill:#ffe599,stroke:#333
+    style C fill:#ffe599,stroke:#333
+    style D fill:#ffe599,stroke:#333
+    style E fill:#9ccff9,stroke:#333
+    style F fill:#9ccff9,stroke:#333
+    style G fill:#9ccff9,stroke:#333
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>对比维度</th>
+<th>列表 <code>list</code></th>
+<th>字典 <code>dict</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>访问方式</strong></td>
+<td>通过数字索引 <code>[0]</code>, <code>[1]</code>...</td>
+<td>通过自定义键 <code>["名字"]</code></td>
+</tr>
+<tr>
+<td><strong>比喻</strong></td>
+<td>编号柜：喊编号拿东西</td>
+<td>标签柜：喊名字拿东西</td>
+</tr>
+<tr>
+<td><strong>顺序</strong></td>
+<td>严格有序（按插入排列）</td>
+<td>Python 3.7+ 保持插入顺序，但本质靠键映射</td>
+</tr>
+<tr>
+<td><strong>查找方式</strong></td>
+<td>从头到尾遍历（或二分）</td>
+<td>哈希表直接定位（快！）</td>
+</tr>
+<tr>
+<td><strong>适合场景</strong></td>
+<td>排队、序列、一一列举</td>
+<td>姓名→电话、单词→释义、统计计数</td>
+</tr>
+<tr>
+<td><strong>键的类型</strong></td>
+<td>只能是整数（索引）</td>
+<td>任意不可变类型：字符串、数字、元组等</td>
+</tr>
+<tr>
+<td><strong>共同点</strong></td>
+<td>都是容器、都支持 <code>len()</code>、<code>in</code>、都可嵌套</td>
+<td>✅ 一样！</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+<strong>一句话总结</strong>：列表靠"位置"找人，字典靠"名字"找人。当数据有明确的<strong>对应关系</strong>时（比如人名→成绩、商品→价格），字典比列表直观得多！</p>
+</blockquote>
+<hr />
+<h2>四、字典的核心操作</h2>
+<h3>4.1 基本语法</h3>
+<pre><code>字典名 = {
+    键1: 值1,
+    键2: 值2,
+    键3: 值3
+}
+</code></pre>
+<p>:::tip
+键（key）必须是<strong>不可变类型</strong>——字符串、数字、元组都可以；列表不行，因为列表可变。
+:::</p>
+<h3>4.2 通过 key 访问：<code>dict[key]</code></h3>
+<pre><code>student = {"姓名": "小明", "年龄": 16, "班级": "2504班"}
+
+print(student["姓名"])   # 小明
+print(student["年龄"])   # 16
+</code></pre>
+<p>:::warning
+如果 <code>key</code> 不存在，用 <code>dict[key]</code> 会直接报错 <strong>KeyError</strong>，程序崩溃！
+:::</p>
+<pre><code>print(student["成绩"])   # ❌ KeyError: '成绩'
+</code></pre>
+<p>~这也太脆了吧，查个不存在的键就炸了？~</p>
+<h3>4.3 安全的访问：<code>get()</code> 方法</h3>
+<p><code>get()</code> 方法就是字典的**"温柔模式"**——键不存在时不会报错，而是返回 <code>None</code> 或你指定的默认值。</p>
+<pre><code># 语法：字典.get(键, 默认值)
+print(student.get("成绩"))            # None（不存在，但不报错）
+print(student.get("成绩", "暂无记录"))  # 暂无记录
+print(student.get("姓名", "未知"))     # 小明（存在，返回实际值）
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>方法</th>
+<th>键存在时</th>
+<th>键不存在时</th>
+<th>推荐场景</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dict[key]</code></td>
+<td>返回值</td>
+<td>❌ 报错 KeyError</td>
+<td>确定键一定存在时</td>
+</tr>
+<tr>
+<td><code>dict.get(key)</code></td>
+<td>返回值</td>
+<td>返回 <code>None</code></td>
+<td>不确定键是否存在时</td>
+</tr>
+<tr>
+<td><code>dict.get(key, 默认)</code></td>
+<td>返回值</td>
+<td>返回默认值</td>
+<td>需要兜底值时</td>
+</tr>
+</tbody>
+</table>
+<h3>4.4 增、删、改、查</h3>
+<pre><code>info = {"姓名": "小红", "年龄": 17}
+
+# ── 增：直接赋值新键 ──
+info["班级"] = "2504班"
+print(info)  # {'姓名': '小红', '年龄': 17, '班级': '2504班'}
+
+# ── 改：对已有键赋值即覆盖 ──
+info["年龄"] = 18
+print(info)  # {'姓名': '小红', '年龄': 18, '班级': '2504班'}
+
+# ── 查 ──
+print(info["姓名"])          # 小红
+print(info.get("性别", "未知"))  # 未知
+
+# ── 删：del 或 pop() ──
+del info["年龄"]
+print(info)  # {'姓名': '小红', '班级': '2504班'}
+
+removed = info.pop("班级")   # pop 会返回被删除的值
+print(removed)  # 2504班
+print(info)     # {'姓名': '小红'}
+</code></pre>
+<h3>4.5 遍历字典</h3>
+<pre><code>student = {"姓名": "张三", "年龄": 18, "性别": "男", "班级": "2504班"}
+
+# 遍历所有键
+for key in student.keys():
+    print(key, end=" ")  # 姓名 年龄 性别 班级
+print()
+
+# 遍历所有值
+for value in student.values():
+    print(value, end=" ")  # 张三 18 男 2504班
+print()
+
+# 同时遍历键和值（最常用！）
+for key, value in student.items():
+    print(f"{key}: {value}")
+# 姓名: 张三
+# 年龄: 18
+# 性别: 男
+# 班级: 2504班
+</code></pre>
+<blockquote>
+<p>[!TIP]
+口诀：<code>.keys()</code> 拿钥匙，<code>.values()</code> 拿东西，<code>.items()</code> 钥匙东西一起拿！</p>
+</blockquote>
+<hr />
+<h2>五、为什么需要字典？——好处与作用</h2>
+<h3>5.1 代码可读性飙升</h3>
+<pre><code># ❌ 用列表：鬼知道第3个是什么意思
+student_list = ["张三", 18, "男", "2504班"]
+age = student_list[1]  # 你确定这是年龄？
+
+# ✅ 用字典：一目了然
+student_dict = {"姓名": "张三", "年龄": 18, "性别": "男", "班级": "2504班"}
+age = student_dict["年龄"]  # 清清楚楚是年龄
+</code></pre>
+<h3>5.2 查找速度极快（哈希表）</h3>
+<p>字典底层是<strong>哈希表</strong>，不管字典多大，通过 key 查找几乎都是<strong>瞬间完成</strong>——不像列表要一个一个翻。</p>
+<h3>5.3 天然适合统计计数</h3>
+<pre><code># 统计每个单词出现的次数——字典的"主场"
+words = ["apple", "banana", "apple", "orange", "banana", "apple"]
+count = {}
+for word in words:
+    if word in count:
+        count[word] += 1
+    else:
+        count[word] = 1
+print(count)  # {'apple': 3, 'banana': 2, 'orange': 1}
+</code></pre>
+<hr />
+<h2>六、实战题目</h2>
+<h3>题目 1：学生信息封装</h3>
+<h4>题目：</h4>
+<p>用户输入 <code>"张三 18岁 男 2504班"</code> 这样的数据，请将其封装成对应的字典并输出。</p>
+<h4>讲解：</h4>
+<p>这道题考察以下知识点：</p>
+<ol>
+<li><strong>字符串分割</strong>：使用 <code>split()</code> 按空格拆开数据</li>
+<li><strong>字典构建</strong>：将拆分后的数据与对应键名一一配对</li>
+<li><strong>键名设计</strong>：合理命名键，让字典可读性更强</li>
+</ol>
+<h4>解题思路：</h4>
+<ul>
+<li>用 <code>split()</code> 把输入字符串切成列表：<code>["张三", "18岁", "男", "2504班"]</code></li>
+<li>准备好对应的键名列表：<code>["姓名", "年龄", "性别", "班级"]</code></li>
+<li>用 <code>zip()</code> 或循环，将键与值一一配对，构建字典</li>
+</ul>
+<pre><code>flowchart LR
+    A["输入字符串&lt;br/&gt;'张三 18岁 男 2504班'"] --&gt; B["split() 分割"]
+    B --&gt; C["列表:&lt;br/&gt;['张三','18岁','男','2504班']"]
+    C --&gt; D["与键名配对&lt;br/&gt;姓名→张三&lt;br/&gt;年龄→18岁&lt;br/&gt;性别→男&lt;br/&gt;班级→2504班"]
+    D --&gt; E["输出字典"]
+    
+    style A fill:#ffe599,stroke:#333
+    style E fill:#d9ead3,stroke:#333
+</code></pre>
+<h4>代码实现：</h4>
+<pre><code># ── 方法一：手动一一对应 ──
+data = input("请输入学生信息（格式：姓名 年龄 性别 班级）：\n").split()
+# 假设输入：张三 18岁 男 2504班
+# split后：['张三', '18岁', '男', '2504班']
+
+student = {
+    "姓名": data[0],
+    "年龄": data[1],
+    "性别": data[2],
+    "班级": data[3]
+}
+print(student)
+# 输出：{'姓名': '张三', '年龄': '18岁', '性别': '男', '班级': '2504班'}
+</code></pre>
+<pre><code># ── 方法二：zip() 一行搞定 ──
+data = input().split()                     # ['张三', '18岁', '男', '2504班']
+keys = ["姓名", "年龄", "性别", "班级"]       # 键名列表
+student = dict(zip(keys, data))            # zip 打包 → dict 转字典
+print(student)
+# 输出：{'姓名': '张三', '年龄': '18岁', '性别': '男', '班级': '2504班'}
+</code></pre>
+<p>:::tip
+<code>zip(keys, data)</code> 就像<strong>拉链</strong>一样，把两个列表的对应元素"啮合"在一起：<code>("姓名","张三")</code>、<code>("年龄","18岁")</code>……再用 <code>dict()</code> 一键转成字典，优雅！
+:::</p>
+<h4>运行测试：</h4>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>张三 18岁 男 2504班</code></td>
+<td><code>{'姓名': '张三', '年龄': '18岁', '性别': '男', '班级': '2504班'}</code></td>
+</tr>
+<tr>
+<td><code>李四 17岁 女 2501班</code></td>
+<td><code>{'姓名': '李四', '年龄': '17岁', '性别': '女', '班级': '2501班'}</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>题目 2：年度网络歌曲投票 🎵</h3>
+<h4>题目：</h4>
+<p>现在要进行<strong>最火年度网络歌曲投票</strong>。用户会按空格隔开的形式，输入一千首歌名（代表一千张投票），请接收该数据，并评选出最火年度网络歌曲花落谁家。</p>
+<h4>讲解：</h4>
+<p>这道题考察以下知识点：</p>
+<ol>
+<li><strong>批量数据接收</strong>：<code>input().split()</code> 处理空格分隔的大量数据</li>
+<li><strong>字典统计计数</strong>：以歌名为 key，票数为 value，逐票累加</li>
+<li><strong>最大值查找</strong>：遍历字典找出 value 最大的 key</li>
+</ol>
+<h4>解题思路：</h4>
+<ul>
+<li>用 <code>split()</code> 将输入切分成歌名列表（一千首歌名）</li>
+<li>创建一个空字典 <code>songs_count</code></li>
+<li><strong>第一轮遍历</strong>：给每首歌初始化票数为 0（确保所有 key 都已存在）</li>
+<li><strong>第二轮遍历</strong>：逐票累加，每遇到一次歌名就 +1</li>
+<li><strong>第三轮遍历</strong>：用 <code>flag</code> 记录当前最高票数，逐个比较找出获奖歌曲</li>
+<li>输出结果</li>
+</ul>
+<pre><code>flowchart TD
+    A([开始]) --&gt; B[/"输入一千首歌名&lt;br/&gt;(空格分隔)"/]
+    B --&gt; C["split() 分割&lt;br/&gt;→ 歌名列表 songs"]
+    C --&gt; D["创建空字典&lt;br/&gt;songs_count = {}"]
+    D --&gt; E["第一轮遍历：初始化&lt;br/&gt;每首歌票数 = 0"]
+    E --&gt; F["第二轮遍历：计数&lt;br/&gt;每遇到一首歌就 +1"]
+    F --&gt; G["第三轮遍历：找最大值&lt;br/&gt;flag 记录最高票数&lt;br/&gt;name_song 记录对应歌名"]
+    G --&gt; H[/"输出获奖歌曲"/]
+    H --&gt; I([结束])
+    
+    style D fill:#9ccff9,stroke:#333
+    style G fill:#ffe599,stroke:#333
+    style H fill:#d9ead3,stroke:#333
+</code></pre>
+<h4>代码实现：</h4>
+<pre><code># ========== 年度网络歌曲投票统计 ==========
+print("=" * 60)
+print("🎵 年度网络歌曲投票系统")
+print("请输入所有投票歌名（空格分隔）：")
+print("=" * 60)
+
+# ① 接收数据：按空格分割，得到歌名列表
+songs = input().split()
+# 例如输入：嘘月 星炬不熄 嘘月 愛言葉V 星炬不熄 嘘月 ...
+
+# ② 创建空字典，用于存储每首歌的票数
+songs_count = {}
+
+# ③ 第一轮遍历：为每首歌初始化票数为 0
+#    这一步确保字典中所有 key 都已存在，后续累加不会报错
+for i in songs:
+    songs_count[i] = 0
+
+# ④ 第二轮遍历：逐票累加，每遇到一首歌就 +1
+for i in songs:
+    songs_count[i] += 1
+
+# ⑤ 第三轮遍历：找出票数最高的歌曲
+flag = 0           # 记录当前最高票数
+name_song = ""     # 记录最高票数对应的歌曲名
+for i in songs:
+    if songs_count[i] &gt; flag:    # 如果当前歌曲票数超过了 flag
+        flag = songs_count[i]    # 更新最高票数
+        name_song = i            # 更新获奖歌曲名
+
+# ⑥ 输出结果
+print("=" * 60)
+print(f"📊 共收到 {len(songs)} 张投票")
+print(f"📊 共有 {len(songs_count)} 首不同歌曲被提名")
+print("=" * 60)
+print(f"🏆 年度最火网络歌曲：《{name_song}》")
+print(f"   获得票数：{flag} 票")
+</code></pre>
+<h4>代码逻辑拆解：</h4>
+<table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>代码片段</th>
+<th>作用</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>初始化字典</td>
+<td><code>songs_count = {}</code></td>
+<td>创建空字典，准备装数据</td>
+</tr>
+<tr>
+<td>铺路</td>
+<td><code>songs_count[i] = 0</code></td>
+<td>先把所有歌名注册进字典，值归零——<strong>确保后续 +1 不会因 key 不存在而报错</strong></td>
+</tr>
+<tr>
+<td>计数</td>
+<td><code>songs_count[i] += 1</code></td>
+<td>每投一票，对应歌名的值就 +1</td>
+</tr>
+<tr>
+<td>找冠军</td>
+<td><code>if songs_count[i] &gt; flag</code></td>
+<td>用 <code>&gt;</code> 严格比较：只有票数<strong>严格大于</strong>当前记录才更新，保证找到第一个达到最高票的歌曲</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+为什么需要两轮遍历？第一轮"铺路"确保字典里每个 key 都存在，第二轮才能放心地 <code>+=1</code>。如果直接 <code>+=1</code> 而 key 不存在，Python 会抛出 <code>KeyError</code>。</p>
+</blockquote>
+<h4>运行测试：</h4>
+<pre><code>====================输入样例====================
+嘘月 星炬不熄 嘘月 愛言葉V 星炬不熄 嘘月 踏山河 愛言葉V
+
+====================输出结果====================
+============================================
+🎵 年度网络歌曲投票系统
+请输入所有投票歌名（空格分隔）：
+============================================
+============================================
+📊 共收到 8 张投票
+📊 共有 4 首不同歌曲被提名
+============================================
+🏆 年度最火网络歌曲：《嘘月》
+   获得票数：3 票
+</code></pre>
+<p>&lt;details&gt;
+&lt;summary&gt;💡 进阶技巧：用 get() 方法一步到位&lt;/summary&gt;</p>
+<p>上面的三段式写法（初始化 → 计数 → 找最大值）思路非常清晰，适合初学者。当熟悉了字典的 <code>get()</code> 方法后，可以把前两步合并为一句：</p>
+<pre><code># ── 用 get() 方法，4 行搞定统计 ──
+songs = input().split()
+songs_count = {}
+
+for i in songs:
+    # get(i, 0)：i 存在返回当前票数，不存在返回 0
+    songs_count[i] = songs_count.get(i, 0) + 1
+
+# 用 max() 的 key 参数直接找最高票歌曲
+winner = max(songs_count, key=songs_count.get)
+print(f"🏆 年度最火网络歌曲：《{winner}》")
+print(f"   获得票数：{songs_count[winner]} 票")
+</code></pre>
+<p><code>get(i, 0)</code> 的精髓：如果 <code>i</code> 已存在 → 返回当前票数 → <code>+1</code>；如果 <code>i</code> 不存在 → 返回 <code>0</code> → <code>+1</code> 初始化为 1。一句顶四句，优雅！</p>
+<p>&lt;/details&gt;</p>
+<hr />
+<p>以上为主题二完整内容，主代码保持你提供的三段式结构，进阶版已折叠。</p>
+<h2>七、总结</h2>
+<table>
+<thead>
+<tr>
+<th>核心要点</th>
+<th>一句话</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>列表 vs 字典</td>
+<td>列表靠<strong>编号</strong>找人，字典靠<strong>名字</strong>找人</td>
+</tr>
+<tr>
+<td>什么时候用字典</td>
+<td>数据有<strong>对应关系</strong>（姓名→电话、单词→次数）</td>
+</tr>
+<tr>
+<td>访问方式</td>
+<td><code>dict[key]</code> 直接但危险；<code>dict.get(key, 默认)</code> 安全又灵活</td>
+</tr>
+<tr>
+<td>遍历</td>
+<td><code>.items()</code> 同时拿键和值，最常用</td>
+</tr>
+<tr>
+<td>统计计数</td>
+<td><code>dict[key] = dict.get(key, 0) + 1</code> 一句搞定</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+字典是 Python 中最强大的数据结构之一。学会它，你就从"翻编号找东西"进化到了"喊名字拿东西"——代码的可读性和效率都上了一个台阶！</p>
+</blockquote>
+<p>:spoiler[其实字典还有 <code>defaultdict</code>、<code>Counter</code> 等进阶用法，等掌握了基础再来探索也不迟~]</p>
+<p>&lt;details&gt;
+&lt;summary&gt;💡 小彩蛋：字典推导式&lt;/summary&gt;</p>
+<p>和列表推导式一样，字典也有推导式，一行生成字典：</p>
+<pre><code># 生成 {1:1², 2:2², 3:3², 4:4², 5:5²}
+squares = {x: x**2 for x in range(1, 6)}
+print(squares)  # {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+</code></pre>
+<p>&lt;/details&gt;</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>26.4.15Python作业</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/26415python/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/26415python/</id>
+    <published>2026-04-17T00:00:00.000Z</published>
+    <updated>2026-04-17T00:00:00.000Z</updated>
+    <summary>26.4.15Python作业</summary>
+    <content type="html"><![CDATA[<h1>省份城市查询与记录系统</h1>
+<h2>第1题</h2>
+<h4>题目：制作一个简易项目能实现省份城市查询与记录。</h4>
+<h4>讲解：字典嵌套+循环控制+条件判断</h4>
+<p>这道题主要考察以下几个核心知识点：</p>
+<ol>
+<li><strong>字典嵌套列表</strong>：使用字典存储省份和城市的关系，字典的key是省份，value是城市列表</li>
+<li><strong>无限循环</strong>：使用<code>while True</code>创建持续运行的程序</li>
+<li><strong>条件判断</strong>：根据用户输入选择不同的功能分支</li>
+<li><strong>字符串操作</strong>：使用<code>split()</code>方法分割输入字符串</li>
+<li><strong>字典操作</strong>：包括查找、添加元素等
+<strong>解题思路：</strong></li>
+</ol>
+<ul>
+<li>首先创建一个字典，预置一些省份和城市数据</li>
+<li>使用<code>while True</code>循环保持程序运行</li>
+<li>提供三个功能选项：查询、记录、退出</li>
+<li>查询功能：先判断是否为省份，再判断是否为城市</li>
+<li>记录功能：按照"省份-城市"格式添加新数据
+<strong>限制条件：</strong></li>
+<li>输入格式必须严格按照要求</li>
+<li>城市查询时需要遍历所有省份</li>
+</ul>
+<h4>初始版本代码（存在逻辑Bug）：</h4>
+<pre><code>pro = {"广东": ["深圳", "广州"], "四川": ["成都", "乐山"]}
+print("="*60)
+print('省份/城市查询')
+while True:
+    print("=" * 60)
+    n = (input("请输入要执行功能的数字：\n1-查询 2-记录 3-退出\n"))
+    if n == '1':
+        serch = input("请输入要查询的省份或城市：\n")
+        if serch in pro.keys():
+            print("=" * 60)
+            print("该省份包含以下城市：\n")
+            for i in pro[serch]:
+                print(i, end=" ")
+            print("\n")
+        else:
+            for p in pro.keys():
+                if serch in pro[p]:
+                    print(f"该城市属于以下省份: \n{p}")
+                    print("=" * 60)
+                    break
+                else:
+                    # ❌ 错误：第一次未找到就直接break并输出错误信息
+                    print("抱歉，未查询到该省份或城市，请手动添加")
+                    break
+    elif n == '2':
+        put = input("请按照省份-城市进行输入，如：海南-三亚")
+        put = put.split("-")
+        if put[0] in pro.keys():
+            pro[put[0]].append(put[1])
+        else:
+            pro[put[0]]=[put[1]]
+    elif n == '3':
+        print("=" * 60)
+        exit("手动退出")
+    else:
+        print("请重新输入")
+        continue
+</code></pre>
+<p>:::warning
+注意：城市查询部分的逻辑存在问题，当查询的城市不存在时，会错误地提示"未查询到该省份或城市"，需要修复！
+:::
+~这代码写得有点小瑕疵啊，城市查询的逻辑不够严谨~
+<strong>优化版本（修复城市查询逻辑）：</strong></p>
+<pre><code>
+# 创建一个字典，存储省份和对应的城市列表
+pro = {"广东": ["深圳", "广州"], "四川": ["成都", "乐山"]}
+
+# 打印60个等号作为分隔线
+print("="*60)
+
+# 打印程序标题
+print('省份/城市查询')
+
+# 进入无限循环，保持程序持续运行
+while True:
+    # 打印分隔线
+    print("=" * 60)
+    
+    # 提示用户输入功能选项并获取输入
+    n = input("请输入要执行功能的数字：\n1-查询 2-记录 3-退出\n")
+    
+    # ========== 功能1：查询 ==========
+    if n == '1':
+        # 提示用户输入要查询的省份或城市名称
+        serch = input("请输入要查询的省份或城市：\n")
+        
+        # 判断输入的是否为已存在的省份名称
+        if serch in pro.keys():
+            print("=" * 60)
+            print("该省份包含以下城市：\n")
+            # 遍历该省份下的所有城市并打印
+            for city in pro[serch]:
+                print(city, end=" ")  # 不换行输出城市名称
+            print("\n")  # 换行
+            
+        else:
+            # 如果不是省份，则可能是城市，需要遍历所有省份的城市列表进行查找
+            found = False  # 使用标志位记录是否找到
+            
+            # 遍历字典中的每一个省份及其对应的城市列表
+            for province, cities in pro.items():
+                if serch in cities:        # 如果输入的城市存在于当前省份的城市列表中
+                    print(f"该城市属于以下省份: \n{province}")
+                    print("=" * 60)
+                    found = True           # 标记为已找到
+                    break                  # 找到后立即跳出循环
+                    
+            # 只有当循环结束且 found 仍为 False 时，才表示未查询到任何结果
+            if not found:
+                print("抱歉，未查询到该省份或城市，请手动添加")
+                
+    # ========== 功能2：记录/添加 ==========
+    elif n == '2':
+        # 提示用户按照"省份-城市"格式输入数据
+        put = input("请按照省份-城市进行输入，如：海南-三亚\n")
+        
+        # 使用split方法按"-"分割字符串，得到省份和城市
+        put = put.split("-")
+        
+        # 判断输入的省份是否已存在
+        if put[0] in pro.keys():
+            # 如果省份已存在，将新城市添加到该省份的城市列表中
+            pro[put[0]].append(put[1])
+        else:
+            # 如果省份不存在，创建新的省份条目并添加城市（注意value必须是列表）
+            pro[put[0]] = [put[1]]
+        print("添加成功！")  # 可选：给用户一个反馈
+            
+    # ========== 功能3：退出 ==========
+    elif n == '3':
+        print("=" * 60)
+        exit("手动退出")   # 退出程序并显示退出信息
+        
+    # ========== 输入无效选项的处理 ==========
+    else:
+        print("输入有误，请重新输入")
+        continue  # 继续循环，重新显示菜单
+</code></pre>
+<p>:spoiler[其实这个项目完全可以模块化的，函数化的，甚至可以用类来实现，]</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>iSCSI 存储配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/iscsi%E9%85%8D%E7%BD%AE/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/iscsi%E9%85%8D%E7%BD%AE/</id>
+    <published>2026-03-26T00:00:00.000Z</published>
+    <updated>2026-03-26T00:00:00.000Z</updated>
+    <summary>配置ISCSI服务，使多块硬盘共同调用</summary>
+    <content type="html"><![CDATA[<h1>iSCSI 存储配置</h1>
+<h2>环境信息</h2>
+<table>
+<thead>
+<tr>
+<th>主机</th>
+<th>IP 地址</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux3</td>
+<td>10.4.220.103</td>
+<td>iSCSI 服务端</td>
+</tr>
+<tr>
+<td>Linux4</td>
+<td>10.4.220.104</td>
+<td>iSCSI 客户端</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>第一部分：iSCSI 服务端配置 (Linux3)</h2>
+<h3>1. 添加硬盘</h3>
+<p><strong>在虚拟机中添加 5GB 硬盘（需重启进入 BIOS 调整磁盘顺序）</strong></p>
+<pre><code># 查看磁盘信息
+lsblk
+</code></pre>
+<h3>2. 创建物理卷</h3>
+<pre><code># 创建物理卷
+pvcreate /dev/sda /dev/sdb /dev/sdc /dev/sdd
+
+# 查看物理卷
+pvdisplay
+</code></pre>
+<h3>3. 创建卷组</h3>
+<pre><code># 创建卷组 vg1
+vgcreate vg1 /dev/sda /dev/sdb /dev/sdc /dev/sdd
+
+# 查看卷组
+vgdisplay
+</code></pre>
+<h3>4. 创建逻辑卷</h3>
+<pre><code># 创建逻辑卷（使用所有空闲空间）
+lvcreate -l +100%free vg1 -n lv1
+
+# 查看逻辑卷
+lvdisplay
+
+# 格式化为 ext4 文件系统
+mkfs.ext4 /dev/vg1/lv1
+
+# 查看磁盘信息
+lsblk
+</code></pre>
+<h3>5. 安装 targetcli</h3>
+<pre><code># 安装 iSCSI 服务端工具
+dnf install targetcli -y
+</code></pre>
+<h3>6. 配置 iSCSI 目标</h3>
+<pre><code># 进入 targetcli 交互界面
+targetcli
+</code></pre>
+<p><strong>在 targetcli 中执行以下命令：</strong></p>
+<pre><code># 创建后端存储块
+/backstores/block create vg1 /dev/vg1/lv1
+
+# 创建 iSCSI 目标（WWN 名称）
+/iscsi create wwn=iqn.2022-05.com.skills:server
+
+# 配置 ACL 权限（客户端 IQN）
+/iscsi/iqn.2022-05.com.skills:server/tpg1/acls create wwn=iqn.2022-05.com.skills:client
+
+# 创建 LUN 并绑定到后端存储
+/iscsi/iqn.2022-05.com.skills:server/tpg1/luns create /backstores/block/vg1
+
+# 查看配置
+ls
+
+# 退出
+exit
+</code></pre>
+<p><strong>WWN 命名规范：</strong></p>
+<ul>
+<li>格式：<code>iqn.yyyy-mm.反向域名:标识符</code></li>
+<li>服务端：<code>iqn.2022-05.com.skills:server</code></li>
+<li>客户端：<code>iqn.2022-05.com.skills:client</code></li>
+</ul>
+<h3>7. 启动服务</h3>
+<pre><code># 重启并启用 target 服务
+systemctl restart targetclid
+systemctl enable targetclid
+</code></pre>
+<hr />
+<h2>第二部分：iSCSI 客户端配置 (Linux4)</h2>
+<h3>1. 安装客户端工具</h3>
+<pre><code># 安装 iSCSI 客户端工具
+dnf install iscsi-initiator-utils -y
+</code></pre>
+<h3>2. 配置 Initiator 名称</h3>
+<pre><code>vim /etc/iscsi/initiatorname.iscsi
+</code></pre>
+<p><strong>修改为：</strong></p>
+<pre><code>InitiatorName=iqn.2022-05.com.skills:client
+</code></pre>
+<h3>3. 启动服务</h3>
+<pre><code># 重启并启用 iscsid 服务
+systemctl restart iscsid
+systemctl enable iscsid
+</code></pre>
+<h3>4. 发现 iSCSI 目标</h3>
+<pre><code># 搜索服务端的 iSCSI 目标
+iscsiadm -m discovery -t sendtargets -p 10.4.220.103
+</code></pre>
+<h3>5. 连接到 iSCSI 目标</h3>
+<pre><code># 登录到目标
+iscsiadm -m node -T iqn.2022-05.com.skills:server -p 10.4.220.103 --login
+
+# 查看连接会话
+iscsiadm -m session -o show
+
+# 重启服务使连接生效
+systemctl restart iscsid
+</code></pre>
+<h3>6. 验证磁盘</h3>
+<pre><code># 查看磁盘信息（应看到新磁盘 /dev/sda）
+lsblk
+
+# 重启系统以确认配置
+reboot
+
+# 重启后再次查看
+lsblk
+</code></pre>
+<h3>7. 创建挂载点</h3>
+<pre><code># 创建挂载目录
+mkdir -p /shareiscsi
+</code></pre>
+<h3>8. 配置开机自动挂载</h3>
+<pre><code>vim /etc/rc.d/rc.local
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>mount /dev/sda /shareiscsi
+</code></pre>
+<pre><code># 添加执行权限
+chmod +x /etc/rc.d/rc.local
+</code></pre>
+<h3>9. 测试挂载</h3>
+<pre><code># 手动挂载
+mount /dev/sda /shareiscsi
+
+# 查看挂载结果
+ls /shareiscsi/
+</code></pre>
+<hr />
+<h2>常用命令速查</h2>
+<h3>服务端命令</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>targetcli</code></td>
+<td>进入 iSCSI 配置界面</td>
+</tr>
+<tr>
+<td><code>ls</code></td>
+<td>在 targetcli 中查看配置</td>
+</tr>
+<tr>
+<td><code>systemctl status targetclid</code></td>
+<td>查看 target 服务状态</td>
+</tr>
+<tr>
+<td><code>targetcli ls</code></td>
+<td>查看 iSCSI 配置树</td>
+</tr>
+</tbody>
+</table>
+<h3>客户端命令</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>iscsiadm -m discovery -t st -p &lt;IP&gt;</code></td>
+<td>发现目标</td>
+</tr>
+<tr>
+<td><code>iscsiadm -m node -T &lt;IQN&gt; -p &lt;IP&gt; --login</code></td>
+<td>登录目标</td>
+</tr>
+<tr>
+<td><code>iscsiadm -m node -T &lt;IQN&gt; -p &lt;IP&gt; --logout</code></td>
+<td>登出目标</td>
+</tr>
+<tr>
+<td><code>iscsiadm -m session -o show</code></td>
+<td>查看会话</td>
+</tr>
+<tr>
+<td><code>iscsiadm -m node</code></td>
+<td>查看已发现的节点</td>
+</tr>
+</tbody>
+</table>
+<h3>存储管理命令</h3>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+</table>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>Ansible运维配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/ansible/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/ansible/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>Ansible配置</summary>
+    <content type="html"><![CDATA[<h1>Ansible 自动化运维配置</h1>
+<h2>1. 安装 Ansible</h2>
+<pre><code># 安装 Ansible
+yum install ansible -y
+</code></pre>
+<h2>2. 配置主机清单</h2>
+<pre><code># 批量添加主机到清单
+for i in {1..6}; do
+    echo "10.4.220.10$i" &gt;&gt; /etc/ansible/hosts
+done
+
+# 编辑主机清单，添加分组
+vim /etc/ansible/hosts
+</code></pre>
+<p><strong>添加以下内容：</strong></p>
+<pre><code>[db1]
+10.4.220.101
+10.4.220.102
+10.4.220.103
+
+[db2]
+10.4.220.104
+10.4.220.105
+10.4.220.106
+</code></pre>
+<h2>3. 测试连通性</h2>
+<pre><code># 测试所有主机的连通性
+ansible -m ping all
+
+# 测试特定组
+ansible -m ping db1
+ansible -m ping db2
+</code></pre>
+<h2>常用模块速查</h2>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ping</code></td>
+<td>测试连通性</td>
+</tr>
+<tr>
+<td><code>command</code></td>
+<td>执行命令</td>
+</tr>
+<tr>
+<td><code>shell</code></td>
+<td>执行 shell 命令</td>
+</tr>
+<tr>
+<td><code>copy</code></td>
+<td>复制文件</td>
+</tr>
+<tr>
+<td><code>yum</code></td>
+<td>包管理</td>
+</tr>
+<tr>
+<td><code>service</code></td>
+<td>服务管理</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>Apache HTTP 服务器配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/apache/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/apache/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>证书配置，HTTPS配置</summary>
+    <content type="html"><![CDATA[<h1>Apache HTTP 服务器配置</h1>
+<h2>1. 安装 Apache 和 SSL 模块</h2>
+<pre><code># 安装 httpd 和 mod_ssl
+dnf install mod_ssl httpd -y
+</code></pre>
+<h2>2. SSL 证书配置</h2>
+<h3>2.1 修改 SSL 配置文件</h3>
+<pre><code>vim /etc/httpd/conf.d/ssl.conf
+</code></pre>
+<p><strong>修改以下配置项：</strong></p>
+<pre><code># 指定服务器 SSL 证书文件路径
+SSLCertificateFile /etc/pki/tls/apache.crt
+
+# 指定与证书对应的私钥文件路径
+SSLCertificateKeyFile /etc/pki/tls/apache.key
+</code></pre>
+<h3>2.2 证书格式转换</h3>
+<pre><code>cd /etc/pki/tls
+
+# 1. 将证书和私钥合并为 PFX 文件
+openssl pkcs12 -export -in skills.crt -inkey skills.key -out skills.pfx
+# 输入密码两次
+
+# 2. 从 PFX 提取为 PEM 格式（未加密私钥）
+openssl pkcs12 -nodes -in skills.pfx -out skills.pem
+# 输入密码
+
+# 3. 从 PEM 提取 RSA 私钥
+openssl rsa -in skills.pem -out apache.key
+
+# 4. 从 PEM 提取 X.509 证书
+openssl x509 -in skills.pem -out apache.crt
+</code></pre>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li><code>pkcs12</code> - 使用 PKCS#12 格式处理证书和密钥（.pfx 文件）</li>
+<li><code>-export</code> - 导出模式，打包证书和私钥</li>
+<li><code>-nodes</code> - 不加密私钥（no DES）</li>
+<li><code>-in</code> - 指定输入文件</li>
+<li><code>-out</code> - 指定输出文件</li>
+</ul>
+<h2>3. 虚拟主机配置</h2>
+<pre><code>vim /etc/httpd/conf/httpd.conf
+</code></pre>
+<h3>HTTP (80端口) 配置</h3>
+<pre><code># 主域名虚拟主机
+&lt;VirtualHost *:80&gt;
+    ServerName www.skills.lan
+    DocumentRoot "/var/www/html"
+&lt;/VirtualHost&gt;
+
+# 子域名重定向到主域名
+&lt;VirtualHost *:80&gt;
+    ServerName linux1.skills.lan
+    ServerAlias *.skills.lan
+    Redirect permanent / https://www.skills.lan
+&lt;/VirtualHost&gt;
+
+# 禁止直接 IP 访问
+&lt;VirtualHost *:80&gt;
+    ServerName 10.4.220.101
+    Redirect 403 /
+&lt;/VirtualHost&gt;
+</code></pre>
+<h3>HTTPS (443端口) 配置</h3>
+<pre><code># HTTPS 主域名
+&lt;VirtualHost *:443&gt;
+    ServerName www.skills.lan
+    DocumentRoot "/var/www/html"
+    SSLEngine on
+    SSLCertificateFile /etc/pki/tls/apache.crt
+    SSLCertificateKeyFile /etc/pki/tls/apache.key
+&lt;/VirtualHost&gt;
+
+# HTTPS 子域名重定向
+&lt;VirtualHost *:443&gt;
+    ServerName linux1.skills.lan
+    ServerAlias *.skills.lan
+    Redirect permanent / https://www.skills.lan
+&lt;/VirtualHost&gt;
+
+# HTTPS 禁止 IP 访问
+&lt;VirtualHost *:443&gt;
+    ServerName 10.4.220.101
+    Redirect 403 /
+&lt;/VirtualHost&gt;
+</code></pre>
+<h2>4. 启动服务</h2>
+<pre><code># 创建测试页面
+echo "HelloApache" &gt; /var/www/html/index.html
+
+# 启动并启用服务
+systemctl restart httpd
+systemctl enable httpd
+</code></pre>
+<h2>5. DNS 配置</h2>
+<pre><code>vim /var/named/named.skills
+</code></pre>
+<p><strong>添加 DNS 记录：</strong></p>
+<pre><code>$TTL 86400
+@       IN      SOA     skills.lan. admin.skills.lan. (
+                        2024031601      ; Serial
+                        3600            ; Refresh
+                        1800            ; Retry
+                        604800          ; Expire
+                        86400 )         ; Minimum TTL
+
+        IN      NS      linux1.skills.lan.
+
+linux1  IN      A       10.4.220.101
+linux2  IN      A       10.4.220.102
+linux3  IN      A       10.4.220.103
+linux4  IN      A       10.4.220.104
+linux5  IN      A       10.4.220.105
+linux6  IN      A       10.4.220.106
+tomcat  IN      A       10.4.220.102
+www     IN      A       10.4.220.101
+*       IN      A       10.4.220.101
+</code></pre>
+<pre><code># 重启 DNS 服务
+systemctl restart named
+</code></pre>
+<h2>6. 测试</h2>
+<pre><code># 测试 HTTP
+curl http://www.skills.lan
+
+# 测试 HTTPS
+curl https://www.skills.lan
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>DNS,证书，NTP配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/dns%E9%85%8D%E7%BD%AE/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/dns%E9%85%8D%E7%BD%AE/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>使用Bind搭建DNS服务器，Chorny搭建NTP，并且给自己颁发证书</summary>
+    <content type="html"><![CDATA[<h1>DNS 服务器配置指南</h1>
+<h2>环境信息</h2>
+<table>
+<thead>
+<tr>
+<th>主机</th>
+<th>IP 地址</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux1</td>
+<td>10.4.220.101</td>
+<td>主 DNS + CA 服务器</td>
+</tr>
+<tr>
+<td>Linux2</td>
+<td>10.4.220.102</td>
+<td>备用 DNS 服务器</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>1. 基础网络配置</h2>
+<h3>Linux1 配置</h3>
+<pre><code>nmtui
+# Set system hostname: linux1
+# Edit connection:
+#   - Addresses: 10.4.220.101/24
+#   - Gateway: 10.4.220.1
+#   - DNS servers: 10.4.220.101, 10.4.220.102
+
+reboot
+</code></pre>
+<h3>Linux2 配置</h3>
+<pre><code>nmtui
+# Set system hostname: linux2
+# Edit connection:
+#   - Addresses: 10.4.220.102/24
+#   - Gateway: 10.4.220.1
+#   - DNS servers: 10.4.220.102, 10.4.220.101
+
+reboot
+</code></pre>
+<hr />
+<h2>2. 防火墙配置</h2>
+<pre><code># 放行 DNS 端口（53/tcp, 53/udp）
+firewall-cmd --zone=public --add-port=53/tcp --add-port=53/udp --permanent
+firewall-cmd --reload
+firewall-cmd --list-all
+</code></pre>
+<hr />
+<h2>3. SSH 免密登录配置</h2>
+<pre><code># 安装 expect
+dnf install expect -y
+
+# 创建自动化脚本
+cat &gt; ssh.sh &lt;&lt; 'EOF'
+#!/bin/bash
+ssh-keygen -t rsa -N "" -f ~/.ssh/id_rsa
+
+for i in {1..2}
+do
+    expect -c "
+    spawn ssh-copy-id root@10.4.220.10$i
+    expect {
+        \"yes/no\" { send yes\r; exp_continue }
+        \"password\" { send Key-1122\r }
+    }
+    expect eof
+    "
+done
+EOF
+
+bash ssh.sh
+
+# 测试登录
+ssh root@10.4.220.102
+</code></pre>
+<hr />
+<h2>4. NTP 时间同步 (Chrony)</h2>
+<h3>Linux1 (NTP 服务器)</h3>
+<pre><code>vim /etc/chrony.conf
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>server 10.4.220.101 iburst
+allow 10.4.220.0/24
+local stratum 10
+</code></pre>
+<pre><code>systemctl restart chronyd
+</code></pre>
+<h3>Linux2 (NTP 客户端)</h3>
+<pre><code>vim /etc/chrony.conf
+# 添加：
+server 10.4.220.101 iburst
+
+systemctl restart chronyd
+</code></pre>
+<hr />
+<h2>5. 主 DNS 服务器配置 (Linux1)</h2>
+<h3>5.1 安装 BIND</h3>
+<pre><code>dnf install bind bind-utils -y
+</code></pre>
+<h3>5.2 配置主配置文件</h3>
+<pre><code>vim /etc/named.conf
+</code></pre>
+<p><strong>修改：</strong></p>
+<pre><code>options {
+    listen-on port 53 { any; };
+    allow-query { any; };
+    allow-update { any; };
+    allow-transfer { 10.4.220.102; };  # 允许从服务器传输
+};
+</code></pre>
+<h3>5.3 配置区域文件</h3>
+<pre><code>vim /etc/named.rfc1912.zones
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>zone "skills.lan" IN {
+    type master;
+    file "named.skills";
+    allow-update { none; };
+};
+
+zone "220.4.10.in-addr.arpa" IN {
+    type master;
+    file "named.10";
+    allow-update { none; };
+};
+</code></pre>
+<h3>5.4 创建正向解析文件</h3>
+<pre><code>cd /var/named
+cp -a named.empty named.skills
+vim named.skills
+</code></pre>
+<p><strong>内容：</strong></p>
+<pre><code>$TTL 86400
+@       IN      SOA     skills.lan. admin.skills.lan. (
+                        2024031601      ; Serial
+                        3600            ; Refresh
+                        1800            ; Retry
+                        604800          ; Expire
+                        86400 )         ; Minimum TTL
+
+        IN      NS      linux1.skills.lan.
+        IN      NS      linux2.skills.lan.
+
+linux1  IN      A       10.4.220.101
+linux2  IN      A       10.4.220.102
+</code></pre>
+<h3>5.5 创建反向解析文件</h3>
+<pre><code>cp -a named.empty named.10
+vim named.10
+</code></pre>
+<p><strong>内容：</strong></p>
+<pre><code>$TTL 86400
+@       IN      SOA     skills.lan. admin.skills.lan. (
+                        2024031601      ; Serial
+                        3600            ; Refresh
+                        1800            ; Retry
+                        604800          ; Expire
+                        86400 )         ; Minimum TTL
+
+        IN      NS      linux1.skills.lan.
+
+101     IN      PTR     linux1.skills.lan.
+102     IN      PTR     linux2.skills.lan.
+</code></pre>
+<h3>5.6 启动服务</h3>
+<pre><code>systemctl restart named
+systemctl enable named
+</code></pre>
+<h3>5.7 测试</h3>
+<pre><code>nslookup linux1.skills.lan
+nslookup 10.4.220.102
+</code></pre>
+<hr />
+<h2>6. 备用 DNS 服务器配置 (Linux2)</h2>
+<h3>6.1 安装 BIND</h3>
+<pre><code>dnf install bind bind-utils -y
+</code></pre>
+<h3>6.2 配置主配置文件</h3>
+<pre><code>vim /etc/named.conf
+</code></pre>
+<p><strong>修改：</strong></p>
+<pre><code>options {
+    listen-on port 53 { any; };
+    allow-query { any; };
+};
+</code></pre>
+<h3>6.3 配置从区域</h3>
+<pre><code>vim /etc/named.rfc1912.zones
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>zone "skills.lan" IN {
+    type slave;
+    file "slaves/named.skills";
+    masters { 10.4.220.101; };
+    masterfile-format text;
+};
+
+zone "220.4.10.in-addr.arpa" IN {
+    type slave;
+    file "slaves/named.10";
+    masters { 10.4.220.101; };
+    masterfile-format text;
+};
+</code></pre>
+<h3>6.4 启动服务</h3>
+<pre><code># 创建 slaves 目录
+mkdir -p /var/named/slaves
+chown named:named /var/named/slaves
+
+systemctl restart named
+systemctl enable named
+</code></pre>
+<hr />
+<h2>7. CA 证书服务器配置 (Linux1)</h2>
+<h3>7.1 安装 OpenSSL</h3>
+<pre><code>dnf install openssl -y
+</code></pre>
+<h3>7.2 配置 OpenSSL</h3>
+<pre><code>vim /etc/pki/tls/openssl.cnf
+</code></pre>
+<p><strong>修改/添加：</strong></p>
+<pre><code>[ req ]
+req_extensions = v3_req
+
+[ v3_req ]
+basicConstraints = CA:TRUE
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = *.skills.lan
+DNS.2 = skills.lan
+</code></pre>
+<h3>7.3 初始化 CA 目录</h3>
+<pre><code>cd /etc/pki/CA
+
+# 创建必要文件
+touch index.txt
+echo 00 &gt; serial
+
+# 创建扩展配置文件
+cat &gt; a.conf &lt;&lt; EOF
+subjectAltName=DNS:skills.lan,DNS:*.skills.lan
+EOF
+</code></pre>
+<h3>7.4 生成 CA 根证书</h3>
+<pre><code># 生成 CA 私钥
+openssl genrsa -out private/cakey.pem 2048
+
+# 生成自签名 CA 证书（有效期10年）
+openssl req -x509 -key private/cakey.pem -out cacert.pem -days 3650
+# 填写信息：CN, Beijing, Beijing, skills, system, linux1.skills.lan
+</code></pre>
+<h3>7.5 签发服务器证书</h3>
+<pre><code>cd /etc/pki/CA
+
+# 生成服务器私钥
+openssl genrsa -out skills.key 2048
+
+# 生成证书请求
+openssl req -new -key skills.key -out skills.csr
+# 填写信息：CN, Beijing, Beijing, skills, system, skills.lan
+
+# 签发证书（有效期5年）
+openssl ca -extfile a.conf -in skills.csr -out skills.crt -days 1825
+# 输入 y 确认两次
+
+# 复制证书到目标位置
+cp skills.key skills.crt /etc/pki/tls/
+
+# 添加 CA 证书到系统信任库
+cat cacert.pem &gt;&gt; /etc/pki/tls/certs/ca-bundle.crt
+</code></pre>
+<hr />
+<h2>8. 禁用 SSH 密码认证</h2>
+<pre><code>vim /etc/ssh/sshd_config
+</code></pre>
+<p><strong>修改：</strong></p>
+<pre><code>PasswordAuthentication no
+</code></pre>
+<pre><code>systemctl restart sshd
+</code></pre>
+<hr />
+<h2>常用测试命令</h2>
+<pre><code># 测试正向解析
+nslookup linux1.skills.lan
+
+# 测试反向解析
+nslookup 10.4.220.101
+
+# 测试 DNS 服务器
+dig @10.4.220.101 linux1.skills.lan
+dig @10.4.220.102 linux1.skills.lan
+
+# 查看证书信息
+openssl x509 -in skills.crt -text -noout
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>MariaDB 数据库配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/mariadb%E9%85%8D%E7%BD%AE/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/mariadb%E9%85%8D%E7%BD%AE/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>使用MariaDB创建数据库并插入数据</summary>
+    <content type="html"><![CDATA[<h1>MariaDB 数据库配置</h1>
+<h2>1. 安装 MariaDB</h2>
+<pre><code># 安装 MariaDB
+dnf install mariadb-server -y
+
+# 启动并设置开机自启
+systemctl enable mariadb --now
+</code></pre>
+<h2>2. 初始化安全配置</h2>
+<pre><code>mysql_secure_installation
+</code></pre>
+<p><strong>操作步骤：</strong></p>
+<ol>
+<li>按回车跳过当前 root 密码（首次安装无密码）</li>
+<li>设置 root 密码（输入两次）</li>
+<li>其余选项按回车选择默认（Y）</li>
+</ol>
+<h2>3. 数据库基础操作</h2>
+<h3>3.1 登录数据库</h3>
+<pre><code>mysql -u root -p
+# 输入密码
+</code></pre>
+<h3>3.2 创建用户</h3>
+<pre><code>-- 创建远程访问用户
+GRANT ALL PRIVILEGES ON *.* TO 'xiao'@'10.4.220.103' 
+IDENTIFIED BY 'Key-1122';
+
+-- 刷新权限
+FLUSH PRIVILEGES;
+
+-- 查看用户列表
+SELECT user, host FROM mysql.user;
+</code></pre>
+<h3>3.3 创建数据库和表</h3>
+<pre><code>-- 创建数据库
+CREATE DATABASE userdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+
+-- 选择数据库
+USE userdb;
+
+-- 创建表
+CREATE TABLE userinfo (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(10),
+    height FLOAT,
+    birthday DATETIME,
+    sex VARCHAR(5),
+    password VARCHAR(200)
+);
+
+-- 查看表结构
+DESC userinfo;
+</code></pre>
+<h3>3.4 插入数据</h3>
+<pre><code>-- 单条插入（使用 MD5 加密密码）
+INSERT INTO userinfo (id, name, height, birthday, sex, password) 
+VALUES (1, 'user1', 1.61, '2000-07-01', 'M', MD5('user1'));
+
+INSERT INTO userinfo (id, name, height, birthday, sex, password) 
+VALUES (2, 'user2', 1.62, '2000-07-02', 'F', MD5('user2'));
+
+-- 查看数据
+SELECT * FROM userinfo;
+</code></pre>
+<h2>4. 批量数据导入</h2>
+<h3>4.1 准备数据文件</h3>
+<pre><code>mkdir -p /var/mariadb
+cd /var/mariadb
+
+# 创建数据文件
+cat &gt; userinfo.txt &lt;&lt; EOF
+3,user3,1.63,2000-07-03,F,user3
+4,user4,1.64,2000-07-04,M,user4
+5,user5,1.65,2000-07-05,M,user5
+6,user6,1.66,2000-07-06,F,user6
+7,user7,1.67,2000-07-07,F,user7
+8,user8,1.68,2000-07-08,M,user8
+9,user9,1.69,2000-07-09,F,user9
+EOF
+</code></pre>
+<h3>4.2 导入数据</h3>
+<pre><code>-- 使用 LOAD DATA 导入
+LOAD DATA LOCAL INFILE '/var/mariadb/userinfo.txt' 
+INTO TABLE userinfo 
+FIELDS TERMINATED BY ',' 
+LINES TERMINATED BY '\n'
+(id, name, height, birthday, sex, password) 
+SET password = MD5(password);
+</code></pre>
+<h3>4.3 解决权限问题</h3>
+<pre><code># 设置目录权限
+chmod 777 /var/mariadb/
+setenforce 0
+
+# 永久关闭 SELinux
+vim /etc/selinux/config
+# 修改：SELINUX=disabled
+</code></pre>
+<h2>5. 数据导出</h2>
+<h3>5.1 SQL 格式导出</h3>
+<pre><code>-- 导出表数据为 SQL 文件
+SELECT * FROM userinfo 
+INTO OUTFILE '/var/mariadb/userinfo.sql' 
+FIELDS TERMINATED BY ',';
+</code></pre>
+<h3>5.2 使用 mysqldump 备份</h3>
+<pre><code># 手动备份
+mysqldump -u root -p'Key-1122' userdb &gt; /var/mariadb/userdb.sql
+
+# 查看备份内容
+cat /var/mariadb/userdb.sql
+</code></pre>
+<h2>6. 定时自动备份</h2>
+<pre><code># 编辑 crontab
+crontab -e
+
+# 添加定时任务（每周五凌晨1点备份）
+0 1 * * 5 mysqldump -u root -p'Key-1122' userdb &gt; /var/mariadb/userdb.sql
+</code></pre>
+<h2>常用 SQL 命令速查</h2>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SHOW DATABASES;</code></td>
+<td>显示所有数据库</td>
+</tr>
+<tr>
+<td><code>USE dbname;</code></td>
+<td>选择数据库</td>
+</tr>
+<tr>
+<td><code>SHOW TABLES;</code></td>
+<td>显示所有表</td>
+</tr>
+<tr>
+<td><code>DESC tablename;</code></td>
+<td>查看表结构</td>
+</tr>
+<tr>
+<td><code>SELECT * FROM table;</code></td>
+<td>查询所有数据</td>
+</tr>
+<tr>
+<td><code>CREATE DATABASE db;</code></td>
+<td>创建数据库</td>
+</tr>
+<tr>
+<td><code>DROP DATABASE db;</code></td>
+<td>删除数据库</td>
+</tr>
+<tr>
+<td><code>GRANT ...</code></td>
+<td>授权</td>
+</tr>
+<tr>
+<td><code>FLUSH PRIVILEGES;</code></td>
+<td>刷新权限</td>
+</tr>
+</tbody>
+</table>
+<h2>常见问题</h2>
+<h3>1. 远程连接失败</h3>
+<pre><code># 检查防火墙
+firewall-cmd --add-port=3306/tcp --permanent
+firewall-cmd --reload
+
+# 检查 MariaDB 监听地址
+vim /etc/my.cnf.d/mariadb-server.cnf
+# 注释掉：bind-address = 127.0.0.1
+</code></pre>
+<h3>2. 导入文件权限错误</h3>
+<pre><code># 确保文件可读
+chmod 644 /var/mariadb/userinfo.txt
+
+# 临时关闭 SELinux
+setenforce 0
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>Samba配置</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/samba/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/samba/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>使用Samba搭建共享文件夹并配置对应权限与挂载到其他主机</summary>
+    <content type="html"><![CDATA[<h1>Samba 文件共享配置</h1>
+<h2>场景说明</h2>
+<ul>
+<li><strong>服务器</strong>: Linux1 (10.3.5.101)</li>
+<li><strong>共享目录</strong>: /srv/sharesmb</li>
+<li><strong>用户组</strong>: manager（读写）、dev（只读）</li>
+</ul>
+<hr />
+<h2>第一部分：Samba 服务器配置</h2>
+<h3>1. 创建用户和组</h3>
+<pre><code># 创建批量用户脚本
+cat &gt; a.sh &lt;&lt; 'EOF'
+#!/bin/bash
+for i in {00..19}
+do
+    useradd -M -s /sbin/nologin user$i
+done
+EOF
+
+bash a.sh
+
+# 创建用户组
+groupadd manager
+groupadd dev
+
+# 添加用户到组
+usermod -aG manager user00
+usermod -aG manager user01
+usermod -aG dev user02
+usermod -aG dev user03
+</code></pre>
+<h3>2. 添加 Samba 用户</h3>
+<pre><code># 批量添加 Samba 用户（密码：Key-1122）
+for i in {00..03}; do
+    echo -e "Key-1122\nKey-1122" | pdbedit -a -u user$i
+done
+
+# 或者单独添加
+smbpasswd -a user00
+smbpasswd -a user01
+smbpasswd -a user02
+smbpasswd -a user03
+</code></pre>
+<h3>3. 配置本地 YUM 源</h3>
+<pre><code>cd /etc/yum.repos.d
+rm -rf *
+
+# 创建本地源配置
+cat &gt; local.repo &lt;&lt; 'EOF'
+[AppStream]
+name=AppStream
+baseurl=file:///mnt/AppStream
+enabled=1
+gpgcheck=0
+
+[BaseOS]
+name=BaseOS
+baseurl=file:///mnt/BaseOS
+enabled=1
+gpgcheck=0
+EOF
+
+# 挂载光盘
+mount /dev/cdrom /mnt
+</code></pre>
+<h3>4. 安装 Samba</h3>
+<pre><code>dnf install samba samba-client -y
+</code></pre>
+<h3>5. 配置 Samba</h3>
+<pre><code>vim /etc/samba/smb.conf
+</code></pre>
+<p><strong>在文件末尾添加：</strong></p>
+<pre><code>[sharesmb]
+    comment = Shared Directory
+    path = /srv/sharesmb
+    browseable = yes
+    writable = yes
+    write list = @manager
+    read list = @dev
+    create mask = 1755
+    directory mask = 1644
+    valid users = @manager, @dev
+</code></pre>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li><code>write list = @manager</code> - manager 组成员可写</li>
+<li><code>read list = @dev</code> - dev 组成员只读</li>
+<li><code>create mask = 1755</code> - 新建文件权限</li>
+<li><code>directory mask = 1644</code> - 新建目录权限</li>
+</ul>
+<h3>6. 创建共享目录并设置权限</h3>
+<pre><code># 创建目录
+mkdir -p /srv/sharesmb
+
+# 设置目录权限
+chmod -R 1755 /srv/sharesmb
+
+# 设置属主和属组
+chown root:manager /srv/sharesmb
+
+# 设置 SELinux
+setsebool -P samba_enable_home_dirs on
+setsebool -P samba_export_all_rw on
+</code></pre>
+<h3>7. 启动服务</h3>
+<pre><code># 关闭防火墙（或放行 Samba）
+firewall-cmd --add-service=samba --permanent
+firewall-cmd --reload
+
+# 临时关闭 SELinux（测试用）
+setenforce 0
+
+# 启动 Samba 服务
+systemctl restart smb nmb
+systemctl enable smb nmb
+</code></pre>
+<h3>8. 测试配置</h3>
+<pre><code># 检查配置文件语法
+testparm
+
+# 查看 Samba 用户
+pdbedit -L
+</code></pre>
+<hr />
+<h2>第二部分：Samba 客户端配置</h2>
+<h3>1. 配置 YUM 源并安装客户端</h3>
+<pre><code>cd /etc/yum.repos.d
+rm -rf *
+
+cat &gt; local.repo &lt;&lt; 'EOF'
+[AppStream]
+name=AppStream
+baseurl=file:///mnt/AppStream
+enabled=1
+gpgcheck=0
+
+[BaseOS]
+name=BaseOS
+baseurl=file:///mnt/BaseOS
+enabled=1
+gpgcheck=0
+EOF
+
+mount /dev/cdrom /mnt
+
+# 安装 CIFS 工具
+dnf install cifs-utils -y
+</code></pre>
+<h3>2. 创建挂载点</h3>
+<pre><code>mkdir -p /sharesmb
+</code></pre>
+<h3>3. 配置自动挂载</h3>
+<pre><code>vim /etc/fstab
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>//10.3.5.101/sharesmb /sharesmb cifs username=user00,password=Key-1122,_netdev 0 0
+</code></pre>
+<p><strong>参数说明：</strong></p>
+<ul>
+<li><code>_netdev</code> - 表示网络文件系统，网络就绪后才挂载</li>
+<li><code>username</code> - Samba 用户名</li>
+<li><code>password</code> - Samba 密码</li>
+</ul>
+<h3>4. 挂载共享</h3>
+<pre><code># 重新加载 systemd
+systemctl daemon-reload
+
+# 挂载所有配置
+mount -a
+
+# 查看挂载情况
+df -h
+
+# 测试访问
+ls /sharesmb
+</code></pre>
+<hr />
+<h2>常用命令</h2>
+<h3>服务器端</h3>
+<pre><code># 查看 Samba 状态
+systemctl status smb
+
+# 查看当前连接
+smbstatus
+
+# 查看 Samba 用户列表
+pdbedit -L
+
+# 删除 Samba 用户
+smbpasswd -x username
+</code></pre>
+<h3>客户端</h3>
+<pre><code># 查看服务器共享列表
+smbclient -L //10.3.5.101 -U user00
+
+# 临时挂载
+mount -t cifs //10.3.5.101/sharesmb /mnt -o username=user00,password=Key-1122
+
+# 卸载
+umount /sharesmb
+</code></pre>
+<hr />
+<h2>故障排查</h2>
+<table>
+<thead>
+<tr>
+<th>问题</th>
+<th>解决方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>无法连接</td>
+<td>检查防火墙：<code>firewall-cmd --list-all</code></td>
+</tr>
+<tr>
+<td>权限拒绝</td>
+<td>检查 SELinux：<code>getenforce</code> 和 <code>setenforce 0</code></td>
+</tr>
+<tr>
+<td>认证失败</td>
+<td>确认用户已添加：<code>pdbedit -L</code></td>
+</tr>
+<tr>
+<td>无法写入</td>
+<td>检查组权限：<code>ls -la /srv/sharesmb</code></td>
+</tr>
+<tr>
+<td>挂载失败</td>
+<td>检查网络连通性：<code>ping 10.3.5.101</code></td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>Tomcat+Nginx</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/tomcat%E4%B8%8Enginx/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/tomcat%E4%B8%8Enginx/</id>
+    <published>2026-03-24T00:00:00.000Z</published>
+    <updated>2026-03-24T00:00:00.000Z</updated>
+    <summary>使用Tomcat搭建均衡负载并使用Nginx反代</summary>
+    <content type="html"><![CDATA[<h1>Tomcat + Nginx 负载均衡配置</h1>
+<h2>环境架构</h2>
+<table>
+<thead>
+<tr>
+<th>主机</th>
+<th>IP 地址</th>
+<th>角色</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Linux1</td>
+<td>10.4.220.101</td>
+<td>CA 证书服务器</td>
+</tr>
+<tr>
+<td>Linux2</td>
+<td>10.4.220.102</td>
+<td>Nginx 反向代理/负载均衡</td>
+</tr>
+<tr>
+<td>Linux3</td>
+<td>10.4.220.103</td>
+<td>Tomcat A</td>
+</tr>
+<tr>
+<td>Linux4</td>
+<td>10.4.220.104</td>
+<td>Tomcat B</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>第一部分：Tomcat A 配置 (Linux3)</h2>
+<h3>1. 安装 Java 和 Tomcat</h3>
+<pre><code>dnf install java-17-openjdk* tomcat -y
+</code></pre>
+<h3>2. 修改 Tomcat 服务配置</h3>
+<pre><code>vim /usr/lib/systemd/system/tomcat.service
+</code></pre>
+<p><strong>修改用户：</strong></p>
+<pre><code>User=root
+Group=root
+</code></pre>
+<h3>3. 配置 server.xml</h3>
+<pre><code>vim /etc/tomcat/server.xml
+</code></pre>
+<p><strong>修改 HTTP 端口 (约第69行)：</strong></p>
+<pre><code>&lt;Connector port="80" protocol="HTTP/1.1"
+           connectionTimeout="20000"
+           redirectPort="443" /&gt;
+</code></pre>
+<p><strong>添加 HTTPS 连接器：</strong></p>
+<pre><code>&lt;Connector port="443" protocol="org.apache.coyote.http11.Http11NioProtocol"
+           maxThreads="150" SSLEnabled="true"
+           scheme="https" secure="true"
+           sslProtocol="TLS"&gt;
+    &lt;SSLHostConfig&gt;
+        &lt;Certificate certificateKeystoreFile="/etc/ssl/skills.jks"
+                     certificateKeystorePassword="Key-1122"
+                     type="RSA" /&gt;
+    &lt;/SSLHostConfig&gt;
+&lt;/Connector&gt;
+</code></pre>
+<p><strong>修改默认主机 (约第132行)：</strong></p>
+<pre><code>&lt;Engine name="Catalina" defaultHost="linux3.skills.lan"&gt;
+</code></pre>
+<p><strong>配置虚拟主机 (约第152行)：</strong></p>
+<pre><code>&lt;Host name="linux3.skills.lan"  appBase="webapps"
+      unpackWARs="true" autoDeploy="true"&gt;
+&lt;/Host&gt;
+
+&lt;!-- 禁止 IP 直接访问 --&gt;
+&lt;Host name="10.4.220.103" appBase="ipapps"
+      unpackWARs="true" autoDeploy="true"
+      xmlValidation="false" xmlNamespaceAware="false"&gt;
+&lt;/Host&gt;
+</code></pre>
+<h3>4. 创建测试页面</h3>
+<pre><code>echo "tomcatA" &gt; /usr/share/tomcat/webapps/ROOT/index.jsp
+cat /usr/share/tomcat/webapps/ROOT/index.jsp
+</code></pre>
+<hr />
+<h2>第二部分：Tomcat B 配置 (Linux4)</h2>
+<p>配置与 Linux3 基本相同，只需修改以下内容：</p>
+<pre><code>vim /etc/tomcat/server.xml
+</code></pre>
+<p><strong>修改：</strong></p>
+<pre><code>&lt;!-- 第132行 --&gt;
+&lt;Engine name="Catalina" defaultHost="linux4.skills.lan"&gt;
+
+&lt;!-- 第152行 --&gt;
+&lt;Host name="linux4.skills.lan" appBase="webapps"
+      unpackWARs="true" autoDeploy="true"&gt;
+&lt;/Host&gt;
+
+&lt;Host name="10.4.220.104" appBase="ipapps"
+      unpackWARs="true" autoDeploy="true"
+      xmlValidation="false" xmlNamespaceAware="false"&gt;
+&lt;/Host&gt;
+</code></pre>
+<pre><code>echo "tomcatB" &gt; /usr/share/tomcat/webapps/ROOT/index.jsp
+</code></pre>
+<hr />
+<h2>第三部分：证书分发和 JKS 转换</h2>
+<h3>1. 从 Linux1 分发证书</h3>
+<pre><code># 在 Linux1 上执行
+cd /etc/pki/tls/
+for i in {1..4}; do
+    scp skills.crt skills.key root@10.4.220.10$i:/etc/ssl/
+done
+</code></pre>
+<h3>2. 转换 PFX 为 JKS (Linux3)</h3>
+<pre><code>cd /etc/ssl
+
+# 将 PFX 转换为 JKS 格式
+keytool -importkeystore \
+    -srckeystore skills.pfx \
+    -destkeystore skills.jks \
+    -deststoretype JKS
+
+# 输入密码三次（Key-1122）
+</code></pre>
+<h3>3. 复制 JKS 到 Linux4</h3>
+<pre><code># 在 Linux3 上执行
+scp skills.jks root@10.4.220.104:/etc/ssl/
+</code></pre>
+<h3>4. 启动 Tomcat</h3>
+<pre><code># Linux3 和 Linux4 分别执行
+systemctl restart tomcat
+systemctl enable tomcat
+
+# 检查端口
+ss -tunlp | grep java
+</code></pre>
+<h3>5. 配置 hosts 文件</h3>
+<pre><code>vim /etc/hosts
+</code></pre>
+<p><strong>添加：</strong></p>
+<pre><code>10.4.220.102 linux2.skills.lan
+10.4.220.102 tomcat.skills.lan
+10.4.220.103 linux3.skills.lan
+10.4.220.104 linux4.skills.lan
+</code></pre>
+<pre><code># 同步到所有主机
+for i in {1..4}; do
+    scp /etc/hosts root@10.4.220.10$i:/etc/
+done
+</code></pre>
+<h3>6. 测试 Tomcat</h3>
+<pre><code># HTTP 测试
+curl linux3.skills.lan
+curl linux4.skills.lan
+
+# HTTPS 测试（跳过证书验证）
+curl https://linux3.skills.lan -k
+curl https://linux4.skills.lan -k
+
+# HTTPS 测试（使用证书）
+curl --cacert skills.crt https://linux3.skills.lan
+
+# IP 访问测试（应被禁止或返回错误）
+curl 10.4.220.103
+curl https://10.4.220.103 -k
+</code></pre>
+<hr />
+<h2>第四部分：Nginx 负载均衡配置 (Linux2)</h2>
+<h3>1. 安装 Nginx</h3>
+<pre><code>dnf install nginx -y
+</code></pre>
+<h3>2. 关闭 SELinux</h3>
+<pre><code>vim /etc/selinux/config
+# 修改：SELINUX=disabled
+
+setenforce 0
+</code></pre>
+<h3>3. 配置 Nginx</h3>
+<pre><code>vim /etc/nginx/nginx.conf
+</code></pre>
+<p><strong>删除默认 server 块（约第12行）</strong></p>
+<h3>4. 创建自定义配置</h3>
+<pre><code>vim /etc/nginx/conf.d/default.conf
+</code></pre>
+<p><strong>完整配置：</strong></p>
+<pre><code># 默认服务器 - 禁止直接 IP 访问
+server {
+    listen 80 default_server;
+    listen 443 ssl http2 default_server;
+    server_name _;
+    return 403;
+    
+    ssl_certificate /etc/ssl/skills.crt;
+    ssl_certificate_key /etc/ssl/skills.key;
+}
+
+# linux2.skills.lan - HTTP 重定向到 HTTPS
+server {
+    listen 80;
+    server_name linux2.skills.lan;
+    return 301 https://$server_name$request_uri;
+}
+
+# linux2.skills.lan - HTTPS
+server {
+    listen 443 ssl http2;
+    server_name linux2.skills.lan;
+    root /usr/share/nginx/html;
+    
+    ssl_certificate /etc/ssl/skills.crt;
+    ssl_certificate_key /etc/ssl/skills.key;
+    
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+
+# Tomcat 负载均衡配置
+upstream tomcat_backend {
+    server 10.4.220.103:443;
+    server 10.4.220.104:443;
+}
+
+# tomcat.skills.lan - HTTP 重定向
+server {
+    listen 80;
+    server_name tomcat.skills.lan;
+    return 301 https://$server_name$request_uri;
+}
+
+# tomcat.skills.lan - HTTPS 代理到 Tomcat
+server {
+    listen 443 ssl http2;
+    server_name tomcat.skills.lan;
+    
+    ssl_certificate /etc/ssl/skills.crt;
+    ssl_certificate_key /etc/ssl/skills.key;
+    
+    location / {
+        proxy_pass https://tomcat_backend;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+</code></pre>
+<h3>5. 创建测试页面</h3>
+<pre><code>echo "HelloNginx" &gt; /usr/share/nginx/html/index.html
+</code></pre>
+<h3>6. 启动 Nginx</h3>
+<pre><code>systemctl restart nginx
+systemctl enable nginx
+</code></pre>
+<hr />
+<h2>第五部分：测试验证</h2>
+<h3>1. 测试 Nginx</h3>
+<pre><code># HTTP 自动跳转 HTTPS
+curl -I http://linux2.skills.lan
+
+# HTTPS 访问
+curl https://linux2.skills.lan -k
+</code></pre>
+<h3>2. 测试 Tomcat 负载均衡</h3>
+<pre><code># 多次访问，观察轮询效果
+curl https://tomcat.skills.lan -k
+curl https://tomcat.skills.lan -k
+curl https://tomcat.skills.lan -k
+</code></pre>
+<h3>3. 测试证书</h3>
+<pre><code># 使用 CA 证书验证（无警告）
+curl --cacert skills.crt https://tomcat.skills.lan
+
+# 浏览器访问测试
+# 确保证书已导入浏览器信任库
+</code></pre>
+<hr />
+<h2>常用命令</h2>
+<pre><code># 检查 Nginx 配置
+nginx -t
+
+# 重载配置
+systemctl reload nginx
+
+# 查看错误日志
+tail -f /var/log/nginx/error.log
+
+# 查看访问日志
+tail -f /var/log/nginx/access.log
+
+# 检查 Tomcat 状态
+systemctl status tomcat
+
+# 查看 Tomcat 日志
+tail -f /var/log/tomcat/catalina.out
+</code></pre>
+<hr />
+<h2>故障排查</h2>
+<table>
+<thead>
+<tr>
+<th>问题</th>
+<th>排查方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nginx 无法启动</td>
+<td><code>nginx -t</code> 检查配置语法</td>
+</tr>
+<tr>
+<td>502 Bad Gateway</td>
+<td>检查 Tomcat 是否运行，防火墙是否放行</td>
+</tr>
+<tr>
+<td>证书错误</td>
+<td>确认证书路径正确，权限正确</td>
+</tr>
+<tr>
+<td>负载不均衡</td>
+<td>检查 upstream 配置，确认后端服务正常</td>
+</tr>
+<tr>
+<td>无法访问</td>
+<td>检查 hosts 文件，DNS 解析</td>
+</tr>
+</tbody>
+</table>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Linux"></category>
+  </entry>
+  <entry>
+    <title>26.3.9Python作业</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/202639python%E4%BD%9C%E4%B8%9A/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/202639python%E4%BD%9C%E4%B8%9A/</id>
+    <published>2026-03-09T00:00:00.000Z</published>
+    <updated>2026-03-09T00:00:00.000Z</updated>
+    <summary>26.3.9Python作业</summary>
+    <content type="html"><![CDATA[<h1>26.3.9Python作业</h1>
+<h2>第一题</h2>
+<h4>题目：用户输入一个数字，判断是否为质数</h4>
+<h4>讲解：质数是指只能被1和它本身整除的自然数。判断一个数是否为质数，可以通过以下步骤：</h4>
+<ol>
+<li>如果输入的数小于2，则不是质数。</li>
+<li>如果输入的数等于2，则是质数。</li>
+<li>如果输入的数大于2，则需要判断它是否能被2到√n之间的任何数整除。如果不能，则是质数；如果能，则不是质数。
+Python代码实现如下：</li>
+</ol>
+<pre><code>n = int(input())
+if n &lt; 2:
+    print('No')
+else:
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:  # 能整除，说明不是质数
+            print('No')
+            break
+    else:  # 循环正常结束（没有被break），说明是质数
+        print('Yes')
+</code></pre>
+<h2>第二题</h2>
+<h4>题目：打印九九乘法表</h4>
+<p>Python代码实现如下：</p>
+<pre><code>for i in range(1, 10):
+    for j in range(1, i + 1):
+        print(f'{j}*{i}={i*j}', end=' ')
+    print()  # 换行
+</code></pre>
+<h2>第三题</h2>
+<h4>题目：公鸡5元一只，母鸡3元一只，小鸡1元三只，用100元买100只鸡，问公鸡、母鸡、小鸡各多少只？</h4>
+<h4>讲解：这是一个经典的数学问题，可以通过枚举法来解决。我们可以设公鸡的数量为x，母鸡的数量为y，小鸡的数量为z，根据题意可以得到以下两个方程：</h4>
+<p>$$
+x+y+z=100
+$$
+$$
+5x+3y+z/3=100
+$$
+我们可以通过枚举x、y、z的所有可能值，来求解这个问题。Python代码实现如下：</p>
+<pre><code>for x in range(0, 21):
+    for y in range(0, 34):
+        z = 100 - x - y
+        if 5*x + 3*y + z/3 == 100:
+            print(f'公鸡{x}只，母鸡{y}只，小鸡{z}只')
+</code></pre>
+<h2>第四题</h2>
+<h4>题目：用户输入一个数字，判断它是否为回文数</h4>
+<h4>讲解：回文数是指正着读和反着读都一样的数字。判断一个数是否为回文数，可以通过以下步骤：</h4>
+<ol>
+<li>将输入的数转换为字符串。</li>
+<li>判断字符串是否等于它的反转字符串。</li>
+<li>如果相等，则是回文数；如果不相等，则不是回文数。
+Python代码实现如下：
+:::warning
+该方法虽然简单，但因为老师要求我们使用字符串切片，所以这里不推荐使用。
+:::</li>
+</ol>
+<p>~服了，凭什么有好用的方法不给用~</p>
+<pre><code>n = input()
+if n == n[::-1]:
+    print('Yes')
+else:
+    print('No')
+</code></pre>
+<p>下面为满分代码：</p>
+<pre><code>n = int(input())
+number = n 
+reversed_num = 0
+while n &gt; 0:
+    digit = n % 10          # 取出最后一位
+    reversed_num = reversed_num * 10 + digit  # 拼到反转数后面
+    n = n // 10             # 去掉最后一位
+if number == reversed_num:
+    print('Yes')
+else:
+    print('No')
+</code></pre>
+<p>:spoiler[只能说也是够神人了]</p>
+<h2>第五题</h2>
+<h4>题目: 计算1-1/3+1/5-1/7+...-1/97+1/99的和</h4>
+<h4>讲解：这是一个交替级数，可以通过循环来计算。我们可以使用一个变量来累加结果，并根据当前项的奇偶性来决定是加还是减。</h4>
+<p>Python代码实现如下：</p>
+<pre><code>total = 1
+count = 0
+for i in range(3, 100, 2):
+    count += 1
+    if count % 2 != 0:
+        total -= 1/i
+    else:
+        total += 1/i
+print(total)
+</code></pre>
+<p>至此，第五题也完成了。</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>26.3.3Python作业</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/2633python%E4%BD%9C%E4%B8%9A/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/2633python%E4%BD%9C%E4%B8%9A/</id>
+    <published>2026-03-03T00:00:00.000Z</published>
+    <updated>2026-03-03T00:00:00.000Z</updated>
+    <summary>26.3.3Python作业</summary>
+    <content type="html"><![CDATA[<h1>26.3.3Python作业</h1>
+<h2>第一题</h2>
+<h4>题目：</h4>
+<p>输入<code>a</code>、<code>b</code>、<code>c</code> 3个参数，求解<code>ax²+bx+c=0</code>的两个根，假定<code>b²-4ac&gt;0</code></p>
+<h4>讲解：</h4>
+<p>其本质就是求解一元二次方程的根，根据公式：
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+就可以推导出两个根为：
+$$
+x_1=\frac{-b+\sqrt{b^2-4ac}}{2a}
+$$
+$$
+x_2=\frac{-b-\sqrt{b^2-4ac}}{2a}
+$$</p>
+<p>Python代码实现如下：</p>
+<pre><code>import math
+
+a, b, c = map(int, input().split())
+delta = b**2 - 4*a*c#计算判别式
+x1 = (-b + math.sqrt(delta)) / (2*a)#计算第一个根
+x2 = (-b - math.sqrt(delta)) / (2*a)#计算第二个根
+
+print(x1, x2)
+</code></pre>
+<h2>第二题</h2>
+<h4>题目：</h4>
+<p>输入<code>a</code>、<code>b</code>、<code>c</code> 3个参数，以他们作为三角形的三条边，判断是否可以构成一个三角形，如能则进一步计算其面积。三角形的面积S可以通过以下公式计算：</p>
+<p>$$
+S=\sqrt{p(p-a)(p-b)(p-c)}
+$$</p>
+<p>其中<code>P=(a+b+c)/2</code></p>
+<h4>讲解：</h4>
+<p>首先需要判断输入的三条边是否可以构成一个三角形，条件是任意两边之和大于第三边，即：
+$$
+a+b&gt;c
+$$
+$$
+b+c&gt;a
+$$
+$$
+c+a&gt;b
+$$
+如果满足以上条件，则可以构成一个三角形。接下来计算三角形的面积，首先计算半周长<code>P</code>，然后使用公式计算面积。
+Python代码实现如下：</p>
+<pre><code>import math
+a, b, c = map(int, input().split())
+if a+b&gt;c and b+c&gt;a and c+a&gt;b: #判断是否构成三角形
+    p = (a+b+c)/2 #计算半周长
+    s = math.sqrt(p*(p-a)*(p-b)*(p-c)) #计算三角形面积
+    print(s)
+else:
+    print("不能构成三角形")
+</code></pre>
+<h4>题目：</h4>
+<p>输入一个字母，判断它是否为小写字母</p>
+<h4>讲解：</h4>
+<p>判断一个字母是否为小写字母，只需要判断它的ASCII码是否在<code>97</code>到<code>122</code>之间即可。
+Python代码实现如下：</p>
+<pre><code>letter = input()
+if 97 &lt;= ord(letter) &lt;= 122: #ord()函数可以返回字符的ASCII码
+    print("是小写字母")
+else:
+    print("不是小写字母")
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>洛谷P1003</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1003/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1003/</id>
+    <published>2026-02-07T00:00:00.000Z</published>
+    <updated>2026-02-07T00:00:00.000Z</updated>
+    <summary>洛谷P1003做法</summary>
+    <content type="html"><![CDATA[<h1>P1003 [NOIP 2011 提高组] 铺地毯</h1>
+<p><a href="https://www.luogu.com.cn/problem/P1003">原题跳转</a></p>
+<h2>原题描述：</h2>
+<p>为了准备一个独特的颁奖典礼，组织者在会场的一片矩形区域（可看做是平面直角坐标系的第一象限）铺上一些矩形地毯。一共有 $n$ 张地毯，编号从 $1$ 到 $n$。现在将这些地毯按照编号从小到大的顺序平行于坐标轴先后铺设，后铺的地毯覆盖在前面已经铺好的地毯之上。</p>
+<p>地毯铺设完成后，组织者想知道覆盖地面某个点的最上面的那张地毯的编号。注意：在矩形地毯边界和四个顶点上的点也算被地毯覆盖。</p>
+<h3>输入格式</h3>
+<p>输入共 $n + 2$ 行。</p>
+<p>第一行，一个整数 $n$，表示总共有 $n$ 张地毯。</p>
+<p>接下来的 $n$ 行中，第 $i+1$ 行表示编号 $i$ 的地毯的信息，包含四个整数 $a ,b ,g ,k$，每两个整数之间用一个空格隔开，分别表示铺设地毯的左下角的坐标 $(a, b)$ 以及地毯在 $x$ 轴和 $y$ 轴方向的长度。</p>
+<p>第 $n + 2$ 行包含两个整数 $x$ 和 $y$，表示所求的地面的点的坐标 $(x, y)$。</p>
+<h3>输出格式</h3>
+<p>输出共 $1$ 行，一个整数，表示所求的地毯的编号；若此处没有被地毯覆盖则输出 <code>-1</code>。</p>
+<h3>输入输出样例 #1</h3>
+<h4>输入 #1</h4>
+<pre><code>3
+1 0 2 3
+0 2 3 3
+2 1 3 3
+2 2
+
+</code></pre>
+<h4>输出 #1</h4>
+<pre><code>3
+
+</code></pre>
+<h3>输入输出样例 #2</h3>
+<h4>输入 #2</h4>
+<pre><code>3
+1 0 2 3
+0 2 3 3
+2 1 3 3
+4 5
+</code></pre>
+<h4>输出 #2</h4>
+<pre><code>-1
+</code></pre>
+<h3>说明/提示</h3>
+<p>【样例解释 1】</p>
+<p>如下图，$1$ 号地毯用实线表示，$2$ 号地毯用虚线表示，$3$ 号用双实线表示，覆盖点 $(2,2)$ 的最上面一张地毯是 $3$ 号地毯。</p>
+<p><img src="https://cdn.luogu.com.cn/upload/image_hosting/q4izfzpb.png" alt="" /></p>
+<p>【数据范围】</p>
+<p>对于 $30%$ 的数据，有 $n \le 2$。<br />
+对于 $50%$ 的数据，$0 \le a, b, g, k \le 100$。<br />
+对于 $100%$ 的数据，有 $0 \le n \le 10^4$, $0 \le a, b, g, k \le {10}^5$。</p>
+<p>noip2011 提高组 day1 第 $1$ 题。</p>
+<h2>题目分析</h2>
+<p>题目要求我们找出覆盖某个点的最上面一张地毯的编号。由于地毯是按照编号从小到大的顺序铺设的，因此我们可以从最后一张地毯开始检查，直到找到覆盖该点的地毯为止。</p>
+<h3>解题思路</h3>
+<ol>
+<li>读取输入数据，存储每张地毯的信息。</li>
+<li>枚举出每张地毯的信息，并将其存放进列表</li>
+<li>对列表从尾部开始倒序查询，如果覆盖，则输出该地毯的编号并结束程序。</li>
+<li>检查到当前地毯没有数值则输出<code>-1</code></li>
+</ol>
+<p>:::tip
+题目要求后面铺的地毯需要覆盖前面铺的地毯，利用倒序查询从最后的开始查，查到有的话就结束程序，查不到就输出<code>-1</code>，因为提前结束了程序，所以不需要担心前面的地毯会影响后面铺的地毯。
+:::</p>
+<h2>题解：</h2>
+<pre><code>n=int(input())#读取地毯数量
+carpets=[]#存储地毯信息
+for _ in range(n):#读取每张地毯的信息
+    a,b,g,k = map(int,input().split())#a,b为左下角坐标，g,k为地毯在x轴和y轴方向的长度
+    carpets.append((a, b, a+g, b+k))#将地毯的左下角和右上角坐标存储在列表中
+x,y=map(int,input().split())#读取所求点的坐标
+for i in range(n-1,-1,-1):#从最后一张地毯开始检查
+    a,b,x2,y2=carpets[i]#获取当前地毯的左下角和右上角坐标
+    if a&lt;=x&lt;=x2 and b&lt;=y&lt;=y2:#检查该地毯是否覆盖点(x,y)
+        print(i+1)#输出该地毯的编号（编号从1开始）
+        exit()#结束程序
+print(-1)#如果没有地毯覆盖点(x,y)，输出-1
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>Python 语句：For、While 与 If 判断</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/python%E8%AF%AD%E5%8F%A5%E8%AE%B2%E8%A7%A3/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/python%E8%AF%AD%E5%8F%A5%E8%AE%B2%E8%A7%A3/</id>
+    <published>2026-01-09T00:00:00.000Z</published>
+    <updated>2026-01-09T00:00:00.000Z</updated>
+    <summary>For 循环、While 循环和 If 判断教程</summary>
+    <content type="html"><![CDATA[<h1>Python 语句：If、While 与 For</h1>
+<h2>学习目标</h2>
+<ul>
+<li>理解 <code>if</code> / <code>while</code> / <code>for</code> 的基本语法和使用场景。</li>
+<li>学会把现实问题拆解成“状态”、“事件规则（循环体）”与“终止条件/判断（if/break）”。</li>
+<li>能读懂并运行示例代码，理解每行注释所表达的含义。</li>
+</ul>
+<hr />
+<h2>1. If 条件判断（分支与逻辑，最简单）</h2>
+<p><code>if</code> 用于根据条件执行不同分支，最适合检查边界或决定是否执行某段操作。</p>
+<p>示例 1：判断一个数是正、负或零。</p>
+<p>解题思路：根据大小关系分三种情况，分别输出不同信息。</p>
+<pre><code># 示例：判断正负零
+x = 3
+if x &gt; 0:
+    print("正数")
+elif x == 0:
+    print("零")
+else:
+    print("负数")
+</code></pre>
+<p>示例 2：判断一个年份是否为闰年。
+解题思路：闰年规则为能被 4 整除但不能被 100 整除，或能被 400 整除。</p>
+<pre><code># 示例：判断闰年
+year = int(input("请输入年份："))
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):#如果年能被4整除且不能被100整除，或者能被400整除
+    print("是闰年")#如果是闰年则输出是闰年
+else:#否则输出不是闰年
+    print("不是闰年")
+</code></pre>
+<h2>2. While 循环（基于条件的重复，进阶）</h2>
+<p><code>while</code> 适合当循环次数不确定时使用。</p>
+<pre><code>while 循环成立的条件:
+    循环体（重复执行的代码）
+</code></pre>
+<p><code>while</code> 循环会持续执行循环体，直到条件不成立为止。
+并且循环里面的代码块需要缩进，并且循环里面可以使用 <code>if</code> 语句来判断某些条件，从而决定是否继续循环或者跳出循环，甚至嵌套使用多个循环。</p>
+<h3>泳池注水</h3>
+<p>题目：出水管每小时排 10 立方米，进水管每小时进 15 立方米，泳池总容积 1000 立方米，同时打开需要多少小时？</p>
+<p>用 <code>while</code> 逐小时模拟以处理边界和非整数小时情形。</p>
+<pre><code>water = 0      # 当前水量（立方米）
+time = 0        # 已过小时数
+while water &lt; 1000:
+    # 先进水再出水（此顺序与模型假设有关）
+    water += 15  # 进水管
+    water -= 10  # 出水管
+    time += 1
+
+print(f"需要{time}小时才能加满，最终水量为{water}立方米")
+</code></pre>
+<h3>桃树与猴子（中等）</h3>
+<p>题目：两棵桃树初始共有 3 颗桃子；猴子每 3 天吃 1 颗桃子；每过 7 天树长 1 颗桃子/树（两棵树共 +2）。问多少天后猴子没桃子吃？</p>
+<p>解题思路：用 <code>days</code> 推进天数，按天检查是否为第 7 的倍数（长桃）与第 3 的倍数（吃桃），在吃桃时判断库存是否为 0。</p>
+<pre><code>tree = 3   # 初始桃子数
+days = 0   # 天数计数
+
+while True:
+    days += 1
+
+    # 每 7 天，树长 2 颗（两棵树各 +1）
+    if days % 7 == 0:
+        tree += 2
+
+    # 每 3 天猴子吃 1 颗
+    if days % 3 == 0:
+        if tree == 0:# 如果桃子数为0
+            print(f'猴子第 {days} 天没饭吃')
+            break
+        else:
+            tree -= 1
+</code></pre>
+<p>说明：<code>while True</code> 常用于“直到某条件发生才退出”的场景，内部用 <code>break</code> 结束循环。</p>
+<hr />
+<h2>3. For 循环（遍历与枚举，适合枚举解法）</h2>
+<p><code>for</code> 常用于枚举可能性或遍历集合。例题由易到难：求和示例、母鸡问题（枚举优化）、质数练习。</p>
+<h3>求和与奇数倒数（入门）</h3>
+<p>示例：计算 1 到 9 的和；以及 1/1 + 1/3 + ... + 1/99 的和。</p>
+<pre><code># 求和示例
+S = 0
+for i in range(1, 10):
+    S += i
+print(S)
+
+# 奇数倒数示例
+S = 0.0
+for i in range(1, 100, 2):
+    S += 1 / i
+print(S)
+</code></pre>
+<h3>母鸡、公鸡、小鸡（中等）</h3>
+<p>题目回顾：母鸡 5 块/只，公鸡 3 块/只，小鸡 3 只 1 块。用 100 块买 100 只鸡，三种鸡至少各 1 只，求所有购买方式。</p>
+<p>解题思路：枚举母鸡和公鸡数量，计算小鸡数量并检查价格与可整除条件。枚举范围可通过简单约束缩小，例如母鸡最多 20 只（5*20=100）。</p>
+<p>详细可运行代码（含注释）：</p>
+<pre><code>count = 0
+
+#+ 母鸡最多 20 只（超出价格上限），最少 1 只
+for x in range(1, 21):
+    # 公鸡至少 1 只，最多可以由剩余数量决定
+    for y in range(1, 100 - x):
+        z = 100 - x - y  # 小鸡数量
+
+        # 小鸡必须至少 1 且能被 3 整除
+        if z &gt;= 1 and (5*x + 3*y + z/3) == 100:
+            print(f'母鸡：{x} 只，公鸡：{y} 只，小鸡：{z} 只')
+            count += 1
+print(f'总方案数：{count}')
+</code></pre>
+<hr />
+<h2>4. 混合题（较难）</h2>
+<h3>五人分鱼（经典椰子问题的变体）</h3>
+<p>题目：五个人（A、B、C、D、E）夜里分鱼：每人醒来把鱼分成 5 份，发现多 1 条（扔掉 1 条），拿走自己的一份，剩下的合并。五人依次操作，第六天早上刚好能被 5 整除。求最少最初有多少条鱼。</p>
+<p>解题思路：暴力搜索初始鱼数，从小往大模拟 5 次分鱼过程；每一步判断 <code>temp % 5 == 1</code>，满足则更新 <code>temp = (temp - 1) // 5 * 4</code> 并继续。</p>
+<p>示例代码（逐行注释）：</p>
+<pre><code>fish = 1
+while True:
+    temp = fish
+    ok = True
+    for i in range(5):
+        if temp % 5 != 1:
+            ok = False
+            break
+        # 丢掉 1 条，拿走 1/5，剩下 4/5
+        temp = (temp - 1) // 5 * 4
+
+    # 经过 5 次分配都满足条件，则 fish 是答案
+    if ok and temp % 5 == 0:
+        print(f'最少捕了 {fish} 条鱼')
+        break
+    fish += 1
+</code></pre>
+<p>提示：在某些变体中需要检查“第二天早上能被 5 整除”的条件（上例中 <code>temp % 5 == 0</code> 可视情况调整）。</p>
+<hr />
+<h2>5. 题目联系</h2>
+<p>将将！ 现在就有一道题目等你来挑战：
+某某小卖部做活动，买玻璃瓶可乐，每凑齐3个瓶盖，可以换购一瓶玻璃瓶可乐，每凑齐5个瓶子，也能换购一瓶玻璃瓶可乐
+班长知道后，一口气买了100只，问，班长总共能喝多少只可乐</p>
+<blockquote>
+<p>[!TIP]
+（提示：可以用while循环模拟喝可乐和换购的过程,并且不要忘记换来的可乐也有瓶子和盖子哦！）</p>
+</blockquote>
+<p>&lt;details&gt;
+&lt;summary&gt;这题答案在这：&lt;/summary&gt;</p>
+<pre><code>cap = bottle = total = 100#初始瓶盖和瓶子数量均为100
+while cap &gt;= 3 or bottle &gt;= 5:#当瓶盖大于等于3或者瓶子大于等于5时循环
+    temp = cap // 3 + bottle // 5#计算能换购的可乐数量
+    total += temp#更新总共喝的可乐数量
+    cap = cap % 3 + temp#更新瓶盖数量，余下的加上新喝的可乐产生的瓶盖
+    bottle = bottle % 5 + temp#更新瓶子数量，余下的加上新喝的可乐产生的瓶子
+print(f'班长总共能喝{total}只可乐')
+</code></pre>
+<p>&lt;/details&gt;</p>
+<p>&lt;details&gt;
+&lt;summary&gt;小彩蛋&lt;/summary&gt;
+&lt;iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1d44y1z7EB&amp;p=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &amp;autoplay=0&gt; &lt;/iframe&gt;</p>
+<p>~我真的好累~
+&lt;/details&gt;</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>计算奇数倒数和</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%97%E5%A5%87%E6%95%B0%E5%80%92%E6%95%B0%E5%92%8C/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%97%E5%A5%87%E6%95%B0%E5%80%92%E6%95%B0%E5%92%8C/</id>
+    <published>2025-12-16T00:00:00.000Z</published>
+    <updated>2025-12-16T00:00:00.000Z</updated>
+    <summary>计算1/1+1/3.....1/99的和</summary>
+    <content type="html"><![CDATA[<h1>计算奇数倒数和</h1>
+<p><strong>题目要求:</strong>
+计算S，S为
+$S=\frac{1}{1}+\frac{1}{3}+\frac{1}{5}.....+\frac{1}{99}$</p>
+<h2>题目要求分析</h2>
+<p>题目要计算奇数的倒数和，既然要做这么多次加法，那我们就要用到循环<code>while</code>
+如何表达 $\frac{1}{n}$ 呢？用<code>1/n</code>（即1除于n）来表达就行啦~
+并且我们知道了<strong>n不会大于等于100</strong>（即while循环的终止条件）</p>
+<h2>While循环解法</h2>
+<p>那么我们就可以得出：</p>
+<pre><code>n=1#从1/1开始
+S=0# 用于存储倒数之和
+while n&lt;100:#当n小于100时循环执行
+    S=S+1/n#S加上目前的1/n
+    n=n+2#让n每次循环+2，即1，3，5，7，9....99
+print(S)
+</code></pre>
+<h3>流程图：</h3>
+<pre><code>flowchart TD
+    A[开始] --&gt; B[n = 1]
+    B --&gt; C[S = 0]
+    C --&gt; D{n &lt; 100?}
+    D -- 是 --&gt; E[S = S + 1/n]
+    E --&gt; F[n = n + 2]
+    F --&gt; D
+    D -- 否 --&gt; G[输出 S]
+    G --&gt; H[结束]
+</code></pre>
+<h2>For循环解法（进阶）</h2>
+<pre><code>S=0#初始化S
+for i in range(1,100,2):#历遍1-99，步长为2
+    S+=1/i
+print(S)
+</code></pre>
+<h3>流程图：</h3>
+<pre><code>flowchart TD
+    A(["开始"]) --&gt; B["S = 0"]
+    B --&gt; C["i = 1"]
+    C --&gt; D{"i &lt; 100?"}
+    D -- "是" --&gt; E["S = S + 1 / i"]
+    E --&gt; F["i = i + 2"]
+    F --&gt; D
+    D -- "否" --&gt; G["print(S)"]
+    G --&gt; H(["结束"])
+</code></pre>
+<blockquote>
+<p>[!TIP]
+有没有发现while循环与for循环除了变量名不一样结构完全一样？Bingo！在结构上二者的循环是完全一样的（即等价），只是写法不同和简易难度不同罢了</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>进制转换</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</id>
+    <published>2025-12-12T00:00:00.000Z</published>
+    <updated>2025-12-12T00:00:00.000Z</updated>
+    <summary>二进制，十进制，十六进制互相转换</summary>
+    <content type="html"><![CDATA[<h1>进制转换</h1>
+<p>计算机只认识 0 和 1，所以我们用<strong>二进制</strong>；</p>
+<p>人类习惯 0~9，所以用<strong>十进制</strong>；</p>
+<p>为了书写方便，又引入<strong>十六进制</strong>（0-9 + A-F）。</p>
+<p>现在，我们要学会在这三种之间自由切换。</p>
+<hr />
+<h2>一、十进制转二进制</h2>
+<p>先花 5 秒选路线，再动手：</p>
+<table>
+<thead>
+<tr>
+<th>场景</th>
+<th>推荐算法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数字 ≤ 255 且需要口算</td>
+<td><strong>减权法</strong>（最快）</td>
+</tr>
+<tr>
+<td>数字很大 / 要写程序</td>
+<td><strong>除 2 取余法</strong>（最稳）</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>✅ 主干：减权法（口算 0–255 专用）</h4>
+<p>口诀：<br />
+<strong>从高权到低权，能减写 1 减，不能写 0 跳。</strong></p>
+<h3>减权法</h3>
+<p>口诀：<strong>“从高权到低权，能减写1减，不能写0跳。”</strong></p>
+<blockquote>
+<p>[!TIP]
+小知识：什么是“权值”？</p>
+</blockquote>
+<p>在进制表示中，每一位都有一个固定的“权重”，称为权值。</p>
+<p>例如，在二进制中，从右往左第 0 位权值是 $2^0=1$，第 1 位是 $2^1=2$，第 2 位是 $2^2=4$，依此类推。</p>
+<p>所以 8 位二进制的权值从左到右是：128, 64, 32, 16, 8, 4, 2, 1。</p>
+<blockquote></blockquote>
+<p>具体 3 步：</p>
+<ol>
+<li>列权：<code>128 64 32 16 8 4 2 1</code>（固定顺序）</li>
+<li>逐位判：
+<ul>
+<li>当前余数 ≥ 权值 → 该位写 1，余数减去与之相比的数</li>
+<li>当前余数 &lt; 权值 → 该位写 0，余数不变</li>
+</ul>
+</li>
+<li>按顺序写下 0/1，就是二进制
+如100来进行运算：</li>
+</ol>
+<pre><code>100 &lt; 128(权值) 所以该位为0，并且不进行减去操作
+100 &gt; 64(权值) 所以该位为1，并且减去64
+36（余数） &gt; 32 所以该位为1，并且减去32
+后面省略，所以100二进制位为01100100
+</code></pre>
+<p><strong>实际操作</strong>
+以 192 为例：</p>
+<pre><code>权值序列：128  64  32  16  8  4  2  1
+——————————————————————————————
+192 ≥ 128  → 第8位写 1，余 192−128 = 64
+64 ≥ 64    → 第7位写 1，余 64−64  = 0
+0 &lt; 32     → 第6位写 0，余 0
+0 &lt; 16     → 第5位写 0，余 0
+0 &lt; 8      → 第4位写 0，余 0
+0 &lt; 4      → 第3位写 0，余 0
+0 &lt; 2      → 第2位写 0，余 0
+0 &lt; 1      → 第1位写 0，余 0
+结果：`11000000`
+</code></pre>
+<h3>方法二：除 2 取余，倒序读</h3>
+<blockquote>
+<p>[!NOTE]
+此方法为扩展，可跳过</p>
+</blockquote>
+<p>你不断用数字除以 2，记录每次的<strong>余数</strong>，直到商为 0。最后把余数<strong>从下往上读</strong>，就是二进制。</p>
+<p>举个栗子（<code>n = 13</code>）：</p>
+<p>$$
+\begin{array}{r|r|r}
+\text{除法} &amp; \text{商} &amp; \text{余数} \
+\hline
+13 \div 2 &amp; 6 &amp; 1 \
+6 \div 2 &amp; 3 &amp; 0 \
+3 \div 2 &amp; 1 &amp; 1 \
+1 \div 2 &amp; 0 &amp; 1 \
+\end{array}
+$$</p>
+<p>$$
+13_{10} = 1101_2
+$$</p>
+<p>所以：</p>
+<p>所以十进制 13 等于二进制 1101（写作 $13_10=1101_2$）。</p>
+<h2>二、二进制转十进制</h2>
+<p>按位乘权值再相加。</p>
+<p>二进制从右往左，权值依次是：$2^0=1,\ 2^1=2,\ 2^2=4,\ 2^3=8,\ ...$</p>
+<p>举个栗子：<code>1101</code></p>
+<table>
+<thead>
+<tr>
+<th>位（从右）</th>
+<th>3</th>
+<th>2</th>
+<th>1</th>
+<th>0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>二进制位</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>权值</td>
+<td>8</td>
+<td>4</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>计算</td>
+<td>1×8</td>
+<td>1×4</td>
+<td>0×2</td>
+<td>1×1</td>
+</tr>
+</tbody>
+</table>
+<p>然后再  $8+4+0+1=13$
+那么<code>1101</code>转成十进制就是<code>13</code>啦</p>
+<hr />
+<p>​</p>
+<h2>三、十进制 ↔ 十六进制</h2>
+<p>你可以：</p>
+<ol>
+<li>先转二进制，再转十六进制（推荐初学者）</li>
+<li>或直接用<strong>除 16 取余法</strong></li>
+<li></li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>十进制</th>
+<th>十六进制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>7</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8</td>
+</tr>
+<tr>
+<td>9</td>
+<td>9</td>
+</tr>
+<tr>
+<td>10</td>
+<td>A</td>
+</tr>
+<tr>
+<td>11</td>
+<td>B</td>
+</tr>
+<tr>
+<td>12</td>
+<td>C</td>
+</tr>
+<tr>
+<td>13</td>
+<td>D</td>
+</tr>
+<tr>
+<td>14</td>
+<td>E</td>
+</tr>
+<tr>
+<td>15</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+十六进制中，10-15 用字母 A-F 表示，这是标准写法，编程和网络中通用。</p>
+</blockquote>
+<p>举个栗子：200 转十六进制</p>
+<table>
+<thead>
+<tr>
+<th>步骤</th>
+<th>计算过程</th>
+<th>商</th>
+<th>余数</th>
+<th>十六进制对应位</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>200 ÷ 16</td>
+<td>12</td>
+<td>8</td>
+<td>8</td>
+</tr>
+<tr>
+<td>2</td>
+<td>12 ÷ 16</td>
+<td>0</td>
+<td>12</td>
+<td>C（因为 12 → C）</td>
+</tr>
+</tbody>
+</table>
+<p><strong>方法一</strong>：除16取余法（推荐用于整数）
+步骤：</p>
+<p>将十进制数不断除以 <code>16</code>，记录每次的余数。
+余数若为 <code>10~15</code>，则分别用 <code>A~F</code> 表示。
+将所有余数倒序排列，即为对应的十六进制数。
+例子：将 <code>200</code> 转换为十六进制</p>
+<p><code>200 ÷ 16 = 12 余 8</code>
+<code>12 ÷ 16 = 0 余 12 → C</code>
+→ 余数倒序：C 8 → 十六进制为 C8
+<strong>方法二</strong>：利用二进制作为中介（适合熟悉二进制的人）
+步骤：</p>
+<p>先将十进制数转为二进制。
+从右往左，每 4 位二进制一组（不足补 0）。
+每组转为对应的十六进制数字（0000=0, ..., 1111=F）。
+例子：200 → 二进制是 11001000</p>
+<p>补齐为 4 位一组：1100 1000
+对应十六进制：C 8 → C8</p>
+<p>反过来，<code>C8</code> 转十进制：<br />
+C = 12，8 = 8<br />
+→ $12 \times 16^1 + 8 \times 16^0 = 192 + 8 = 200$</p>
+<blockquote>
+<p>[!TIP]
+一定要熟记十进制与十六进制对照表</p>
+</blockquote>
+<p><strong>十六进制转十进制</strong>
+例如<code>2FB1</code>
+先将<code>2FB1</code>每个值转换成十进制</p>
+<pre><code>2=2
+F=15
+B=11
+1=1
+</code></pre>
+<p>$2\times16^3+1\times16^2+11\times16^1+1\times16^0=12209$</p>
+<p>即 $2\times16^3+F\times16^2+B\times16^1+1\times16^0=12209$</p>
+<blockquote>
+<p>[!NOTE]
+十六进制转十进制公式是：$N = d_0 \times 16^0 + d_1 \times 16^1 + \dots + d_k \times 16^k$</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]
+十进制的<code>123456</code>用这个公式表达就是 $1\times10^5+2\times10^4+3\times10^3+4\times10^2+5\times10^1+6\times10^0$</p>
+</blockquote>
+<h1>总结</h1>
+<p>附上二进制，十进制，十六进制对照表</p>
+<table>
+<thead>
+<tr>
+<th>二进制</th>
+<th>十进制</th>
+<th>十六进制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0000</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0001</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0010</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>0011</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>0100</td>
+<td>4</td>
+<td>4</td>
+</tr>
+<tr>
+<td>0101</td>
+<td>5</td>
+<td>5</td>
+</tr>
+<tr>
+<td>0110</td>
+<td>6</td>
+<td>6</td>
+</tr>
+<tr>
+<td>0111</td>
+<td>7</td>
+<td>7</td>
+</tr>
+<tr>
+<td>1000</td>
+<td>8</td>
+<td>8</td>
+</tr>
+<tr>
+<td>1001</td>
+<td>9</td>
+<td>9</td>
+</tr>
+<tr>
+<td>1010</td>
+<td>10</td>
+<td>A</td>
+</tr>
+<tr>
+<td>1011</td>
+<td>11</td>
+<td>B</td>
+</tr>
+<tr>
+<td>1100</td>
+<td>12</td>
+<td>C</td>
+</tr>
+<tr>
+<td>1101</td>
+<td>13</td>
+<td>D</td>
+</tr>
+<tr>
+<td>1110</td>
+<td>14</td>
+<td>E</td>
+</tr>
+<tr>
+<td>1111</td>
+<td>15</td>
+<td>F</td>
+</tr>
+</tbody>
+</table>
+<p>:::caution
+这个表一定要重点记住哦，记不住二进制跟十六进制的没关系，一定要记住十进制到十六进制的关系
+:::</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="计算机网络基础"></category>
+  </entry>
+  <entry>
+    <title>Python解题方法</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/python%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/python%E8%A7%A3%E9%A2%98%E6%96%B9%E6%B3%95/</id>
+    <published>2025-11-29T00:00:00.000Z</published>
+    <updated>2025-11-29T00:00:00.000Z</updated>
+    <summary>Python解题思路讲解</summary>
+    <content type="html"><![CDATA[<h1>Python解题思路讲解</h1>
+<h2>一、水仙花计数判断</h2>
+<h3>1. 读懂题目</h3>
+<p><strong>题目：</strong>
+输入一个三位数，判断这个三位数是否是水仙花数，所谓水仙花数是指一个三位数，其各位数字⽴方和等于该数本身。例如:153是⼀个⽔仙花数,因为 1³ + 5³ + 3³ 等于 153
+<strong>首先我们得拆解题意</strong></p>
+<ul>
+<li>题目需要有输入/输入</li>
+<li>题目需要判断</li>
+<li>题目需要计算</li>
+</ul>
+<h3>2. 拆解题意</h3>
+<p>先把题目拆成“三件小事”：</p>
+<ol>
+<li>拿到一个三位数 → 输入</li>
+<li>把它的百、十、个位分别拎出来 → 计算</li>
+<li>看看立方和等不等于它本身 → 判断</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>输入</th>
+<th>计算过程</th>
+<th>期望输出</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>153</td>
+<td>1³+5³+3³=1+125+27=153</td>
+<td>是</td>
+</tr>
+<tr>
+<td>120</td>
+<td>1³+2³+0³=1+8+0=9 ≠120</td>
+<td>否</td>
+</tr>
+<tr>
+<td>371</td>
+<td>3³+7³+1³=27+343+1=371</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+小结：只要“立方和 == 原数”就是水仙花数，代码里对应一个 <code>if</code> 判断。</p>
+</blockquote>
+<p><strong>可得：</strong></p>
+<ul>
+<li>有<code>input</code>赋值</li>
+<li>有<code>if</code>语句判断</li>
+<li>需要对计算结果进行判断，计算公式为 $1^3 + 5^3 + 3^3 = x$</li>
+</ul>
+<blockquote>
+<p>[!TIP]
+一句话口诀<br />
+输入 → 拆位 → 立方和 → if 判断 → 输出 True/False</p>
+</blockquote>
+<h3>3. 逻辑梳理</h3>
+<p>为了更清楚的了解流程,以下是流程图：</p>
+<pre><code>flowchart TD
+    A([开始]) --&gt; B[/输入三位数 n/]
+    B --&gt; E[百位 a ← n//100]
+    E --&gt; F[十位 b ← n//10 % 10]
+    F --&gt; G[个位 c ← n % 10]
+    G --&gt; I{a³+b³+c³ == n ?}
+    I -- 是 --&gt; J[输出 True]
+    I -- 否 --&gt; K[输出 False]
+    J --&gt; L([结束])
+    K --&gt; L
+</code></pre>
+<h3>4. 编写代码</h3>
+<p>由上面的流程图可得：</p>
+<pre><code>n = int(input())          
+a = n // 100              # 百位
+b = (n // 10) % 10        # 十位
+c = n % 10                # 个位
+if a**3 + b**3 + c**3 == n:
+    print("True")         # 题目要求输出 True/False 也行
+else:
+    print("False")
+</code></pre>
+<p>运行结果测试：</p>
+<table>
+<thead>
+<tr>
+<th>手工输入</th>
+<th>屏幕输出</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>153</code>↵</td>
+<td><code>True</code></td>
+<td>153 是水仙花数</td>
+</tr>
+<tr>
+<td><code>120</code>↵</td>
+<td><code>False</code></td>
+<td>120 不是</td>
+</tr>
+<tr>
+<td><code>371</code>↵</td>
+<td><code>True</code></td>
+<td>371 是水仙花数</td>
+</tr>
+</tbody>
+</table>
+<h3>小结</h3>
+<p>你知道吗？三位数中只有 4 个水仙花数：153、370、371、407。你可以试试输入它们，看看是不是都输出 True！</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>网络与运算</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E4%B8%8E%E8%BF%90%E7%AE%97/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E4%B8%8E%E8%BF%90%E7%AE%97/</id>
+    <published>2025-11-29T00:00:00.000Z</published>
+    <updated>2025-11-29T00:00:00.000Z</updated>
+    <summary>ip，子网，与运算</summary>
+    <content type="html"><![CDATA[<h1>IP与子网掩码判断网络</h1>
+<h2>IP介绍</h2>
+<p>IP（Internet Protocol，互联网协议）是用于在网络中传输数据的一套规则，是互联网通信的基础之一。它的主要作用是为网络中的设备分配唯一的地址（即 IP 地址），并规定数据如何从源设备发送到目标设备。
+<strong>一句话解释：</strong>
+你可以理解为是属于网络设备的“身份证号”，只不过是这个身份证号可以随时更换，只要<strong>不重复</strong>就行了</p>
+<h3>日常使用情况讲解</h3>
+<p>我们目前用的大多都是IPv4，即互联网协议第四版，目前在使用的有IPv4与IPv6，由于IPv4池里面的IP在<em>2019年11月26日</em>分配完毕，为了解决枯竭就推出了IPv6（互联网协议第六版）
+既然IPv6是为了解决IPv4的地址枯竭问题，那理所当然IPv6比IPv4长了<strong>亿点点</strong></p>
+<ul>
+<li>IPv4 是 32 位地址</li>
+<li>IPv6 是 128 位地址</li>
+</ul>
+<p>且它们的表示方式也不同。就拿我本机 IP 举例：</p>
+<table>
+<thead>
+<tr>
+<th>IPv4</th>
+<th>IPv6</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>192.168.31.222</td>
+<td>240e:3bb:2e77:4c60: **** : **** : **** : ****</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>[!NOTE]
+由于 IPv6 是公网 IP，为了避免泄露，这里用 <code>*</code> 号打码。</p>
+</blockquote>
+<hr />
+<blockquote>
+<p>[!NOTE]
+由于IPv6不是本文重点所以暂且不谈</p>
+</blockquote>
+<h2>IPv4地址与二进制</h2>
+<p><strong>1. IPv4地址格式</strong>
+IPv4地址由<strong>32位二进制数</strong>组成，通常分成4个**8位（1字节）**的部分，每部分转换成十进制，用点隔开，称为“点分十进制”。
+例如：<code>192.168.1.1</code></p>
+<h4>转换为二进制</h4>
+<p>每个十进制数（0~255）对应8位二进制数：</p>
+<table>
+<thead>
+<tr>
+<th>十进制</th>
+<th>二进制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>192</td>
+<td>11000000</td>
+</tr>
+<tr>
+<td>168</td>
+<td>10101000</td>
+</tr>
+<tr>
+<td>1</td>
+<td>00000001</td>
+</tr>
+<tr>
+<td>1</td>
+<td>00000001</td>
+</tr>
+</tbody>
+</table>
+<p>所以：
+<code>192.168.1.1 = 11000000.10101000.00000001.00000001</code></p>
+<h3>转换方式</h3>
+<p>那么如何快速的将10进制的ip转换成二进制的呢
+有两个小妙招：
+<strong>除2取余法</strong>：
+用 2 除十进制数，记录余数（0 或 1）。<br />
+把得到的商再除以 2，再记录余数。<br />
+重复直到商变为 0。<br />
+把所有余数从最后一个到第一个倒序排列，就是对应的二进制。</p>
+<p>以 192 为例：</p>
+<pre><code>192 ÷ 2 = 96  余 0
+ 96 ÷ 2 = 48  余 0
+ 48 ÷ 2 = 24  余 0
+ 24 ÷ 2 = 12  余 0
+ 12 ÷ 2 = 6   余 0
+  6 ÷ 2 = 3   余 0
+  3 ÷ 2 = 1   余 1
+  1 ÷ 2 = 0   余 1
+</code></pre>
+<h4>方法二：减权法（推荐！更快）</h4>
+<p>口诀：<strong>“从高权到低权，能减写1减，不能写0跳。”</strong></p>
+<p>具体 3 步：</p>
+<ol>
+<li>列权：<code>128 64 32 16 8 4 2 1</code>（固定顺序）</li>
+<li>逐位判：
+<ul>
+<li>当前余数 ≥ 权值 → 该位写 1，余数减去与之相比的数</li>
+<li>当前余数 &lt; 权值 → 该位写 0，余数不变</li>
+</ul>
+</li>
+<li>按顺序写下 0/1，就是二进制
+如100来进行运算：</li>
+</ol>
+<pre><code>100 &lt; 128(权值) 所以该位为0，并且不进行减去操作
+100 &gt; 64(权值) 所以该位为1，并且减去64
+36（余数） &gt; 32 所以该位为1，并且减去32
+后面省略，所以100二进制位为011*****
+</code></pre>
+<p><strong>实际操作</strong>
+以 192 为例：</p>
+<pre><code>权值序列：128  64  32  16  8  4  2  1
+——————————————————————————————
+192 ≥ 128  → 第8位写 1，余 192−128 = 64
+64 ≥ 64    → 第7位写 1，余 64−64  = 0
+0 &lt; 32     → 第6位写 0，余 0
+0 &lt; 16     → 第5位写 0，余 0
+0 &lt; 8      → 第4位写 0，余 0
+0 &lt; 4      → 第3位写 0，余 0
+0 &lt; 2      → 第2位写 0，余 0
+0 &lt; 1      → 第1位写 0，余 0
+结果：`11000000`
+</code></pre>
+<h2>子网掩码</h2>
+<p>IP 地址分为 <strong>主机位</strong> 与 <strong>网络位</strong>：</p>
+<ul>
+<li><strong>网络位</strong>：表示“这段地址属于哪个子网”——相同网络位的 IP 在同一子网。</li>
+<li><strong>主机位</strong>：表示“在该子网内能分给主机用的地址个数”——主机位全 0 是网络地址，全 1 是广播地址，其余可分配给主机。</li>
+</ul>
+<p><strong>子网掩码</strong>便是用于区分 IP 中哪些是网络位、哪些是主机位的工具。<br />
+换句话说，它帮助我们计算出当前 IP 所在网段的起始地址（网络地址）。</p>
+<blockquote>
+<p>[!NOTE]
+子网掩码也需要转换成二进制进行运算。它有两种常见表示形式：</p>
+</blockquote>
+<ul>
+<li>点分十进制：如 <code>255.255.255.0</code></li>
+<li>CIDR 表示法：如 <code>/24</code>，表示前 24 位是 1，其余为 0</li>
+</ul>
+<blockquote></blockquote>
+<p>具体的计算方式就要设计我们的<strong>与运算</strong>了</p>
+<h3>与运算</h3>
+<p>假设已知某设备的 IP 是 <code>192.168.10.131/24</code>，但不知道它所在子网的起始地址。该如何计算？</p>
+<p><strong>步骤 1：将 IP 和子网掩码转为二进制</strong>
+首先我们得把IP和子网掩码都转换为二进制：</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>十进制</th>
+<th>二进制</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IP</td>
+<td>192.168.10.131</td>
+<td>11000000.10101000.00001010.10000011</td>
+</tr>
+<tr>
+<td>子网掩码</td>
+<td>255.255.255.0</td>
+<td>11111111.11111111.11111111.00000000</td>
+</tr>
+</tbody>
+</table>
+<p><strong>步骤 2：对每一位做“与运算”</strong></p>
+<p>与运算规则很简单：</p>
+<ul>
+<li>两个位都为 <code>1</code> → 结果为 <code>1</code></li>
+<li>只要有一个是 <code>0</code> → 结果为 <code>0</code></li>
+</ul>
+<p>即：</p>
+<pre><code>  11000000.10101000.00001010.10000011
+&amp; 11111111.11111111.11111111.00000000
+------------------------------------
+  11000000.10101000.00001010.00000000 #都为1结果即是1，有一方为0则结果为0
+</code></pre>
+<p><strong>步骤 3：将结果转回十进制</strong></p>
+<pre><code>11000000 → 192
+10101000 → 168
+00001010 → 10
+00000000 → 0
+</code></pre>
+<p>所以，网络地址 = <code>192.168.10.0</code></p>
+<p>这就是 <code>192.168.10.131</code> 所在子网的“起点”。</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="计算机网络基础"></category>
+  </entry>
+  <entry>
+    <title>MySQL例题</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/mysql%E4%BE%8B%E9%A2%98/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/mysql%E4%BE%8B%E9%A2%98/</id>
+    <published>2025-11-26T00:00:00.000Z</published>
+    <updated>2025-11-26T00:00:00.000Z</updated>
+    <summary>MySQL的实体关系，E-R图与指令学习</summary>
+    <content type="html"><![CDATA[<h1>MySQL讲解</h1>
+<h2>题目示例</h2>
+<p>1．<strong>教学管理系统数据库设计</strong>
+学校有若干个<code>系</code>，每个系有各自的<code>系号</code>、<code>系名</code>和<code>系主任</code>；每个<code>系</code>有若干名<code>教师</code>和<code>学生</code>，<code>教师</code>有<em>教师号</em>、<em>教师名</em>和<em>职称属性</em>，每个<code>教师</code>可以<strong>担任</strong>若干门<code>课程</code>，一门<code>课程</code>只能由一位<code>教师</code> <strong>讲授</strong>，<code>课程</code>有<em>课程号</em>、<em>课程名</em>和<em>学分</em>；<code>教师</code>可以参加多项<code>科研项目</code>，一个<code>项目</code>有<strong>多人合作</strong>，且责任轻重有<em>排名</em>，项目有<em>项目号</em>、<em>名称</em>和<em>负责人</em>；<code>学生</code>有<em>学号</em>、<em>姓名</em>、<em>年龄</em>、<em>性别</em>，每个<code>学生</code>可以同时选修<strong>多门课程</strong>，选修课程后有相应科目的<em>考试成绩</em>。</p>
+<h3>题目分析</h3>
+<p><strong>首先，我们得需要明确有哪些实体，关系与属性</strong></p>
+<ul>
+<li>实体：系，教师，学生，课程项目</li>
+<li>属性由于太多，就不一一标出了，为上文斜体字</li>
+<li>关系：要注意是一对多或多对多等，这里要注意题目用的是什么量词，为上文加粗字</li>
+</ul>
+<h3>关系</h3>
+<p>明确了有哪些属性后，我们就得把他们列成关系模型，如下：</p>
+<ul>
+<li>系(&lt;u&gt;系号&lt;/u&gt;，系名，系主任)</li>
+<li>教师(&lt;u&gt;教师号&lt;/u&gt;，教师名，职称属性，<strong>系号</strong>)</li>
+<li>课程(&lt;u&gt;课程号&lt;/u&gt;，课程名，学分，<strong>教师号</strong>)</li>
+<li>学生(&lt;u&gt;学号&lt;/u&gt;，姓名，年龄，性别，<strong>系号</strong>)</li>
+<li>项目(&lt;u&gt;项目号&lt;/u&gt;，项目名称，负责人，<strong>系号</strong>)
+以下是外键清单</li>
+<li>教师参加项目(&lt;u&gt;教师号&lt;/u&gt;,&lt;u&gt;项目号&lt;/u&gt;)</li>
+<li>选课(&lt;u&gt;学号&lt;/u&gt;，&lt;u&gt;课程号&lt;/u&gt;，考试成绩)</li>
+</ul>
+<hr />
+<blockquote>
+<p>[!CAUTION]
+在表内的外键按照老师要求需要用黄色打底来标注，由于我这边做不到所以我用加粗代替</p>
+</blockquote>
+<p>在描述关系模型的时候我们就要关注如何分配<strong>外键</strong>了</p>
+<blockquote>
+<p>[!TIP]
+外键的来源：为了在关系模型表达当实体与实体产生联系，需要在属性里加上别的实体的主键用于表明这两个表产生了联系</p>
+</blockquote>
+<h3>E-R图</h3>
+<pre><code>erDiagram
+    系 {
+    char(4) 系号 PK
+    varchar(50) 系名
+    varchar(20) 系主任
+}
+
+教师 {
+    char(8) 教师号 PK
+    varchar(20) 教师名
+    varchar(10) 职称
+    char(4) 系号 FK
+}
+
+学生 {
+    char(10) 学号 PK
+    varchar(20) 姓名
+    int 年龄
+    char(2) 性别
+    char(4) 系号 FK
+}
+
+课程 {
+    char(8) 课程号 PK
+    varchar(50) 课程名
+    int 学分
+    char(8) 教师号 FK
+}
+
+科研项目 {
+    char(10) 项目号 PK
+    varchar(100) 名称
+    char(8) 负责人 FK "引用教师.教师号"
+}
+
+教师项目关联 {
+    char(8) 教师号 PK, FK
+    char(10) 项目号 PK, FK
+    int 排名
+}
+
+学生选课关联 {
+    char(10) 学号 PK, FK
+    char(8) 课程号 PK, FK
+    int 成绩
+}
+
+%% 关系说明（带基数）
+系 ||--o{ 教师 : "1:N"
+系 ||--o{ 学生 : "1:N"
+教师 ||--o{ 课程 : "1:N"
+教师 }o--o{ 教师项目关联 : "M:N"
+科研项目 }o--o{ 教师项目关联 : "M:N"
+学生 }o--o{ 学生选课关联 : "M:N"
+课程 }o--o{ 学生选课关联 : "M:N"
+科研项目 }o--|| 教师 : "N:1（负责人）"
+</code></pre>
+<p><code>PK</code>为<code>primary key</code>，即为主键，<code>FK</code>即为<code>Foreign Key</code>，是外键</p>
+<h2>字符类型</h2>
+<ol>
+<li>存储长度
+CHAR(n)：定长字符串
+固定占用 n 个字符的存储空间。
+如果实际内容不足 n 个字符，会用空格（或填充符）补足到 n 位。
+例如：CHAR(10) 存 "ABC"，实际占 10 字节（后面补 7 个空格）。
+VARCHAR(n)：变长字符串
+只占用 实际内容长度 + 长度标识（通常 1~2 字节） 的空间。
+例如：VARCHAR(10) 存 "ABC"，只占 3 + 1 = 4 字节（1 字节记录长度）。
+举个小栗子</li>
+</ol>
+<pre><code>#如果你要保存00001
+你用char，他的储存方式是：00001
+用varchar，他的储存方式是：1
+很明显，varchar作为灵活长度字符，他会省去掉一些“无用的占位数字”
+但是在实际应用中，身份证或者编号这些主键的长度是不能改变的，所以要用char来固定长度，其他的信息用varchar可以节省存储空间
+</code></pre>
+<h2>MySQL操作指令</h2>
+<pre><code>CREATE DATABASE SZ1Z
+USE SZ1Z
+CREATE TABLE 系 (S
+    系号 CHAR(4) PRIMARY KEY,
+    系名 VARCHAR(50),
+    系主任 VARCHAR(20)
+);
+
+CREATE TABLE 教师 (
+    教师号 CHAR(8) PRIMARY KEY,
+    教师名 VARCHAR(20),
+    职称 VARCHAR(10),
+    系号 CHAR(4)
+);
+
+CREATE TABLE 学生 (
+    学号 CHAR(10) PRIMARY KEY,
+    姓名 VARCHAR(20),
+    年龄 INT,
+    性别 CHAR(2),
+    系号 CHAR(4)
+);
+
+CREATE TABLE 课程 (
+    课程号 CHAR(8) PRIMARY KEY,
+    课程名 VARCHAR(50),
+    学分 INT,
+    教师号 CHAR(8)
+);
+
+CREATE TABLE 科研项目 (
+    项目号 CHAR(10) PRIMARY KEY,
+    名称 VARCHAR(100),
+    负责人 CHAR(8)
+);
+
+CREATE TABLE 教师项目关联 (
+    教师号 CHAR(8),
+    项目号 CHAR(10),
+    排名 INT,
+    PRIMARY KEY (教师号, 项目号)
+);
+
+CREATE TABLE 学生选课关联 (
+    学号 CHAR(10),
+    课程号 CHAR(8),
+    成绩 INT,
+    PRIMARY KEY (学号, 课程号)
+);
+</code></pre>
+<p><strong>插入数据指令</strong></p>
+<pre><code>-- 系
+INSERT INTO 系 VALUES ('D001', '计算机系', '张伟');
+INSERT INTO 系 VALUES ('D002', '数学系', '李芳');
+
+-- 教师
+INSERT INTO 教师 VALUES ('T001', '王明', '教授', 'D001');
+INSERT INTO 教师 VALUES ('T002', '刘洋', '副教授', 'D001');
+
+-- 学生
+INSERT INTO 学生 VALUES ('S2023001', '赵磊', 20, '男', 'D001');
+INSERT INTO 学生 VALUES ('S2023002', '孙婷', 19, '女', 'D001');
+
+-- 课程
+INSERT INTO 课程 VALUES ('C101', '数据库原理', 3, 'T001');
+INSERT INTO 课程 VALUES ('C102', '数据结构', 4, 'T002');
+
+-- 科研项目
+INSERT INTO 科研项目 VALUES ('P202501', '智能数据库研究', 'T001');
+
+-- 教师项目关联
+INSERT INTO 教师项目关联 VALUES ('T001', 'P202501', 1);
+INSERT INTO 教师项目关联 VALUES ('T002', 'P202501', 2);
+
+-- 学生选课关联
+INSERT INTO 学生选课关联 VALUES ('S2023001', 'C101', 88);
+INSERT INTO 学生选课关联 VALUES ('S2023002', 'C101', 85);
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="MySQL"></category>
+  </entry>
+  <entry>
+    <title>【洛谷】P1085[NOIP 2004 普及组] 不高兴的津津</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1085/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1085/</id>
+    <published>2025-11-22T00:00:00.000Z</published>
+    <updated>2025-11-22T00:00:00.000Z</updated>
+    <summary>P1085解题</summary>
+    <content type="html"><![CDATA[<h1>【洛谷】P1085[NOIP 2004 普及组] 不高兴的津津</h1>
+<p><a href="https://www.luogu.com.cn/problem/P1085">原题跳转</a></p>
+<h2>原题描述：</h2>
+<h2>题目描述</h2>
+<p>津津上初中了。妈妈认为津津应该更加用功学习，所以津津除了上学之外，还要参加妈妈为她报名的各科复习班。另外每周妈妈还会送她去学习朗诵、舞蹈和钢琴。但是津津如果一天上课超过八个小时就会不高兴，而且上得越久就会越不高兴。假设津津不会因为其它事不高兴，并且她的不高兴不会持续到第二天。请你帮忙检查一下津津下周的日程安排，看看下周她会不会不高兴；如果会的话，哪天最不高兴。</p>
+<h2>输入格式</h2>
+<p>输入包括 $7$ 行数据，分别表示周一到周日的日程安排。每行包括两个小于 $10$ 的非负整数，用空格隔开，分别表示津津在学校上课的时间和妈妈安排她上课的时间。</p>
+<h2>输出格式</h2>
+<p>一个数字。如果不会不高兴则输出 $0$，如果会则输出最不高兴的是周几（用 $1, 2, 3, 4, 5, 6, 7$ 分别表示周一，周二，周三，周四，周五，周六，周日）。如果有两天或两天以上不高兴的程度相当，则输出时间最靠前的一天。</p>
+<h2>输入输出样例 #1</h2>
+<h3>输入 #1</h3>
+<pre><code>5 3
+6 2
+7 2
+5 3
+5 4
+0 4
+0 6
+</code></pre>
+<h3>输出 #1</h3>
+<pre><code>3
+</code></pre>
+<h2>说明/提示</h2>
+<p>NOIP2004 普及组第 1 题</p>
+<ul>
+<li>2021-10-27：增加一组 hack 数据</li>
+<li>2022-06-05：又增加一组 hack 数据</li>
+</ul>
+<hr />
+<h3>题目分析</h3>
+<p>简而言之：</p>
+<ul>
+<li>每天有两个数字：学校上课时间 + 妈妈安排上课时间。</li>
+<li>如果<strong>两者之和大于8</strong>，那天津津就会<strong>不高兴</strong>。</li>
+<li>找出<strong>最不高兴的一天</strong>（即和最大的那天），输出对应的星期几（1~7）。</li>
+<li>如果<strong>没有一天大于8</strong>，就输出0。</li>
+</ul>
+<h3>解题思路</h3>
+<p>这种多组数据<strong>重复使用同一个公式</strong>计算的时候就是<code>def函数定义</code>大展身手的时候了。</p>
+<p>首先我们得明确需要代码需求：</p>
+<ol>
+<li>代码需要对每天输入的两门课时重复计算同一公式</li>
+<li>需要存储7天的计算数据</li>
+<li>需要判断7天内哪天最不高兴，都高兴则输出0</li>
+</ol>
+<p>根据以上需求我们可以得出</p>
+<ul>
+<li>定义一个函数来计算每天的不高兴值，公式实现方式为<code>学校上课时间+课外上课时间-8</code></li>
+<li>运用列表来进行7天内容的存储</li>
+<li>利用循环来对每天的不高兴值进行判断</li>
+</ul>
+<h3>解题</h3>
+<pre><code>def unhappy(x,y):#计算不高兴值公式
+    a=x+y
+    return max(a - 8, 0)
+day=[]#创建空列表来进行每天数据的存储
+for i in range(7):#获取输入的数值并将数值填入列表中
+    school,kewai=map(int,input().split())
+    day.append(unhappy(school,kewai))
+first_unhappy=0#创建计数器用于记录哪天最不开心
+for i in range(7):#历遍day列表里面的值，选出最大的值保存
+    if day[i]&gt;day[first_unhappy]:#如果当前的不开心值大于first_unhappy
+        first_unhappy=i#以最大值替换掉当前的值
+if max(day) == 0:#输出做判断
+    print(0)
+else:
+    print(first_unhappy + 1)#列表索引从0开始的，所以要加一位
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>递归思想</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E9%80%92%E5%BD%92%E6%80%9D%E6%83%B3/</id>
+    <published>2025-11-19T00:00:00.000Z</published>
+    <updated>2025-11-19T00:00:00.000Z</updated>
+    <summary>递归的概念与用法</summary>
+    <content type="html"><![CDATA[<h1>Python递归思想</h1>
+<h2>递归是一种编程技术，函数通过调用自身来解决问题。它通常包含基准条件（终止递归）和递归条件（继续调用自身）。</h2>
+<blockquote>
+<p>[!TIP]
+建议了解def函数后再来学习递归内容</p>
+</blockquote>
+<h2>什么是递归？</h2>
+<p>把一个大问题拆解成结构相同但规模更小的子问题，直到触及一个可以直接回答的边界条件（基准情形）。
+简单来说：</p>
+<ul>
+<li>递归就像查一个词的解释，发现解释里又有一个不认识的词，于是又去查那个词，直到找到一个不需要查其他词就能懂的解释为止。</li>
+</ul>
+<h2>二、递归三要素</h2>
+<ol>
+<li>基准条件（Base Case）
+递归的"紧急出口"。当问题简化到最简形式时，直接返回结果而不再自我调用。</li>
+</ol>
+<pre><code>def factorial(n: int) -&gt; int:
+    # 基准条件：最小子问题，已知答案
+    if n &lt;= 1:
+        return 1  # 0! = 1, 1! = 1
+</code></pre>
+<p><strong>关键点</strong>：基准条件必须可达，否则会导致无限递归和溢出。
+2. 递归条件（Recursive Case）
+将问题分解为更小的同类子问题，并向其委托求解。</p>
+<pre><code>def factorial(n: int) -&gt; int:
+    if n &lt;= 1:
+        return 1
+    
+    # 递归条件：缩小问题规模，委托给factorial(n-1)
+    return n * factorial(n - 1)
+</code></pre>
+<ol>
+<li>回归过程（Unwinding）
+子问题解决后，逐层返回并组合结果，最终得到原问题的答案。</li>
+</ol>
+<pre><code># 以 factorial(4) 为例的回归过程演示
+factorial(4)  # 返回 4 * factorial(3)
+└── factorial(3)  # 返回 3 * factorial(2)
+    └── factorial(2)  # 返回 2 * factorial(1)
+        └── factorial(1)  # 基准：返回 1
+        # 开始回归：
+        └── 返回 2 * 1 = 2
+    └── 返回 3 * 2 = 6
+└── 返回 4 * 6 = 24  # 最终结果
+</code></pre>
+<h3>演示</h3>
+<p>一个简单的小栗子：</p>
+<pre><code>def countdown(n):
+    # 1. 停止条件（到家了，不用再走了）
+    if n == 0:
+        print("时间到！")
+        return
+    
+    # 2. 先做事（输出当前数字）
+    print(n)
+    
+    # 3. 然后让下一个同学继续（调用自己）
+    countdown(n - 1)
+
+countdown(3)# 调用：countdown(3)
+</code></pre>
+<p><strong>执行过程就像传包裹</strong>：
+<code>countdown(3) → 打印3 → countdown(2) → 打印2 → countdown(1) → 打印1 → countdown(0) → 打印"时间到！" → 结束 </code>
+<strong>核心就两个规矩</strong></p>
+<ol>
+<li>必须有个终点（比如 n == 0），否则会永远进行下去</li>
+<li>每次都要更接近终点（比如 n-1），否则到不了终点</li>
+</ol>
+<h3>递归 vs 循环：如何选择？</h3>
+<p>哎这时候发现，这递归怎么跟循环这么像啊,没错，递归确实能换成循环，两者都能“重复做事”，但思路相反</p>
+<table>
+<thead>
+<tr>
+<th>对比点</th>
+<th>循环</th>
+<th>递归</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>方向感</strong></td>
+<td>从前到后一口气跑完</td>
+<td>先一路到底，再原路返回</td>
+</tr>
+<tr>
+<td><strong>暂存中间结果</strong></td>
+<td>用<strong>变量</strong>（如 <code>sum</code>）</td>
+<td>用<strong>调用栈</strong>（系统自动）</td>
+</tr>
+<tr>
+<td><strong>直观程度</strong></td>
+<td>简单数数时更直接</td>
+<td>拆套娃问题时更直观</td>
+</tr>
+<tr>
+<td><strong>溢出风险</strong></td>
+<td>几乎无</td>
+<td>层数太深会栈溢出</td>
+</tr>
+<tr>
+<td><strong>对比</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<pre><code>total = 0
+for i in range(1, 6):   # 1 2 3 4 5
+    total += i
+print(total)            # 15
+</code></pre>
+<pre><code>def total(n):
+    if n == 1:          # 最小娃
+        return 1
+    return n + total(n-1)  # 先问下层，再回头加
+
+print(total(5))         # 15
+</code></pre>
+<p><strong>适合用递归的场景：</strong></p>
+<ul>
+<li>树形/图形结构遍历（文件目录、组织架构）</li>
+<li>分治算法（快速排序、归并排序）</li>
+<li>回溯问题（八皇后、迷宫求解）</li>
+</ul>
+<p><strong>不适合递归的场景：</strong></p>
+<ul>
+<li>简单重复操作（用循环更高效）</li>
+<li>深度不可预测的大数据（易栈溢出）</li>
+<li>Python中的性能敏感场景（无尾递归优化）</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+一句话区分
+循环像爬楼梯，一步步数台阶；递归像剥洋葱，剥到芯再把眼泪一层层带回来。
+所以：能互相替代，但谁好读写、谁好维护就选谁。</p>
+</blockquote>
+<p><strong>原理拆分</strong></p>
+<ol>
+<li>递进（往下套娃）
+每次调用自己时，问题变小一点，就像拆开一层俄罗斯套娃</li>
+<li>基准（最小的娃）
+当问题小到不能再拆时，直接给出答案（最小的娃里没别的娃了）</li>
+<li>回归（回头组合答案）
+拿到最小答案后，一层层往回拼，最终得到大答案</li>
+</ol>
+<h3>最终原理流程图展示</h3>
+<pre><code>def factorial(n):
+    if n == 1: return 1  # 基准：最小的娃
+    return n * factorial(n-1)  # 套娃
+</code></pre>
+<pre><code>graph TD
+    A["factorial(4)"] --&gt;|"4 × ?"| B["factorial(3)"]
+    B --&gt;|"3 × ?"| C["factorial(2)"]
+    C --&gt;|"2 × ?"| D["factorial(1)"]
+    
+    %% 基准情形：返回 1
+    D --&gt;|"返回 1"| D1["1"]
+    
+    %% 回归阶段：层层返回并相乘
+    D1 -.-&gt;|"2 × 1"| C1["2"]
+    C1 -.-&gt;|"3 × 2"| B1["6"]
+    B1 -.-&gt;|"4 × 6"| A1["24"]
+    
+    %% 最终结果说明
+    A1 -.-&gt;|"最终结果"| R["递归完成&lt;br/&gt;factorial(4) = 24"]
+    
+    %% 样式定义（使用非保留字名称）
+    classDef c1 fill:#ffe599,stroke:#333,stroke-width:2px;
+    classDef c2 fill:#9ccff9,stroke:#333,stroke-width:2px;
+    classDef c3 fill:#d9ead3,stroke:#333,stroke-width:2px;
+    classDef c4 fill:#fff,stroke:#333,stroke-width:1px;
+    
+    %% 应用样式
+    class A,B,C,D c1;
+    class D1,C1,B1,A1 c2;
+    class D c3;
+    class R c4;
+</code></pre>
+<h2>经典案例介绍</h2>
+<p><strong>斐波那契数列</strong>
+说到递归思想，总是离不开<em>斐波那契数列</em>
+<em>斐波那契数列（Fibonacci sequence）</em>，又称黄金分割数列，是一个在数学和自然界中广泛出现的数列。这个数列由意大利数学家列奥纳多·斐波那契（Leonardo Fibonacci）在1202年提出，因此得名。
+<strong>定义</strong>
+斐波那契数列的定义如下：</p>
+<ul>
+<li>F(0) = 0</li>
+<li>F(1) = 1</li>
+<li>F(n) = F(n-1) + F(n-2)，对于 n ≥ 2</li>
+</ul>
+<p><strong>数列的前几项</strong>
+根据上述定义，斐波那契数列的前几项是：
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ...
+简单来说，就是：
+从 0 和 1 开始，后面的每个数，都是前两个数相加。
+数列：
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34...</p>
+<p>所以，这里就很适合用递归思想了
+于是，我们可以得出：</p>
+<pre><code>def fib(n):
+    """返回第 n 个斐波那契数，从 0 开始计数。"""
+    if n &lt; 2:          # ① 最最简单的情况
+        return n
+    return fib(n-1) + fib(n-2)  # ② 自己调用自己 → 这就是“递归”
+
+# 测试
+for i in range(8):
+    print(f'fib({i}) = {fib(i)}')
+</code></pre>
+<p>运行结果</p>
+<pre><code>fib(0) = 0
+fib(1) = 1
+fib(2) = 1
+fib(3) = 2
+fib(4) = 3
+fib(5) = 5
+fib(6) = 8
+fib(7) = 13
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>口诀</th>
+<th>对应代码</th>
+<th>斐波那契例子</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>停</strong></td>
+<td><code>if n &lt; 2: return n</code></td>
+<td>0 和 1 已经最简单，直接给答案</td>
+</tr>
+<tr>
+<td><strong>拆</strong></td>
+<td><code>fib(n-1) + fib(n-2)</code></td>
+<td>把大问题拆成两个“小一号”的问题</td>
+</tr>
+<tr>
+<td><strong>信</strong></td>
+<td>放心地让 <code>fib()</code> 自己去算</td>
+<td>相信“别人”能把小问题的答案算对</td>
+</tr>
+</tbody>
+</table>
+<h2>总结</h2>
+<p><strong>核心本质</strong>
+递归不是循环，而是<strong>信任的委托链</strong>：
+"我（n层）不知道完整答案，但我知道n-1层会算，我只需要在他结果上+1就行"
+每一层只做两件事：</p>
+<ul>
+<li>判断："是不是最小的问题了？"（基准检查）</li>
+<li>委托："不是？那我处理一点点，剩下的交给下一层"
+为什么必须回头？
+因为下一层的答案依赖于更下一层，必须等到最底层答案返回后，上一层才能计算出结果。就像你不能在拿到子结果前就拼出最终结果。
+<strong>一句话原理：递归 = 往下问到头，往上答回来。</strong></li>
+</ul>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>def函数讲解</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/def%E5%87%BD%E6%95%B0/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/def%E5%87%BD%E6%95%B0/</id>
+    <published>2025-11-18T00:00:00.000Z</published>
+    <updated>2025-11-18T00:00:00.000Z</updated>
+    <summary>详解Python中def关键字的作用、函数定义语法、参数传递机制，通过水仙花数等实例演示函数封装复用技巧，帮助初学者掌握代码模块化思维</summary>
+    <content type="html"><![CDATA[<h1>Python函数定义：def语句详解</h1>
+<h2>一、什么是def？</h2>
+<p><code>def</code> 是 Python 中用来定义函数的关键字。函数是一段可重复使用的代码块，它接收输入（参数），执行特定任务，并可能返回结果。</p>
+<h2>二、基本语法与组成</h2>
+<pre><code>def 函数名(参数1,参数2....):
+    执行内容
+    return 返回值#可选择使用
+</code></pre>
+<p><strong>关键组成部分</strong></p>
+<ul>
+<li>函数名：自定义的标识符（如 greet），用于调用函数</li>
+<li>参数：函数接收的输入值（如 name），可以为空或多个</li>
+<li>函数体：缩进的代码块，定义函数的具体行为</li>
+<li>返回值：return 语句返回结果（没有 return 时返回 None）</li>
+</ul>
+<blockquote>
+<p>[!NOTE]
+理解不了吗？那看看这个呢？</p>
+</blockquote>
+<pre><code>def f(x):#定义函数与参数
+    return x**2#返回值
+print(f(2))#执行def函数
+</code></pre>
+<p>假设<code>x</code>为2，那么输出的值就是4
+想要执行<code>def</code>函数定义只需要打出f(x)就行了
+怎么样，是不是很熟悉，就是我们数学中所学的f(x)，然后其中包含的代码块就会带入x的参数执行</p>
+<h3>三、实战：水仙花数判断</h3>
+<p>我们学习的很多学习的很多代码的实现都可以嵌套进<code>def</code>里面
+<strong>例如</strong></p>
+<pre><code>#水仙花数判断
+def shuixianhua(a):#计算过程
+    a1 = a // 100
+    a2 = a // 10 % 10
+    a3 = a % 10
+    return (a1**3 + a2**3 + a3**3) == a  # 返回判断结果（布尔值）
+number = int(input())  # 例如输入153
+if shuixianhua(number):#如果函数执行的值为number
+    print(number)
+else:
+    print('no')
+</code></pre>
+<p>:::important
+有人可能会想，明明不用<code>def</code>函数定义直接写更简单更快，为什么要用<code>def</code>函数定义呢,最主要的原因如下
+:::
+<code>def</code>函数定义具有复用性，有时候有个计算过程我们可能会反复利用到，这时候用def可以:</p>
+<ul>
+<li>避免重复编写相同逻辑</li>
+<li>将复杂任务分解为小块</li>
+<li>修改函数内部不影响其他代码
+所以，用<code>def</code>函数定义来进行代码编写是一种规范，方便的形式</li>
+</ul>
+<h2>💡 动手练习</h2>
+<p>试着把这段代码改写成函数形式：</p>
+<pre><code># 原代码：判断闰年
+year = int(input())
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print("是闰年")
+else:
+    print("不是闰年")
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>网站版本更新！！！</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E7%BD%91%E7%AB%99%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E7%BD%91%E7%AB%99%E7%89%88%E6%9C%AC%E6%9B%B4%E6%96%B0/</id>
+    <published>2025-11-16T00:00:00.000Z</published>
+    <updated>2025-11-16T00:00:00.000Z</updated>
+    <summary>mizukiv6.7来临！</summary>
+    <content type="html"><![CDATA[<h1>网站版本更新！</h1>
+<h2>本网站到了V6.7版本，新增了以下内容</h2>
+<ul>
+<li>代码块可折叠：增加了对可折叠代码块的支持，提升了代码阅读体验。</li>
+<li>仓库分离：增加了代码仓库和内容仓库分离的支持，使内容更新更加便捷。</li>
+<li>新的前端布局管理：实施了全新的前端布局管理系统，以更好地控制。</li>
+<li>网站URL配置：为config.ts添加了网站URL配置，以便管理。</li>
+<li>布局切换功能：增加了前端布局切换功能，提供更灵活的显示选项。</li>
+<li>性能与漏洞修复：优化网站性能并修复多个漏洞，提升用户体验。</li>
+<li>重构大量主题的动画，例如各种组件的深色模式和过渡动画。</li>
+<li>支持浅色模式下的代码块，实现更好的折叠效果。
+谁懂更新网站时配置文件被覆盖的感受qwq
+最后我是重新克隆仓库一个一个改配置文件的</li>
+</ul>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="网站"></category>
+  </entry>
+  <entry>
+    <title>【洛谷】B2043</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7b2043/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7b2043/</id>
+    <published>2025-11-15T00:00:00.000Z</published>
+    <updated>2025-11-15T00:00:00.000Z</updated>
+    <summary>P2043</summary>
+    <content type="html"><![CDATA[<h1>【洛谷 B2043】判断能否被 3、5、7 整除</h1>
+<h3>致敬传奇屎山王 👑</h3>
+<p><a href="https://www.luogu.com.cn/problem/B2043">[原题跳转]</a>
+以下是原题：</p>
+<h2>题目描述</h2>
+<p>给定一个整数 $x$，判断它能否被 $3$，$5$，$7$ 整除，并输出以下信息：</p>
+<p>1、能同时被 $3,5,7$ 整除（直接输出 <code>3 5 7</code>，每个数中间一个空格）；</p>
+<p>2、只能被其中两个数整除（按从小到大的顺序输出两个数，例如：<code>3 5</code> 或者 <code>3 7</code> 或者 <code>5 7</code>，中间用空格分隔）；</p>
+<p>3、只能被其中一个数整除（输出这个除数）；</p>
+<p>4、不能被任何数整除，输出小写字符 <code>n</code>。</p>
+<h2>输入格式</h2>
+<p>输入一行，包括一个整数 $x$。</p>
+<h2>输出格式</h2>
+<p>输出一行，按照描述要求给出整数被 $3$，$5$，$7$ 整除的情况。</p>
+<h2>输入输出样例 #1</h2>
+<h3>输入 #1</h3>
+<pre><code>105
+</code></pre>
+<h3>输出 #1</h3>
+<pre><code>3 5 7
+</code></pre>
+<h2>说明/提示</h2>
+<h3>数据规模与约定</h3>
+<p>对于全部的测试点，保证 $1 \leq x \leq 200$。</p>
+<hr />
+<h2>题目一句话</h2>
+<p>给定整数 <code>x</code>（1 ≤ x ≤ 200），输出它能被 <code>3 5 7</code> 中哪些数整除；<br />
+一个都整除不了就输出小写 <code>n</code>。</p>
+<hr />
+<p>那么知道这个条件就很简单了，无非就是if判断语句嘛</p>
+<pre><code>number=int(input())
+if number%3==0 and number%5==0 and number%7==0:
+    print('3','5','7')
+elif number%3==0 and number%5==0:
+    print('3','5')
+elif number%3==0 and number%7==0:
+    print('3','7')
+elif number%5==0 and number%7==0:
+    print('5','7')
+elif number%5==0 or number%3==0 or number%7==0:
+    print(number)
+else:
+    print('n')
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+但是显然易见的是，这样子的if语句写起来很麻烦，就像个巨大的屎山,那么，就有简洁的写法</p>
+</blockquote>
+<pre><code>x = int(input())          # 读数
+ok = []                   # 空袋子，准备装能整除的除数
+
+if x % 3 == 0:
+    ok.append(3)          # 能被 3 整除，扔进袋子
+if x % 5 == 0:
+    ok.append(5)
+if x % 7 == 0:
+    ok.append(7)
+
+# 按题目要求输出
+if not ok:                # 袋子还是空的 → 一个都整不了
+    print('n')
+else:                     # 袋子有东西 → 空格拼起来
+    print(' '.join(map(str, ok)))
+</code></pre>
+<h4>append小课堂</h4>
+<p>其中的<code>append</code>的含义是给列表中添加元素
+如：</p>
+<pre><code>shopping = ['鸡蛋', '牛奶']
+shopping.append('面包')
+print(shopping)
+</code></pre>
+<p>输出结果就为<code>['鸡蛋', '牛奶', '面包']</code></p>
+<h3>无敌精简版</h3>
+<pre><code>x=int(input())
+print(' '.join(str(d)for d in(3,5,7)if x%d==0)or'n')
+</code></pre>
+<p>没错，就是两行，震撼吧,看不懂计算过程？那我们把它拆开来看</p>
+<ol>
+<li>生成器
+<code>(str(d) for d in (3,5,7) if x%d==0)</code>
+依次对 x 取模，只保留能整除的除数，并转成字符串。
+结果是一个可迭代对象，里面元素可能是空、一个或最多三个字符串。</li>
+<li><code>' '.join(...)</code>
+把上一步得到的字符串列表用空格拼成一个字符串。</li>
+</ol>
+<ul>
+<li>如果列表为空，join 得到空串 ''。</li>
+<li>空串在布尔上下文是 False，于是触发 or 'n'，整个表达式变成 'n'。</li>
+<li>否则直接返回拼接好的串。
+最后 print 把这个字符串输出即可。
+一句话总结：
+<strong>先过滤 → 再拼接 → 空就退成 'n' → 打印。</strong>
+:spoiler[其实还有终极版]</li>
+</ul>
+<pre><code>print(*[d for d in(3,5,7)if int(input())%d==0]or['n'])
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>【洛谷】B2669</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p2669/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p2669/</id>
+    <published>2025-11-15T00:00:00.000Z</published>
+    <updated>2025-11-15T00:00:00.000Z</updated>
+    <summary>P2669解题</summary>
+    <content type="html"><![CDATA[<h1>【洛谷 B2669】金币（NOIP 2015 普及组 T1）</h1>
+<p><a href="https://www.luogu.com.cn/problem/P2669">[原题跳转]</a></p>
+<hr />
+<h2>题目一句话</h2>
+<p>国王发工资：</p>
+<ul>
+<li>第 1 天给 1 枚；</li>
+<li>接下来连续 2 天，每天给 2 枚；</li>
+<li>再接下来连续 3 天，每天给 3 枚；</li>
+<li>……</li>
+</ul>
+<p>问前 <code>k</code> 天一共拿到多少金币？<br />
+数据范围：<code>1 ≤ k ≤ 10 000</code>，随便模拟。</p>
+<hr />
+<h2>举个栗子（k = 6）</h2>
+<table>
+<thead>
+<tr>
+<th>天数区间</th>
+<th>每天金币</th>
+<th>发了几天</th>
+<th>小计</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1 枚</td>
+<td>1 天</td>
+<td>1×1 = 1</td>
+</tr>
+<tr>
+<td>2~3</td>
+<td>2 枚</td>
+<td>2 天</td>
+<td>2×2 = 4</td>
+</tr>
+<tr>
+<td>4~6</td>
+<td>3 枚</td>
+<td>3 天</td>
+<td>3×3 = 9</td>
+</tr>
+<tr>
+<td><strong>总计</strong></td>
+<td></td>
+<td></td>
+<td><strong>14 枚</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>思路：把“大块”当成一个整体</h2>
+<p>把相同金币的连续天数看成<strong>一整块</strong>，一块一块地啃：</p>
+<ol>
+<li>当前块应该发 <code>i</code> 枚金币，最多连发 <code>i</code> 天；</li>
+<li>剩余天数 <code>k</code> 不足 <code>i</code> 天，就<strong>有多少天算多少天</strong>；</li>
+<li>金币 += 天数 × 金币数，剩余天数减掉，进入下一块 <code>i+1</code>。</li>
+</ol>
+<h3>Mermaid 流程图（可缩放）</h3>
+<pre><code>flowchart TD
+    A([开始]) --&gt; B["读入 k"]
+    B --&gt; C["初始化&lt;br&gt;total=0, i=1"]
+    
+    C --&gt; D{k &gt; 0 ?}
+    D -- 是 --&gt; E["days = min(k, i)"]
+    E --&gt; F["total += days × i"]
+    F --&gt; G["k -= days"]
+    G --&gt; H["i += 1"]
+    H --&gt; D
+    D -- 否 --&gt; I["输出 total"]
+    I --&gt; J([结束])
+</code></pre>
+<h2>代码实现</h2>
+<pre><code>k = int(input())      # 还要发多少天
+total = 0             # 金币总和
+i = 1                 # 当前块每天发 i 枚
+while k &gt; 0:          # 只要还有天数就继续
+    days = min(k, i)  # 本轮实际发几天
+    total += days * i # 累加金币
+    k -= days         # 扣掉已发天数
+    i += 1            # 进入下一块
+print(total)
+</code></pre>
+<p><em>简单秒掉~</em></p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>【洛谷】P1888</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1888/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B4%9B%E8%B0%B7p1888/</id>
+    <published>2025-11-14T00:00:00.000Z</published>
+    <updated>2025-11-14T00:00:00.000Z</updated>
+    <summary>P1888做法</summary>
+    <content type="html"><![CDATA[<h1>[洛谷]P1888</h1>
+<p><a href="https://www.luogu.com.cn/problem/B2043">[原题跳转]</a>
+以下是原题：</p>
+<h1>P1888 三角函数</h1>
+<h2>题目描述</h2>
+<p>输入一组勾股数 $a,b,c（a\neq b\neq c）$，用分数格式输出其较小锐角的正弦值。（要求约分。）</p>
+<h2>输入格式</h2>
+<p>一行，包含三个正整数，即勾股数 $a,b,c$（无大小顺序）。</p>
+<h2>输出格式</h2>
+<p>一行，包含一个分数，即较小锐角的正弦值</p>
+<h2>输入输出样例 #1</h2>
+<h3>输入 #1</h3>
+<pre><code>3 5 4
+</code></pre>
+<h3>输出 #1</h3>
+<pre><code>3/5
+</code></pre>
+<h2>说明/提示</h2>
+<p>数据保证：$a,b,c$ 为正整数且 $\in [1,10^9]$。</p>
+<p>简而言之，就是给你三个边的参数，要你自己找斜边，并计算最小锐角的正弦值，最小锐角一定是短直角边所对的角，因此 sin 值 = 短直角边 / 斜边。
+以下是代码：</p>
+<pre><code>import math
+
+# 读入三个直角边
+a, b, c = map(int, input().split())
+
+# 1. 斜边一定是最大的那条
+hypotenuse = max(a, b, c)
+
+# 2. 剩下两条就是直角边，取其中较小的那条
+if a != hypotenuse and b != hypotenuse:
+    shorter_leg = min(a, b)
+elif a != hypotenuse and c != hypotenuse:
+    shorter_leg = min(a, c)
+else:  # b、c 是直角边
+    shorter_leg = min(b, c)
+
+# 3. 约分后输出：短直角边 / 斜边
+g = math.gcd(shorter_leg, hypotenuse)
+print(f"{shorter_leg // g}/{hypotenuse // g}")
+</code></pre>
+<blockquote>
+<p>[!TIP]
+为什么要引用math库呢，因为用 math.gcd 求最大公约数，把分子分母同时除掉它即可得到最简分数。</p>
+</blockquote>
+<h4>gcd函数原理讲解</h4>
+<p>gcd可以用if语句来进行表述，如下：</p>
+<pre><code>def gcd(x, y):
+    while y:
+        x, y = y, x % y
+    return x
+</code></pre>
+<p>:spoiler[所以聪明人不会傻到有现成的参数不用手写函数吧]</p>
+<blockquote>
+<p>[!TIP]
+代码中的:</p>
+</blockquote>
+<pre><code>if a == xie_bian:
+    leg1,leg2=b,c
+elif b == xie_bian:
+    leg1,leg2=a,c
+else:
+    leg1,leg2=a,b
+</code></pre>
+<blockquote>
+<p>[!TIP]
+是可以用列表推导式写出来的哦
+就是这句：<code>duan_bian = [x for x in (3, 5, 4) if x != 5]</code></p>
+</blockquote>
+<p>:spolier[刚说完有人不用简洁的方法手写判断式，别骂了别骂了，列表推导式太难理解了]</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>网站更新注意！</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0%E6%B3%A8%E6%84%8F/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0%E6%B3%A8%E6%84%8F/</id>
+    <published>2025-11-13T00:00:00.000Z</published>
+    <updated>2025-11-13T00:00:00.000Z</updated>
+    <summary>Miku殿下来了！</summary>
+    <content type="html"><![CDATA[<h1>公主殿下降临Ciallo～(∠・ω&lt; )⌒☆</h1>
+<h3>本网站进行了界面大改,Miku来到本网站</h3>
+<h5>其实就是更改了背景图跟主题色等内容</h5>
+<blockquote>
+<p>[!NOTE]
+本网站为了适应主题变化，对域名也进行了更改，从之前的mizuki.yuzhiyuan.top改为mikufans.yuzhiyuan.top。不用担心需要自己手动重新访问，我做了重定向，目前使用旧域名会自动跳转到新域名</p>
+</blockquote>
+<p>:spoiler[都到这里了请大家听歌吧]</p>
+<p>&lt;iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1JThqzwEGq&amp;p=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &amp;autoplay=0&gt; &lt;/iframe&gt;</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="提醒"></category>
+  </entry>
+  <entry>
+    <title>Python运算符集合</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/python%E8%BF%90%E7%AE%97%E7%AC%A6%E9%9B%86%E5%90%88/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/python%E8%BF%90%E7%AE%97%E7%AC%A6%E9%9B%86%E5%90%88/</id>
+    <published>2025-11-11T00:00:00.000Z</published>
+    <updated>2025-11-11T00:00:00.000Z</updated>
+    <summary>Python运算符全部的集合</summary>
+    <content type="html"><![CDATA[<h1>Python 运算符表</h1>
+<h2>1. 算术运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>+</code></td>
+<td>加法</td>
+<td><code>5 + 3</code></td>
+<td><code>8</code></td>
+</tr>
+<tr>
+<td><code>-</code></td>
+<td>减法</td>
+<td><code>5 - 3</code></td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td><code>*</code></td>
+<td>乘法</td>
+<td><code>5 * 3</code></td>
+<td><code>15</code></td>
+</tr>
+<tr>
+<td><code>/</code></td>
+<td>除法（返回浮点数）</td>
+<td><code>5 / 3</code></td>
+<td><code>1.666...</code></td>
+</tr>
+<tr>
+<td><code>//</code></td>
+<td>整除（向下取整）</td>
+<td><code>5 // 3</code></td>
+<td><code>1</code></td>
+</tr>
+<tr>
+<td><code>%</code></td>
+<td>取模（余数）</td>
+<td><code>5 % 3</code></td>
+<td><code>2</code></td>
+</tr>
+<tr>
+<td><code>**</code></td>
+<td>幂运算</td>
+<td><code>5** 3</code></td>
+<td><code>125</code></td>
+</tr>
+</tbody>
+</table>
+<h2>2. 赋值运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>等价于</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>=</code></td>
+<td>基本赋值</td>
+<td><code>x = 5</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>+=</code></td>
+<td>加法赋值</td>
+<td><code>x += 3</code></td>
+<td><code>x = x + 3</code></td>
+</tr>
+<tr>
+<td><code>-=</code></td>
+<td>减法赋值</td>
+<td><code>x -= 3</code></td>
+<td><code>x = x - 3</code></td>
+</tr>
+<tr>
+<td><code>*=</code></td>
+<td>乘法赋值</td>
+<td><code>x *= 3</code></td>
+<td><code>x = x * 3</code></td>
+</tr>
+<tr>
+<td><code>/=</code></td>
+<td>除法赋值</td>
+<td><code>x /= 3</code></td>
+<td><code>x = x / 3</code></td>
+</tr>
+<tr>
+<td><code>//=</code></td>
+<td>整除赋值</td>
+<td><code>x //= 3</code></td>
+<td><code>x = x // 3</code></td>
+</tr>
+<tr>
+<td><code>%=</code></td>
+<td>取模赋值</td>
+<td><code>x %= 3</code></td>
+<td><code>x = x % 3</code></td>
+</tr>
+<tr>
+<td><code>**=</code></td>
+<td>幂运算赋值</td>
+<td><code>x**= 3</code></td>
+<td><code>x = x **3</code></td>
+</tr>
+<tr>
+<td><code>&amp;=</code></td>
+<td>按位与赋值</td>
+<td><code>x &amp;= 3</code></td>
+<td><code>x = x &amp; 3</code></td>
+</tr>
+<tr>
+<td><code>|=</code></td>
+<td>按位或赋值</td>
+<td><code>x |= 3</code></td>
+<td><code>x = x | 3</code></td>
+</tr>
+<tr>
+<td><code>^=</code></td>
+<td>按位异或赋值</td>
+<td><code>x ^= 3</code></td>
+<td><code>x = x ^ 3</code></td>
+</tr>
+<tr>
+<td><code>&gt;&gt;=</code></td>
+<td>右移赋值</td>
+<td><code>x &gt;&gt;= 3</code></td>
+<td><code>x = x &gt;&gt; 3</code></td>
+</tr>
+<tr>
+<td><code>&lt;&lt;=</code></td>
+<td>左移赋值</td>
+<td><code>x &lt;&lt;= 3</code></td>
+<td><code>x = x &lt;&lt; 3</code></td>
+</tr>
+</tbody>
+</table>
+<h2>3. 比较运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>==</code></td>
+<td>等于</td>
+<td><code>5 == 3</code></td>
+<td><code>False</code></td>
+</tr>
+<tr>
+<td><code>!=</code></td>
+<td>不等于</td>
+<td><code>5 != 3</code></td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>&gt;</code></td>
+<td>大于</td>
+<td><code>5 &gt; 3</code></td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>&lt;</code></td>
+<td>小于</td>
+<td><code>5 &lt; 3</code></td>
+<td><code>False</code></td>
+</tr>
+<tr>
+<td><code>&gt;=</code></td>
+<td>大于等于</td>
+<td><code>5 &gt;= 3</code></td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>&lt;=</code></td>
+<td>小于等于</td>
+<td><code>5 &lt;= 3</code></td>
+<td><code>False</code></td>
+</tr>
+</tbody>
+</table>
+<h2>4. 逻辑运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>and</code></td>
+<td>逻辑与</td>
+<td><code>True and False</code></td>
+<td><code>False</code></td>
+</tr>
+<tr>
+<td><code>or</code></td>
+<td>逻辑或</td>
+<td><code>True or False</code></td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>not</code></td>
+<td>逻辑非</td>
+<td><code>not True</code></td>
+<td><code>False</code></td>
+</tr>
+</tbody>
+</table>
+<h2>5. 位运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例（x=5即101, y=3即011）</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>&amp;</code></td>
+<td>按位与</td>
+<td><code>x &amp; y</code></td>
+<td><code>1</code>（001）</td>
+</tr>
+<tr>
+<td><code>| </code></td>
+<td>按位或</td>
+<td><code>x | y</code></td>
+<td><code>7</code>（111）</td>
+</tr>
+<tr>
+<td><code>^</code></td>
+<td>按位异或</td>
+<td><code>x ^ y</code></td>
+<td><code>6</code>（110）</td>
+</tr>
+<tr>
+<td><code>~</code></td>
+<td>按位取反</td>
+<td><code>~x</code></td>
+<td><code>-6</code>（补码）</td>
+</tr>
+<tr>
+<td><code>&lt;&lt;</code></td>
+<td>左移</td>
+<td><code>x &lt;&lt; 1</code></td>
+<td><code>10</code>（1010）</td>
+</tr>
+<tr>
+<td><code>&gt;&gt;</code></td>
+<td>右移</td>
+<td><code>x &gt;&gt; 1</code></td>
+<td><code>2</code>（10）</td>
+</tr>
+</tbody>
+</table>
+<h2>6. 成员运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>in</code></td>
+<td>存在于序列中</td>
+<td><code>3 in [1,2,3]</code></td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>not in</code></td>
+<td>不存在于序列中</td>
+<td><code>3 not in [1,2,3]</code></td>
+<td><code>False</code></td>
+</tr>
+</tbody>
+</table>
+<h2>7. 身份运算符</h2>
+<table>
+<thead>
+<tr>
+<th>运算符</th>
+<th>描述</th>
+<th>示例</th>
+<th>结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>is</code></td>
+<td>两个对象是否相同（内存地址）</td>
+<td><code>x is y</code></td>
+<td><code>True/False</code></td>
+</tr>
+<tr>
+<td><code>is not</code></td>
+<td>两个对象是否不同（内存地址）</td>
+<td><code>x is not y</code></td>
+<td><code>True/False</code></td>
+</tr>
+</tbody>
+</table>
+<h2>8. 运算符优先级（从高到低）</h2>
+<ol>
+<li><code>**</code>（幂运算）</li>
+<li><code>~</code>（按位取反）</li>
+<li><code>*</code> <code>/</code> <code>//</code> <code>%</code>（乘除、整除、取模）</li>
+<li><code>+</code> <code>-</code>（加减）</li>
+<li><code>&lt;&lt;</code> <code>&gt;&gt;</code>（位移）</li>
+<li><code>&amp;</code>（按位与）</li>
+<li><code>^</code> <code>|</code>（按位异或、或）</li>
+<li><code>&lt;=</code> <code>&lt;</code> <code>&gt;</code> <code>&gt;=</code>（比较）</li>
+<li><code>==</code> <code>!=</code>（等于、不等于）</li>
+<li><code>=</code> <code>%=</code> <code>/=</code> <code>//=</code> <code>-=</code> <code>+=</code> <code>*=</code> <code>**=</code>（赋值）</li>
+<li><code>is</code> <code>is not</code>（身份判断）</li>
+<li><code>in</code> <code>not in</code>（成员判断）</li>
+<li><code>not</code> <code>and</code> <code>or</code>（逻辑运算）</li>
+</ol>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>计算闰年</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%97%E9%97%B0%E5%B9%B4/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%97%E9%97%B0%E5%B9%B4/</id>
+    <published>2025-11-11T00:00:00.000Z</published>
+    <updated>2025-11-11T00:00:00.000Z</updated>
+    <summary>用简单的if语句来判断年份是否为闰年</summary>
+    <content type="html"><![CDATA[<h1>利用简单的IF语句来进行年份判断</h1>
+<h2>条件</h2>
+<blockquote>
+<p>[!NOTE]
+闰年的条件为4年一润，百年不润，四百年再润</p>
+</blockquote>
+<p>也就是说：</p>
+<ul>
+<li>能被 4 整除但不能被 100 整除的是闰年；</li>
+<li>或者能被 400 整除的也是闰年。</li>
+</ul>
+<p><em>即</em></p>
+<pre><code>nian=int(input()) #设置变量年
+if nian % 4 == 0 and nian % 100 != 0 or nian % 400 == 0:#判断闰年条件
+    print('Yes')
+else:
+    print('No')
+</code></pre>
+<p>这算是补之前的作业内容</p>
+<p>:spoiler[因为我觉得太简单了不需要]</p>
+<blockquote>
+<p>[!TIP]
+在判断条件中，我们使用了 or（或）来连接两个关键判断：</p>
+</blockquote>
+<ul>
+<li>年份能被 4 整除但不能被 100 整除；</li>
+<li>或者能被 400 整除。
+这两个条件是并列的，只要满足其中之一，就可以判断为闰年。</li>
+</ul>
+<blockquote></blockquote>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>博客搭建</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</id>
+    <published>2025-11-08T00:00:00.000Z</published>
+    <updated>2025-11-08T00:00:00.000Z</updated>
+    <summary>Gmeek与Mizuku</summary>
+    <content type="html"><![CDATA[<h1>博客搭建教程</h1>
+<h2>Gmeek博客搭建</h2>
+<p>Gmeek的博客搭建是最简单的，只需要一个Github账号，并且Gmeek完全基于<code>Github Pages</code>与<code>Github Actions</code>不用在本地部署进行:spoiler[<em>繁琐的操作</em>]</p>
+<blockquote>
+<p>[!NOTE]
+以下是Gmeek的Github仓库</p>
+</blockquote>
+<p>::github{repo="Meekdai/Gmeek"}</p>
+<p>并且有着UP主<strong>技术爬爬虾</strong>制作的教程视频</p>
+<p>&lt;iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1GM4m1m7ZD&amp;p=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &amp;autoplay=0&gt; &lt;/iframe&gt;</p>
+<p>所以我在这里就不提供详细的教程了:spoiler[<em>不会有人真不会吧</em>]</p>
+<h2>以下是Mizuki的部署教程</h2>
+<p>Mizuki是基于<code>Astro</code>框架的博客，需要本地部署配置后发布到<code>Github</code>仓库，特别繁琐
+以下是Mizuki仓库
+::github{repo="matsuzaka-yuki/Mizuki"}</p>
+<blockquote>
+<p>[!TIP]
+Mizuki有<a href="https://docs.mizuki.mysqil.com/guide/get-started/">官方教程文档</a>,有能力的可以对着教程文档自己做</p>
+</blockquote>
+<p>首先，你需要克隆Mizuki仓库到你的本地，无论你是用<a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%AE%89%E8%A3%85-Git">Git</a>还是自己直接去仓库下载ZIP压缩包，然后你还需要下载<a href="https://nodejs.cn/download/">Node.js</a>进行环境配置。</p>
+<blockquote>
+<p>[!TIP]
+本文章特殊颜色带有下划线的字体均为跳转链接，点击即跳转</p>
+</blockquote>
+<p>安装完成后，打开终端或命令提示符，运行以下命令验证 Node.js 是否安装成功：</p>
+<pre><code>node -v
+npm -v
+</code></pre>
+<p>并且需要在<code>Mizuki</code>根目录下安装pnpm</p>
+<pre><code>npm install -g pnpm
+</code></pre>
+<p>并验证是否安装成功</p>
+<pre><code>pnpm -v
+</code></pre>
+<p>上面操作如果显示版本号即为成功安装
+接下来打开<code>src</code>目录下的<code>config.ts</code>文件，进行个人信息配置站点配置说明
+个人推荐使用<a href="https://code.visualstudio.com/">VScode</a>来进行操作，:spoiler[<em>你用记事本也不是不行</em>]</p>
+<p>站点配置位于<code>src/config.ts</code>文件中的 <code>siteConfig</code> 对象，控制博客的基本信息和全局设置。</p>
+<h5>基本配置信息</h5>
+<pre><code>// 定义站点语言
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+
+
+export const siteConfig: SiteConfig = {
+  title: "Mizuki",        // 网站标题
+  subtitle: "One demo website",  // 网站副标题
+  lang: SITE_LANG,         // 不需要配置，会根据 SITE_LANG 自动设置
+}
+</code></pre>
+<ul>
+<li><code>title</code>：网站的主标题，显示在浏览器标签页和页面头部</li>
+<li><code>subtitle</code>：网站的副标题，通常显示在主页横幅下方</li>
+<li><code>lang</code>：网站的默认语言，影响日期格式、翻译等功能</li>
+</ul>
+<h5>个人信息配置</h5>
+<p>个人资料配置位于 <code>src/config.ts</code> 文件中的 <code>profileConfig</code> 对象，控制网站侧边栏中的个人信息显示。</p>
+<blockquote>
+<p>[!TIP]
+可以按Ctal+F打开搜索方便查找代码位置</p>
+</blockquote>
+<pre><code>export const profileConfig: ProfileConfig = {
+  avatar: "assets/images/avatar.jpg", // 头像图片路径
+  name: "Mizuki",                     // 用户名
+  bio: "This is a description",       // 个人简介
+  links: [                             // 社交链接
+    {
+      name: "Bilibli",                // 链接名称
+      icon: "fa7-brands:bilibili",    // 图标
+      url: "https://space.bilibili.com/701864046", // 链接地址
+    },
+    // ... 更多链接
+  ],
+};
+</code></pre>
+<h6>头像设置</h6>
+<ul>
+<li><code>avatar</code>：头像图片路径，相对于 /src 目录,如果路径以 / 开头，则相对于 /public 目录
+建议使用正方形图片以获得最佳显示效果
+基本信息</li>
+<li><code>name</code>：显示在头像下方的用户名</li>
+<li><code>bio</code>：个人简介，显示在用户名下方</li>
+</ul>
+<h5>社交链接</h5>
+<pre><code>links: [
+  {
+    name: "Bilibli",              // 链接名称
+    icon: "fa7-brands:bilibili",  // 图标名称
+    url: "https://space.bilibili.com/701864046", // 链接地址
+  },
+  {
+    name: "Gitee",                // 链接名称
+    icon: "mdi:git",              // 图标名称
+    url: "https://gitee.com/matsuzakayuki", // 链接地址
+  },
+  {
+    name: "GitHub",               // 链接名称
+    icon: "fa7-brands:github",    // 图标名称
+    url: "https://github.com/matsuzaka-yuki", // 链接地址
+  },
+]
+</code></pre>
+<p>配置完后用命令行来到Mizuki根目录进行构建网页</p>
+<pre><code>pnpm dev
+</code></pre>
+<p><em>大功告成~</em>
+就到这吧，更多请到官方文档自行学习</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="教程"></category>
+  </entry>
+  <entry>
+    <title>级数求和</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E7%BA%A7%E6%95%B0%E6%B1%82%E5%92%8C/</id>
+    <published>2025-10-27T00:00:00.000Z</published>
+    <updated>2025-10-27T00:00:00.000Z</updated>
+    <summary>水仙花数计算.</summary>
+    <content type="html"><![CDATA[<h1>P1035 [NOIP 2002 普及组] 级数求和</h1>
+<h2>题目</h2>
+<p>现已知Sn=1+1/2+1/3+1/n
+Sn&gt;k 现给出一个整数 k，要求计算出一个最小的 n，使得 Sn&gt;k</p>
+<h3>代码案例</h3>
+<pre><code>k = int(input()) #K的值
+n = 0 #N的初始值
+S = 0.0  #S的初始值
+while S &lt;= k: #计算循环
+    n += 1
+    S += 1 / n
+print(n)
+</code></pre>
+<p>依照题目要求，<strong>k</strong>为输入的值，<strong>n</strong>与<strong>S</strong>为还没计算的初始值</p>
+<blockquote>
+<p>[!NOTE]</p>
+</blockquote>
+<p>&lt;img width="1078" height="232" alt="Image" src="https://github.com/user-attachments/assets/92de3036-dfb3-473f-a4b1-8581c36e13d2" /&gt;</p>
+<blockquote>
+<p>[!TIP]
+循环内容是N = 1 S+= 1/1 下一循环: 1(N) += 1 S += 1/2 (S在上一个循环已经是1/1了</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>抽卡模拟</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%8A%BD%E5%8D%A1%E6%A8%A1%E6%8B%9F/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%8A%BD%E5%8D%A1%E6%A8%A1%E6%8B%9F/</id>
+    <published>2025-10-24T00:00:00.000Z</published>
+    <updated>2025-10-24T00:00:00.000Z</updated>
+    <summary>一个基于明日方舟概率的抽卡模拟</summary>
+    <content type="html"><![CDATA[<h1>基于明日方舟的抽卡概率做的抽卡模拟</h1>
+<pre><code>术语表：
+| 名词  | 对应机制               |
+| --- | ------------------ |
+| 硬保底 | 概率固定，第 N 抽必出       |
+| 软保底 | 50 抽后每抽 +2%        |
+| 天井  | 300 抽可直接兑换当期 UP 六星 |
+</code></pre>
+<blockquote>
+<p>[!WARNING]
+本篇所有代码都没有对输入做判断，请不要输入字符或者空白</p>
+</blockquote>
+<blockquote>
+<p>[!TIP]<br />
+如果想让脚本更健壮，把 <code>guess = int(input(...))</code> 包成：</p>
+</blockquote>
+<pre><code>while True:
+    try:
+        guess = int(input('请输入 1-100 的整数：'))
+        break
+    except ValueError:
+        print('格式错误，请重新输入！')
+</code></pre>
+<blockquote></blockquote>
+<h2>将会分步骤一步步变难</h2>
+<blockquote>
+<p>[!NOTE]
+这玩意对于初学者来说有亿点难以理解，不懂问Ai吧，或者找我</p>
+</blockquote>
+<h3>标准池（6⭐概率2%） 无保底写法</h3>
+<pre><code>import random
+chou = int(input('你想要抽多少发？：')) #自定义想抽多少发
+def gacha():     #用def函数方便自定义抽数
+    r = random.randint(1, 100)
+   # random.randint(1,100) 生成的是 1~100 闭区间，共 100 个整数
+    if r &lt;= 2:          # 6⭐ 2/100 = 2%
+        return '⭐⭐⭐⭐⭐⭐'
+    elif r &lt;= 8:
+        return '⭐⭐⭐⭐⭐'
+    elif r &lt;= 50:
+        return '⭐⭐⭐⭐'
+    else:
+        return '⭐⭐⭐'
+for i in range(chou): #循环输入的次数
+    print(gacha()) #执行def函数并输出
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+这个用了<strong>def函数</strong>来自定义抽数，理解不了<strong>def</strong>可以把自定义抽数的代码去掉然后直接<code>For循环</code>判断抽卡的内容</p>
+</blockquote>
+<h3>（假）保底写法</h3>
+<p>因为明日方舟保底概率是随着抽数的增长而增长，为了方便理解，这里先介绍<strong>硬保底</strong>（也就是抽到多少抽必出，不随着抽数增加概率）</p>
+<pre><code>import random
+
+chou = int(input('你想要抽多少发？：'))
+
+def gacha(pity):
+    """返回 (结果, 新pity)"""
+    # 硬保底：第99抽必出6⭐
+    if pity == 99:
+        return '⭐⭐⭐⭐⭐⭐', 0
+
+    # 正常概率
+    r = random.randint(1, 100)
+    if r &lt;= 2:                # 出6⭐
+        return '⭐⭐⭐⭐⭐⭐', 0
+    elif r &lt;= 8:
+        return '⭐⭐⭐⭐⭐', pity + 1
+    elif r &lt;= 50:
+        return '⭐⭐⭐⭐', pity + 1
+    else:
+        return '⭐⭐⭐', pity + 1
+
+pity = 0
+for i in range(chou):
+    result, pity = gacha(pity)
+    print(result)
+</code></pre>
+<blockquote>
+<p>[!TIP]
+要善用计数器来作为额外的计算次数道具</p>
+</blockquote>
+<h3>(真）保底写法</h3>
+<pre><code>import random
+chou = int(input('你想要抽多少发？：'))
+def gacha(pity):
+    """返回 (抽卡结果, 新的pity计数)"""
+    # 计算当前 6⭐概率
+    six_rate = min(2 + max(0, pity - 49) * 2, 100)   # 第51抽开始+2%  官方：50 抽之后（即第 51 抽）每抽 +2%
+    r = random.randint(1, 100) 
+
+    if r &lt;= six_rate:           # 出 6⭐
+        return '⭐⭐⭐⭐⭐⭐', 0
+    elif r &lt;= 8:                # 5⭐
+        return '⭐⭐⭐⭐⭐', pity + 1
+    elif r &lt;= 50:               # 4⭐
+        return '⭐⭐⭐⭐', pity + 1
+    else:                       # 3⭐
+        return '⭐⭐⭐', pity + 1
+
+pity = 0                        # 开局垫 0 抽
+for i in range(chou):
+    result, pity = gacha(pity)  # 抽一次，拿到新 pity
+    print(result)
+</code></pre>
+<h3>集大成者完整版（拥有随抽数增加保底概率增加，会歪，有统计功能）</h3>
+<blockquote>
+<p>[!CAUTION]
+因为以下代码会创建<strong>json文件</strong>来保存数据，所以请勿在<strong>python在线编辑器</strong>来运行此代码</p>
+</blockquote>
+<pre><code>#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+明日方舟限定 UP 池模拟器（真实概率链 + 300 抽天井补发）
+"""
+import os
+import json
+import random
+from collections import Counter
+
+# ========== 用户可改参数 ==========
+UP_NAME = "影焰·苇草"          # 当期 UP 六星
+SAVE_FILE = "arknights_pity.json"
+# ==================================
+
+# ---------- 工具：读档 ----------
+def load_data():
+    if os.path.exists(SAVE_FILE):
+        with open(SAVE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"total": 0, "pity": 0}
+
+# ---------- 工具：写档 ----------
+def save_data(total, pity):
+    with open(SAVE_FILE, "w", encoding="utf-8") as f:
+        json.dump({"total": total, "pity": pity}, f, ensure_ascii=False)
+
+# ---------- 核心抽卡（真实概率链） ----------
+def pull_once(pity):
+    """返回 (结果字符串, 新pity, 是否六星)"""
+    six_prob = min(2 + max(0, pity - 49) * 2, 100)  # 软保底
+    r = random.randint(1, 100)                       # 只掷一次
+
+    if r &lt;= six_prob:                                # 1. 六星
+        up_or_ng = random.choices(["UP", "歪"], weights=[70, 30])[0]
+        return (f"六星·{UP_NAME}" if up_or_ng == "UP" else "六星·常驻"), 0, True
+
+    elif r &lt;= six_prob + 2:                          # 2. 五星 2%
+        return "五星", pity + 1, False
+
+    elif r &lt;= six_prob + 2 + 50:                     # 3. 四星 50%
+        return "四星", pity + 1, False
+
+    else:                                            # 4. 三星 46%
+        return "三星", pity + 1, False
+
+# ---------- 主流程 ----------
+def main():
+    data = load_data()
+    total_hist = data["total"]
+    pity = data["pity"]
+
+    n = int(input("本次抽多少发？："))
+
+    print("\n===== 抽卡开始 =====")
+    record = []
+    first_6 = None
+    six_count = 0
+
+    for i in range(1, n + 1):
+        result, pity, is6 = pull_once(pity)  # ← 仅此处修复：pull_one → pull_once
+        record.append(result)
+        if is6:
+            six_count += 1
+            if first_6 is None:
+                first_6 = i
+
+    total_hist += n
+
+    # ---------- 统计 ----------
+    c = Counter(record)
+    print("\n===== 统计 =====")
+    for k, v in c.items():
+        print(f"{k}: {v} 张")
+
+    # ---------- 天井检查（自动补发） ----------
+    if total_hist &gt;= 300:
+        print(f"\n&gt;&gt;&gt; 累计已 {total_hist} 抽，可兑换当期 UP 六星「{UP_NAME}」！&lt;&lt;&lt;")
+        if c.get(f"六星·{UP_NAME}", 0) == 0:
+            c[f"六星·{UP_NAME}"] += 1
+            six_count += 1
+            print(f"&gt;&gt;&gt; 已自动为你兑换「六星·{UP_NAME}」，更新统计结果！&lt;&lt;&lt;")
+        total_hist = 0  # 兑换后清零
+
+    print(f"\n总计六星: {six_count} 张")
+    print(f"UP 六星: {c.get(f'六星·{UP_NAME}', 0)} 张")
+    print(f"歪六星: {c.get('六星·常驻', 0)} 张")
+    if first_6:
+        print(f"最早六星: 第 {first_6} 抽")
+    print(f"当前垫抽: {pity}")
+    print(f"历史累计: {total_hist} 抽")
+
+    # ---------- 存盘 ----------
+    save_data(total_hist, pity)
+    print("\n数据已保存，下次继续累计。")
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+<p>运行结果差不多如下</p>
+<pre><code>===== 统计 =====
+三星: 25 张
+四星: 3 张
+五星: 1 张
+六星·苇草: 1 张（300井兑换）
+六星·常驻: 1 张
+总计六星: 2 张
+最早六星: 第 29 抽
+最晚六星: 第 300 抽（井兑换）
+当前垫抽数: 1
+</code></pre>
+<p>说实话，这玩意看的我都头痛（拿AI搞得）😗，没事，只要搞熟了你也行</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>猜数字</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E7%8C%9C%E6%95%B0%E5%AD%97/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E7%8C%9C%E6%95%B0%E5%AD%97/</id>
+    <published>2025-10-24T00:00:00.000Z</published>
+    <updated>2025-10-24T00:00:00.000Z</updated>
+    <summary>1-100猜数字</summary>
+    <content type="html"><![CDATA[<h1>用 while 循环写个命令行猜数字游戏</h1>
+<p>猜数字代码依靠while循环来实现</p>
+<pre><code>import random #加入random随机数
+number = random.randint(1,100) #让number在1-100里面随机一个数
+cishu = 10 #计数器，计算剩余猜测次数
+number_user = int(input('猜一个1-100的数字：'))
+while True:
+    if number == number_user:
+        print('答对了')
+        break
+    if cishu == 1: #如果次数用完，失败并且break
+        print('次数用完了，失败了，正确答案为',number)
+        break
+    else:        #判断数字大小
+        cishu -= 1
+        if number_user &gt; number:
+            print(f'大了，你还有{cishu}次机会')
+            number_user = int(input())
+        else:
+            print(f'小了，你还有{cishu}次机会')
+            number_user = int(input())
+</code></pre>
+<blockquote>
+<p>[!CAUTION]
+循环里最后一次判断之前已经减 1，所以要把 <code>cishu == 1</code> 作为最后一次机会，否则实际会多给一次</p>
+</blockquote>
+<p>如果你想要 <code>if cishu == 0</code> 就刚好用完<strong>break</strong>的话要么把 <code>cishu = 10 </code>改为9或者将<code>cishu -= 1</code>放在<strong>else</strong>外面，放在<strong>while</strong>里面</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>计算1-100数字</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%971-100%E6%95%B0%E5%AD%97/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%971-100%E6%95%B0%E5%AD%97/</id>
+    <published>2025-10-23T00:00:00.000Z</published>
+    <updated>2025-10-23T00:00:00.000Z</updated>
+    <summary>python计算1-100数字的和....</summary>
+    <content type="html"><![CDATA[<h1>计算1-100数字的和，奇数和，偶数和</h1>
+<h3>这是计算1-100和的Python代码，使用<strong>For循环</strong>写</h3>
+<pre><code>total = 0 #创建计数器
+for i in range(1, 101):#For循环，历遍1-100
+    total += i #进行加运算
+print("1-100 总和:", total)#输出结果
+</code></pre>
+<blockquote>
+<p>[!CAUTION]
+为什么<strong>For循环</strong>要写 <strong>(1,101)</strong> 而不是 <strong>(1,100)</strong> 呢，是因为For循环是不包含历遍对象末尾本身的(也就是不包含100）所以末尾要写101</p>
+</blockquote>
+<h3>以下是奇数和的</h3>
+<pre><code># 1-100 奇数和
+odd_sum = 0
+for i in range(1, 101, 2):   # 从 1 开始，步长 2
+    odd_sum += i
+print("1-100 奇数和:", odd_sum)
+</code></pre>
+<blockquote>
+<p>[!TIP]
+<strong>Range</strong>历遍后面可以跟每一步走多少，这样可以用来计算奇偶数</p>
+</blockquote>
+<h3>偶数和</h3>
+<pre><code># 1-100 偶数和
+even_sum = 0
+for i in range(2, 101, 2):   # 从 2 开始，步长 2
+    even_sum += i
+print("1-100 偶数和:", even_sum)
+</code></pre>
+<blockquote>
+<p>[!TIP]
+里面的计数器变量名（如total，odd_sum,even_sum）都可以自定义，自己想填啥填啥，但最好让自己看得懂
+从1开始每一步走两格可以使得每一步都是奇数，从2开始每一步走两格每一步都是偶数</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>计算1-100数字（while循环版）</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%971-100%E6%95%B0%E5%AD%97while%E5%BE%AA%E7%8E%AF%E7%89%88/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E8%AE%A1%E7%AE%971-100%E6%95%B0%E5%AD%97while%E5%BE%AA%E7%8E%AF%E7%89%88/</id>
+    <published>2025-10-23T00:00:00.000Z</published>
+    <updated>2025-10-23T00:00:00.000Z</updated>
+    <summary>while循环版</summary>
+    <content type="html"><![CDATA[<h1>此篇为While循环写法</h1>
+<h3>总和</h3>
+<pre><code>number = 1
+total = 0 #计数器
+while number &lt;= 100: #循环执行条件：直到number小于等于100时
+    total += number #使每一次循环的number值加到一起
+    number += 1
+print(total)
+</code></pre>
+<blockquote>
+<p>[!CAUTION]
+必须额外加一个计数器，不然使用number += number的话会使数字逐个翻倍</p>
+</blockquote>
+<h3>奇数和</h3>
+<pre><code>number = 1
+total_odd = 0  # 奇数和计数器
+while number &lt;= 99:
+    total_odd += number
+    number += 2  # 每次加2，只取奇数
+print("奇数和：", total_odd)
+</code></pre>
+<h3>偶数和</h3>
+<pre><code>number = 2
+total_even = 0  # 偶数和计数器
+while number &lt;= 100:
+    total_even += number
+    number += 2  # 每次加2，只取偶数
+print("偶数和：", total_even)
+</code></pre>
+<blockquote>
+<p>[!NOTE]
+其实和<strong>For循环</strong>两者之间并没有什么太大的差别，计算步骤完全一样，只是<strong>While循环</strong>需要判断循环条件，而<strong>For循环</strong>只需要历遍给出来的值就行了</p>
+</blockquote>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>水仙花</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/%E6%B0%B4%E4%BB%99%E8%8A%B1/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/%E6%B0%B4%E4%BB%99%E8%8A%B1/</id>
+    <published>2025-10-21T00:00:00.000Z</published>
+    <updated>2025-10-21T00:00:00.000Z</updated>
+    <summary>水仙花数计算.</summary>
+    <content type="html"><![CDATA[<h1>水仙花数计算代码</h1>
+<h2>水仙花数是指一个三位数，其中每一位的三次方的和为它本身（abc=a<strong>3+b</strong>3+c**3)</h2>
+<h3>以下使用def函数的写法</h3>
+<pre><code>def shuixianhua(a):
+    a1 = a // 100
+    a2 = a // 10 % 10
+    a3 = a % 10
+    return (a1**3 + a2**3 + a3**3) == a  # 返回判断结果（布尔值）
+number = int(input())  # 例如输入153
+if shuixianhua(number):
+    print(number)
+else:
+    print('no')
+</code></pre>
+<h3>以下是直接写的</h3>
+<pre><code>_number_=int(input())
+a=_number_//100
+b=_number_//10%10
+c=_number_%10
+if a**3+b**3+c**3==_number_:
+    print("YES")
+else:
+    print("NO")
+</code></pre>
+<h3>二者区别</h3>
+<p>第一个为迂回判断式，将计算步骤用函数表达，可以重复使用。
+第二个为直接逻辑式，简洁，但是是一次性的，其中第二段的 <code>if</code></p>
+<p><strong>也是用布尔表达式判断的</strong></p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Python"></category>
+  </entry>
+  <entry>
+    <title>Markdown Extended Features</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/markdown-extended/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/markdown-extended/</id>
+    <published>2024-05-01T00:00:00.000Z</published>
+    <updated>2024-11-29T00:00:00.000Z</updated>
+    <summary>Read more about Markdown features in Mizuki</summary>
+    <content type="html"><![CDATA[<h2>GitHub Repository Cards</h2>
+<p>You can add dynamic cards that link to GitHub repositories, on page load, the repository information is pulled from the GitHub API.</p>
+<p>::github{repo="matsuzaka-yuki/Mizuki"}</p>
+<p>Create a GitHub repository card with the code <code>::github{repo="matsuzaka-yuki/Mizuki"}</code>.</p>
+<pre><code>::github{repo="matsuzaka-yuki/Mizuki"}
+</code></pre>
+<h2>Admonitions</h2>
+<p>Following types of admonitions are supported: <code>note</code> <code>tip</code> <code>important</code> <code>warning</code> <code>caution</code></p>
+<p>:::note
+Highlights information that users should take into account, even when skimming.
+:::</p>
+<p>:::tip
+Optional information to help a user be more successful.
+:::</p>
+<p>:::important
+Crucial information necessary for users to succeed.
+:::</p>
+<p>:::warning
+Critical content demanding immediate user attention due to potential risks.
+:::</p>
+<p>:::caution
+Negative potential consequences of an action.
+:::</p>
+<h3>Basic Syntax</h3>
+<pre><code>:::note
+Highlights information that users should take into account, even when skimming.
+:::
+
+:::tip
+Optional information to help a user be more successful.
+:::
+</code></pre>
+<h3>Custom Titles</h3>
+<p>The title of the admonition can be customized.</p>
+<p>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::</p>
+<pre><code>:::note[MY CUSTOM TITLE]
+This is a note with a custom title.
+:::
+</code></pre>
+<h3>GitHub Syntax</h3>
+<blockquote>
+<p>[!TIP]
+<a href="https://github.com/orgs/community/discussions/16925">The GitHub syntax</a> is also supported.</p>
+</blockquote>
+<pre><code>&gt; [!NOTE]
+&gt; The GitHub syntax is also supported.
+
+&gt; [!TIP]
+&gt; The GitHub syntax is also supported.
+</code></pre>
+<h3>Spoiler</h3>
+<p>You can add spoilers to your text. The text also supports <strong>Markdown</strong> syntax.</p>
+<p>The content :spoiler[is hidden <strong>ayyy</strong>]!</p>
+<pre><code>The content :spoiler[is hidden **ayyy**]!</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Examples"></category>
+  </entry>
+  <entry>
+    <title>Simple Guides for Mizuki</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/guide/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/guide/</id>
+    <published>2024-04-01T00:00:00.000Z</published>
+    <updated>2024-04-01T00:00:00.000Z</updated>
+    <summary>How to use this blog template.</summary>
+    <content type="html"><![CDATA[<p>This blog template is built with <a href="https://astro.build/">Astro</a>. For the things that are not mentioned in this guide, you may find the answers in the <a href="https://docs.astro.build/">Astro Docs</a>.</p>
+<h2>Front-matter of Posts</h2>
+<pre><code>---
+title: My First Blog Post
+published: 2023-09-09
+description: This is the first post of my new Astro blog.
+image: ./cover.jpg
+tags: [Foo, Bar]
+category: Front-end
+draft: false
+---
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>The title of the post.</td>
+</tr>
+<tr>
+<td><code>published</code></td>
+<td>The date the post was published.</td>
+</tr>
+<tr>
+<td><code>pinned</code></td>
+<td>Whether this post is pinned to the top of the post list.</td>
+</tr>
+<tr>
+<td><code>priority</code></td>
+<td>The priority of the pinned post. Smaller value means higher priority (0, 1, 2...).</td>
+</tr>
+<tr>
+<td><code>description</code></td>
+<td>A short description of the post. Displayed on index page.</td>
+</tr>
+<tr>
+<td><code>image</code></td>
+<td>The cover image path of the post.&lt;br/&gt;1. Start with <code>http://</code> or <code>https://</code>: Use web image&lt;br/&gt;2. Start with <code>/</code>: For image in <code>public</code> dir&lt;br/&gt;3. With none of the prefixes: Relative to the markdown file</td>
+</tr>
+<tr>
+<td><code>tags</code></td>
+<td>The tags of the post.</td>
+</tr>
+<tr>
+<td><code>category</code></td>
+<td>The category of the post.</td>
+</tr>
+<tr>
+<td><code>licenseName</code></td>
+<td>The license name for the post content.</td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td>The author of the post.</td>
+</tr>
+<tr>
+<td><code>sourceLink</code></td>
+<td>The source link or reference for the post content.</td>
+</tr>
+<tr>
+<td><code>draft</code></td>
+<td>If this post is still a draft, which won't be displayed.</td>
+</tr>
+</tbody>
+</table>
+<h2>Where to Place the Post Files</h2>
+<p>Your post files should be placed in <code>src/content/posts/</code> directory. You can also create sub-directories to better organize your posts and assets.</p>
+<pre><code>src/content/posts/
+├── post-1.md
+└── post-2/
+    ├── cover.webp
+    └── index.md
+</code></pre>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Guides"></category>
+  </entry>
+  <entry>
+    <title>Markdown Mermaid</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/markdown-mermaid/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/markdown-mermaid/</id>
+    <published>2023-10-01T00:00:00.000Z</published>
+    <updated>2023-10-01T00:00:00.000Z</updated>
+    <summary>A simple example of a Markdown blog post with Mermaid.</summary>
+    <content type="html"><![CDATA[<h1>Complete Guide to Markdown with Mermaid Diagrams</h1>
+<p>This article demonstrates how to create various complex diagrams using Mermaid in Markdown documents, including flowcharts, sequence diagrams, Gantt charts, class diagrams, and state diagrams.</p>
+<h2>Flowchart Example</h2>
+<p>Flowcharts are excellent for representing processes or algorithm steps.</p>
+<pre><code>graph TD
+    A[Start] --&gt; B{Condition Check}
+    B --&gt;|Yes| C[Process Step 1]
+    B --&gt;|No| D[Process Step 2]
+    C --&gt; E[Subprocess]
+    D --&gt; E
+    subgraph E [Subprocess Details]
+        E1[Substep 1] --&gt; E2[Substep 2]
+        E2 --&gt; E3[Substep 3]
+    end
+    E --&gt; F{Another Decision}
+    F --&gt;|Option 1| G[Result 1]
+    F --&gt;|Option 2| H[Result 2]
+    F --&gt;|Option 3| I[Result 3]
+    G --&gt; J[End]
+    H --&gt; J
+    I --&gt; J
+</code></pre>
+<h2>Sequence Diagram Example</h2>
+<p>Sequence diagrams show interactions between objects over time.</p>
+<pre><code>sequenceDiagram
+    participant User
+    participant WebApp
+    participant Server
+    participant Database
+
+    User-&gt;&gt;WebApp: Submit Login Request
+    WebApp-&gt;&gt;Server: Send Auth Request
+    Server-&gt;&gt;Database: Query User Credentials
+    Database--&gt;&gt;Server: Return User Data
+    Server--&gt;&gt;WebApp: Return Auth Result
+    
+    alt Auth Successful
+        WebApp-&gt;&gt;User: Show Welcome Page
+        WebApp-&gt;&gt;Server: Request User Data
+        Server-&gt;&gt;Database: Get User Preferences
+        Database--&gt;&gt;Server: Return Preferences
+        Server--&gt;&gt;WebApp: Return User Data
+        WebApp-&gt;&gt;User: Load Personalized Interface
+    else Auth Failed
+        WebApp-&gt;&gt;User: Show Error Message
+        WebApp-&gt;&gt;User: Prompt Re-entry
+    end
+</code></pre>
+<h2>Gantt Chart Example</h2>
+<p>Gantt charts are perfect for displaying project schedules and timelines.</p>
+<pre><code>gantt
+    title Website Development Project Timeline
+    dateFormat  YYYY-MM-DD
+    axisFormat  %m/%d
+    
+    section Design Phase
+    Requirements Analysis      :a1, 2023-10-01, 7d
+    UI Design                 :a2, after a1, 10d
+    Prototype Creation        :a3, after a2, 5d
+    
+    section Development Phase
+    Frontend Development      :b1, 2023-10-20, 15d
+    Backend Development       :b2, after a2, 18d
+    Database Design           :b3, after a1, 12d
+    
+    section Testing Phase
+    Unit Testing              :c1, after b1, 8d
+    Integration Testing       :c2, after b2, 10d
+    User Acceptance Testing   :c3, after c2, 7d
+    
+    section Deployment
+    Production Deployment     :d1, after c3, 3d
+    Launch                    :milestone, after d1, 0d
+</code></pre>
+<h2>Class Diagram Example</h2>
+<p>Class diagrams show the static structure of a system, including classes, attributes, methods, and their relationships.</p>
+<pre><code>classDiagram
+    class User {
+        +String username
+        +String password
+        +String email
+        +Boolean active
+        +login()
+        +logout()
+        +updateProfile()
+    }
+    
+    class Article {
+        +String title
+        +String content
+        +Date publishDate
+        +Boolean published
+        +publish()
+        +edit()
+        +delete()
+    }
+    
+    class Comment {
+        +String content
+        +Date commentDate
+        +addComment()
+        +deleteComment()
+    }
+    
+    class Category {
+        +String name
+        +String description
+        +addArticle()
+        +removeArticle()
+    }
+    
+    User "1" -- "*" Article : writes
+    User "1" -- "*" Comment : posts
+    Article "1" -- "*" Comment : has
+    Article "1" -- "*" Category : belongs to
+</code></pre>
+<h2>State Diagram Example</h2>
+<p>State diagrams show the sequence of states an object goes through during its life cycle.</p>
+<pre><code>stateDiagram-v2
+    [*] --&gt; Draft
+    
+    Draft --&gt; UnderReview : submit
+    UnderReview --&gt; Draft : reject
+    UnderReview --&gt; Approved : approve
+    Approved --&gt; Published : publish
+    Published --&gt; Archived : archive
+    Published --&gt; Draft : retract
+    
+    state Published {
+        [*] --&gt; Active
+        Active --&gt; Hidden : temporarily hide
+        Hidden --&gt; Active : restore
+        Active --&gt; [*]
+        Hidden --&gt; [*]
+    }
+    
+    Archived --&gt; [*]
+</code></pre>
+<h2>Pie Chart Example</h2>
+<p>Pie charts are ideal for displaying proportions and percentage data.</p>
+<pre><code>pie title Website Traffic Sources Analysis
+    "Search Engines" : 45.6
+    "Direct Access" : 30.1
+    "Social Media" : 15.3
+    "Referral Links" : 6.4
+    "Other Sources" : 2.6
+</code></pre>
+<h2>Conclusion</h2>
+<p>Mermaid is a powerful tool for creating various types of diagrams in Markdown documents. This article demonstrated how to use flowcharts, sequence diagrams, Gantt charts, class diagrams, state diagrams, and pie charts. These diagrams can help you express complex concepts, processes, and data structures more clearly.</p>
+<p>To use Mermaid, simply specify the mermaid language in a code block and describe the diagram using concise text syntax. Mermaid will automatically convert these descriptions into beautiful visual diagrams.</p>
+<p>Try using Mermaid diagrams in your next technical blog post or project documentation - they will make your content more professional and easier to understand!</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Examples"></category>
+  </entry>
+  <entry>
+    <title>Include Video in the Posts</title>
+    <link href="https://mikufans.yuzhiyuan.top/posts/video/" rel="alternate" type="text/html"/>
+    <id>https://mikufans.yuzhiyuan.top/posts/video/</id>
+    <published>2022-08-01T00:00:00.000Z</published>
+    <updated>2022-08-01T00:00:00.000Z</updated>
+    <summary>This post demonstrates how to include embedded video in a blog post.</summary>
+    <content type="html"><![CDATA[<p>Just copy the embed code from YouTube or other platforms, and paste it in the markdown file.</p>
+<pre><code>---
+title: Include Video in the Post
+published: 2023-10-19
+// ...
+---
+
+&lt;iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre>
+<h2>YouTube</h2>
+<p>&lt;iframe width="100%" height="468" src="https://www.youtube.com/embed/5gIf0_xpFPI?si=N1WTorLKL0uwLsU_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen&gt;&lt;/iframe&gt;</p>
+<h2>Bilibili</h2>
+<p>&lt;iframe width="100%" height="468" src="//player.bilibili.com/player.html?bvid=BV1fK4y1s7Qf&amp;p=1&amp;autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" &amp;autoplay=0&gt; &lt;/iframe&gt;</p>
+]]></content>
+    <author>
+      <name>遇缘</name>
+    </author>
+    <category term="Examples"></category>
+  </entry>
+</feed>
