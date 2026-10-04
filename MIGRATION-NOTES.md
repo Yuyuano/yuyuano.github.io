@@ -164,3 +164,64 @@ npx pnpm@10.22.0 install --node-linker=hoisted --ignore-scripts
 node scripts/icons/generate-local-icons.mjs
 npx astro build
 ```
+
+---
+
+## 5. 推送到 GitHub（覆盖 yuyuano.github.io）
+
+本地已备好：`master` 分支、3 个提交、工作区干净、`public/CNAME` 与 `public/.nojekyll` 就位。
+**远端尚未配置**（迁移时故意不配，避免误推）。
+
+### 5.1 备份旧线上仓库（务必先做）
+
+```bash
+cd D:\blog\Mizuki
+git push origin master:backup-mizuki-v9   # 把当前线上状态存成备份分支
+```
+
+`D:\blog\Mizuki` 本身也是完整历史，等于第二份备份。
+
+### 5.2 推送覆盖
+
+```bash
+cd D:\blog\Shirone-Blog
+git remote add origin git@github.com:Yuyuano/yuyuano.github.io.git
+git push --force origin master
+```
+
+> 新仓库历史与旧仓库**完全无关**（重写过），所以必须 `--force`。
+> 旧历史已由 5.1 的备份分支与 `D:\blog\Mizuki` 保住。
+
+### 5.3 ⚠️ 必须改 GitHub Pages 设置，否则站点不会更新
+
+这是**最容易漏掉的一步**，会导致推上去之后线上还是旧版或直接 404：
+
+| | 现在（Mizuki） | 迁移后（Shirone） |
+|---|---|---|
+| 部署分支 | push `main` → 构建 → 推 `pages` 分支 | push `main` → Actions → artifacts |
+| Pages Source | **`pages` 分支 / root** | 必须改成 **GitHub Actions** |
+| 工作流文件 | `.github/workflows/deploy.yml`（JamesIves 推 `pages`） | **仍然是 `.example`，没启用** |
+| 权限 | `contents: write` | `contents: read` + `pages: write` + `id-token: write` |
+
+**具体操作：**
+
+1. 仓库 Settings → Pages → Source 改成 **GitHub Actions**（不再是分支）。
+2. 把部署工作流启用起来，并替换其中那个故意 `exit 1` 的占位步骤：
+
+   ```bash
+   cd D:\blog\Shirone-Blog
+   cp .github/workflows/deploy.yml.example .github/workflows/deploy.yml
+   ```
+
+   然后把文件里的 `Deploy` 步骤（会打印 "replace this step" 并 `exit 1`）换成
+   GitHub Pages 变体：`actions/upload-pages-artifact`（`path: dist`）
+   + `actions/deploy-pages`；`permissions` 改为
+   `contents: read` / `pages: write` / `id-token: write`；并把
+   `CONTENT_REPOSITORY` / `CONTENT_DIR` 相关的单仓依赖去掉（本博客用本地内容，
+   `content:sync` 在 local 模式下是空操作）。
+3. 另外上游 `ci.yml` 与 `content-validate.yml` 是按双仓内容分离设计的，
+   单仓博客可以保留不管（`ci.yml` 有 `continue-on-error`），也可以删掉。
+
+> 分支名：本地是 `master`。若你希望线上用 `main`，先
+> `git branch -M master main` 再推，并同步改工作流里的触发分支。
+
