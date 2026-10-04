@@ -3,8 +3,11 @@
  * 领域注册见 `scripts/content/config-domains.mjs`（key: "series"）。
  */
 export interface SeriesConfig {
-	/** 关闭后系列页 404、导航/侧栏入口隐藏、文章内系列卡不渲染（零额外负担） */
-	enable: boolean;
+	/**
+	 * 关闭后系列页 404、导航/侧栏入口隐藏、文章内系列卡不渲染（零额外负担）。
+	 * 可选，与其余页面配置（PageMeta.enable）保持一致：缺省视为关闭。
+	 */
+	enable?: boolean;
 	/** 系列索引页标题：$t: 前缀取 i18n 词条，普通字符串为字面量覆盖 */
 	title: string;
 	/**

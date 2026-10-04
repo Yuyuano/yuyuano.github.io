@@ -13,7 +13,9 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  * 注：时间线的具体节点数据（标题、日期、经历描述、要点列表、关联链接等）请在 `src/data/timeline.ts` 中维护。
  */
 export const timelineConfig: TimelineConfig = withUserConfig("timeline", {
-	enable: true,
+	// 迁移时停用：Shirone 示例数据（原 timeline.ts 也是模板数据）。
+	// 需要启用时把下面这行改回 enable: true 即可，导航入口会自动恢复。
+	enable: false, // 原值 enable: true
 	title: "$t:timeline",
 	description: "$t:timelineBanner",
 	categories: [

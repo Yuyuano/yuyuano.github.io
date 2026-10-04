@@ -12,7 +12,9 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  * 注：技能的具体内容数据（技能名称、熟练度等级、图标、描述等）请在 `src/data/skills.ts` 中维护。
  */
 export const skillsConfig: SkillsConfig = withUserConfig("skills", {
-	enable: true,
+	// 迁移时停用：Shirone 示例数据（原 skills.ts 也是模板数据）。
+	// 需要启用时把下面这行改回 enable: true 即可，导航入口会自动恢复。
+	enable: false, // 原值 enable: true
 	title: "$t:skills",
 	description: "$t:skillsBanner",
 	categories: [

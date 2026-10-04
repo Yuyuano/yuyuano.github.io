@@ -12,7 +12,9 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  * 注：项目的具体内容数据（标题、描述、技术栈、链接、封面等）请在 `src/data/projects.ts` 中维护。
  */
 export const projectsConfig: ProjectsConfig = withUserConfig("projects", {
-	enable: true,
+	// 迁移时停用：Shirone 示例数据（原 projects.ts 也是模板数据，没有真实项目）。
+	// 需要启用时把下面这行改回 enable: true 即可，导航入口会自动恢复。
+	enable: false, // 原值 enable: true
 	title: "$t:projects",
 	description: "$t:projectsBanner",
 	categories: [
