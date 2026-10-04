@@ -81,13 +81,35 @@ describe("Feature Data & Resolver Tests", () => {
 	});
 
 	it("resolveDevicesData applies disabledIds correctly", () => {
+		// 使用自定义条目而不是博客真实设备数据，避免测试与个人内容耦合
+		// （迁移前这里硬编码了主题示例设备 macbook-pro-16 / iphone-16-pro）。
+		const customItems = [
+			{
+				id: "device-a",
+				name: "Device A",
+				brand: "Brand",
+				category: "test",
+				status: "active",
+				specs: "spec-a",
+				description: "first",
+			},
+			{
+				id: "device-b",
+				name: "Device B",
+				brand: "Brand",
+				category: "test",
+				status: "backup",
+				specs: "spec-b",
+				description: "second",
+			},
+		];
 		const config = {
 			enable: true,
 			categories: [],
-			disabledIds: ["iphone-16-pro"],
+			disabledIds: ["device-b"],
 		};
-		const resolved = resolveDevicesData(config);
-		assert.ok(resolved.some((d) => d.id === "macbook-pro-16"));
-		assert.ok(!resolved.some((d) => d.id === "iphone-16-pro"));
+		const resolved = resolveDevicesData(config, customItems);
+		assert.ok(resolved.some((d) => d.id === "device-a"));
+		assert.ok(!resolved.some((d) => d.id === "device-b"));
 	});
 });

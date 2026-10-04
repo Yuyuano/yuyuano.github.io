@@ -386,7 +386,9 @@ import { applyStoredLayoutMode } from "../utils/layout-mode";
 bindFancyboxRuntime();
 
 const setup = () => {
-	window.swup.hooks.on("content:replace", () => {
+	// window.swup 在 global.d.ts 中声明为可选（swup?: Swup），函数体内无法借用外部的
+	// `if (window.swup)` 收窄，因此这里用可选链，与同文件其它调用点保持一致。
+	window.swup?.hooks.on("content:replace", () => {
 		applyStoredLayoutMode(document.getElementById("post-list"));
 	});
 };
