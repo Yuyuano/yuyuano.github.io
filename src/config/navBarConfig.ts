@@ -182,6 +182,42 @@ const defaultNavBarConfig: NavBarConfig = {
 	],
 };
 
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ * 以下是 Shirone 上游的原始导航结构（迁移时按博主原有导航重写，保留备查）。
+ * 想恢复上游默认导航：把上面 defaultNavBarConfig.links 换成下面这段即可。
+ *
+ * const defaultNavBarConfig: NavBarConfig = {
+ * 	links: [
+ * 		LinkPresets.Home,
+ * 		LinkPresets.Archive,
+ * 		LinkPresets.Friends,
+ * 		LinkPresets.Moments,
+ * 		LinkPresets.Anime,
+ * 		LinkPresets.Compass,
+ * 		LinkPresets.Albums,
+ * 		{
+ * 			name: i18n(I18nKey.more),
+ * 			icon: "material-symbols:apps-rounded",
+ * 			children: [
+ * 				LinkPresets.Timeline,
+ * 				LinkPresets.Projects,
+ * 				LinkPresets.Devices,
+ * 				LinkPresets.Games,
+ * 				LinkPresets.Skills,
+ * 				// 分类/标签入口不进导航菜单（避免菜单项过多），预设已登记指向独立页面，
+ * 				// 需要时取消注释即可
+ * 				// LinkPresets.Categories,
+ * 				// LinkPresets.Tags,
+ * 				LinkPresets.About,
+ * 				LinkPresets.GitHub,
+ * 			],
+ * 		},
+ * 	],
+ * };
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+
 import { resolveI18nText } from "../utils/i18n-utils.ts";
 
 function fail(message: string): never {

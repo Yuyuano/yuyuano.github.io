@@ -20,5 +20,21 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			icon: "fa6-brands:github",
 			url: "https://github.com/Yuyuano",
 		},
+		// ── 以下是 Shirone 上游的原始示例链接（迁移时被上面两个替换，保留备查）──
+		// {
+		// 	name: "X",
+		// 	icon: "fa6-brands:x-twitter",
+		// 	url: "https://x.com",
+		// },
+		// {
+		// 	name: "Steam",
+		// 	icon: "fa6-brands:steam",
+		// 	url: "https://store.steampowered.com",
+		// },
+		// {
+		// 	name: "GitHub",
+		// 	icon: "fa6-brands:github",
+		// 	url: "https://github.com/LyraVoid/Shirone",
+		// },
 	],
 });

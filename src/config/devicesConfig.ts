@@ -34,6 +34,31 @@ export const devicesConfig: DevicesConfig = withUserConfig("devices", {
 			icon: "material-symbols:laptop-mac-outline-rounded",
 			description: "主力工作站与笔记本",
 		},
+		// ── 以下是 Shirone 上游的原始 4 个分类（迁移时按博主实际设备换成上面三个，保留备查）──
+		// {
+		// 	key: "desk",
+		// 	label: "Desk Setup",
+		// 	icon: "material-symbols:desktop-windows-outline-rounded",
+		// 	description: "Workstation & home office hardware",
+		// },
+		// {
+		// 	key: "mobile",
+		// 	label: "Mobile & EDC",
+		// 	icon: "material-symbols:phone-iphone",
+		// 	description: "Daily portable devices & smart gadgets",
+		// },
+		// {
+		// 	key: "audio",
+		// 	label: "Audio & Visual",
+		// 	icon: "material-symbols:headphones-rounded",
+		// 	description: "Headphones, speakers & monitoring gears",
+		// },
+		// {
+		// 	key: "peripheral",
+		// 	label: "Peripherals",
+		// 	icon: "material-symbols:keyboard-outline-rounded",
+		// 	description: "Keyboards, mice & desk accessories",
+		// },
 	],
 	// disabledIds: [],
 });
